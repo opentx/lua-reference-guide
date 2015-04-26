@@ -33,3 +33,95 @@ See also:
 * should not exceed maximum allowed runtime/ number of instructions.
 * standard OpenTX mixes are run every XX milliseconds in a very deterministic way (guaranteed execution) while model scripts are run from another thread with less priority. Their execution period is around 30ms and is not guaranteed!
 * a script could be disabled/killed anytime due to several causes like (error in script, not enough free memory, etc...)
+
+### Anatomy of model script
+
+#### Location of model scripts
+
+Place them on SD card in folder /SCRIPTS/MIXES/
+
+**WARNING
+Do not use Lua model scripts for controlling any aspect of your model that could cause a crash if script stops executing.
+**
+
+#### Lifetime of model Model Scripts
+
+* script is loaded from SD card when model is selected
+* script *init* function is called
+* script *run* function is periodically called (inside GUI thread, period cca 30ms)
+* script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
+* all model scripts are stopped while one-time script is running (see Lua One-time scripts)
+
+#### Script interface definition
+
+Every script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
+* script *inputs* (optional)
+* script *outputs* (optional)
+* script *init* function (optional)
+* script *run* function
+
+For example:
+```lua
+-- script body would be here
+
+return { input=inputs, output=outputs, run=run_func, init=init_func }
+```
+
+This example defines:
+* inputs table (array) as input values to model script
+* outputs table as output of model script
+* run_func() function as periodic execution function that takes inputs as parameters and returns outputs table
+* init_func() function as function that is called one time when script is loaded and begins execution.
+
+Parameters *init*, *input* and *output* are optional. If model script doesn't use them, they can be omitted from return statement. Example without *init* and *output*:
+
+```
+local inputs = { { "Aileron", SOURCE }, { "Ail. ratio", VALUE, -100, 100, 0 } }
+
+local function run_func(ail, ratio)
+    -- do some stuff
+    if (ail > 50) and ( ratio < 40) then
+        playFile("foo.wav")    
+    end
+end
+
+-- script that only uses input and run
+return { run=run_func, input=inputs }
+```
+
+#### Script initialization
+
+If defined, *init* function is called right after the script is loaded from SD card and begins execution. Init is called only once before the run function is called for the first time.
+
+local <init_function_name>()
+
+called once before first call to run function
+
+Parameters:
+none
+
+
+
+Returns:
+none
+
+
+#### Script execution
+
+The run function is the function that is periodically called for the entire lifetime of script. Syntax of run function is different between model scripts and one-time scripts.
+local <run_function_name>([first input, [second input], …])
+
+
+Parameters:
+<>
+zero or more input values, their names are arbitrary, their meaning and order is defined by the input table
+Returns:
+none
+if output table is empty (i.e. script has no output)
+
+
+values
+(comma separated list of values) list of output values,                         their order and meaning is defined by the output table
+
+
+
