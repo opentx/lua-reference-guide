@@ -1,4 +1,4 @@
 # Summary
 
-* Table of contents
+* [Model Scripts](model_scripts.md)
 
