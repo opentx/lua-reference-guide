@@ -1,4 +1,4 @@
 # Summary
 
-* [Introduction](introduction.md)
+* Table of contents
 
