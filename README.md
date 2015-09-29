@@ -1,4 +1,4 @@
-# OpenTx Lua Reference Guide
+# OpenTx 2.1 Lua Reference Guide
 
 
 ### Documentation for the Lua scripting API in OpenTx 2.1
