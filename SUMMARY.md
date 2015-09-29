@@ -1,5 +1,5 @@
 # Summary
 
-* [README](README.md)
+* [OpenTx Lua Reference Guide](README.md)
 * [Introduction](introduction.md)
 
