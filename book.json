@@ -3,8 +3,8 @@
     "plugins": ["autocover"],
     "pluginsConfig": {
         "autocover": {
-            "title": "My Book",
-            "author": "Author",
+            "title": "OpenTX 2.1 Lua Reference Guide",
+            "author": "OpenTX Development Team",
             "font": {
                 "size": null,
                 "family": "Impact",
