@@ -1,6 +1,6 @@
 # OpenTX 2.1 Lua Reference Guide
 
-Go to https://www.gitbook.com/book/opentx/opentx-lua-reference-guide/details for the latest version of this guide.
+Go to https://www.gitbook.com/book/opentx/opentx-lua-reference-guide/details for the latest published version of this guide.
 
 This guide covers the development of user-written scripts for R/C transmitters running the OpenTX 2.1 operating system with Lua support.
 
