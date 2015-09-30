@@ -8,7 +8,7 @@
    * [Mix](mix.md)
    * [Function](function.md)
    * [Telemetry](telemetry.md)
-   * Templates
+   * Template
 * Part II - Lua Reference
    * [Included Lua Libraries](included_lua_libraries.md)
 
