@@ -3,6 +3,6 @@
 * [OpenTx 2.1 Lua Reference Guide](README.md)
 * [Introduction](introduction.md)
    * [Getting Started](getting_started.md)
-* Part I - OpenTx 2.1 Lua Script Types
+* Part I - Script Types
 * Part II - OpenTx 2.1 Lua Reference
 
