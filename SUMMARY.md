@@ -6,5 +6,6 @@
 * Part I - Script Types
    * [Wizard Script](wizard_script.md)
    * Mixes
+   * Functions
 * Part II - Lua Reference
 
