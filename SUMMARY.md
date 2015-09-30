@@ -12,5 +12,5 @@
    * [Template](template.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
-* Part III - Converting scripts written for OpenTX 2.0
+* Part III - Converting OpenTX 2.0 Scripts
 
