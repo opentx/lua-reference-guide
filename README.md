@@ -10,5 +10,7 @@ Part I of the guide shows how to enable Lua support for Taranis and includes bas
 
 Part II is a reference of the OpenTX Lua API.
 
+Part III addresses common issues in converting Lua scripts written for OpenTX 2.0
+
 
 
