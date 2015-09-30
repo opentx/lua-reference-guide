@@ -10,5 +10,5 @@
    * Telemetry
    * Templates
 * Part II - Lua Reference
-   * Included Lua Libraries
+   * [Included Lua Libraries](included_lua_libraries.md)
 
