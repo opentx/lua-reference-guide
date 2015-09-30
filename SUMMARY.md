@@ -7,5 +7,6 @@
    * [Wizard Script](wizard_script.md)
    * Mixes
    * Functions
+   * Telemetry
 * Part II - Lua Reference
 
