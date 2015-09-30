@@ -8,5 +8,6 @@
    * Mixes
    * Functions
    * Telemetry
+   * Templates
 * Part II - Lua Reference
 
