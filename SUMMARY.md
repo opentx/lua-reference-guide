@@ -4,5 +4,6 @@
 * [Introduction](introduction.md)
    * [Getting Started](getting_started.md)
 * Part I - Script Types
+   * Wizard Script
 * Part II - Lua Reference
 
