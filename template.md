@@ -1,1 +1,1 @@
-TODO: Telemetry script description and example
+TODO: Template script description and example
