@@ -1,1 +1,1 @@
-TODO: Wizard Script Documentation (does it still exist for 2.1?)
+TODO: Wizard Script description and example
