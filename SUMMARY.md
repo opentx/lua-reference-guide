@@ -6,7 +6,7 @@
 * Part I - Script Types
    * [Wizard Script](wizard_script.md)
    * [Mixes](mixes.md)
-   * Functions
+   * Function
    * Telemetry
    * Templates
 * Part II - Lua Reference
