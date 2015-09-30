@@ -10,6 +10,6 @@
    * [Function](function.md)
    * [Telemetry](telemetry.md)
    * [Template](template.md)
-* Part II - OpenTx Lua API
+* Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
 
