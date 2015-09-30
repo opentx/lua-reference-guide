@@ -4,7 +4,7 @@
 * Introduction
    * [Getting Started](getting_started.md)
 * Part I - Script Types
-   * [Wizard Script](wizard_script.md)
+   * [Wizard](wizard.md)
    * [Mix](mix.md)
    * Function
    * Telemetry
