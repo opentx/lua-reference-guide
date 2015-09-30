@@ -8,7 +8,7 @@ Readers should be familiar with OpenTx, the OpenTx Companion, and know how to tr
 
 Part I of the guide shows how to enable Lua support for Taranis and includes basic examples of each types of script.
 
-Part II is a reference of the Lua API.
+Part II is a reference of the OpenTx Lua API.
 
 
 
