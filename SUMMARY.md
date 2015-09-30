@@ -13,4 +13,5 @@
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
 * Part III - Converting OpenTX 2.0 Scripts
+   * Known Issues
 
