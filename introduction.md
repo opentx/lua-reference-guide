@@ -14,14 +14,4 @@ Lua scripts must be placed on SD card in correct folders and have an extension .
 * /SCRIPTS/TEMPLATES/ - For template scripts
 
 
-| Lua Standard Libraries | Included |
-| -- | -- |
-| package | no |
-| coroutine | no |
-| table | no |
-| io | no |
-| os | no |
-| string | no |
-| bit | 2.1.0 |
-| math | 2.0.0 |
-| debug | no |
+
