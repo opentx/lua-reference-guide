@@ -4,5 +4,5 @@
 * [Introduction](introduction.md)
    * [Getting Started](getting_started.md)
 * Part I - Script Types
-* Part II - OpenTx 2.1 Lua Reference
+* Part II - Lua Reference
 
