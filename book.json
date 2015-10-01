@@ -1,5 +1,7 @@
 {
     "plugins": ["autocover"],
+    "title": "OpenTX 2.1 Lua Reference Guide",
+    "author": "OpenTX Development Team",
     "pluginsConfig": {
         "autocover": {
             "title": "OpenTX 2.1 Lua Reference Guide",
