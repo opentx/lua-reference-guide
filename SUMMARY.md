@@ -6,7 +6,6 @@
    * [Getting Started](getting_started.md)
 * Part I - Script Types
    * [Mix](mix.md)
-   * [Function](function.md)
    * [Telemetry](telemetry.md)
    * [Wizard](wizard.md)
 * Part II - OpenTX Lua API
