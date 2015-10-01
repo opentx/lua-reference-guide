@@ -1,5 +1,5 @@
 
-### Acknowledgments and Donations
+### Acknowledgments
 
 The OpenTX team has no intention of making a profit from their work. OpenTX is free and open source and will remain free and open source. But OpenTX is more expensive to maintain than most open source projects. The reason is that there is a never ending flood of hardware to integrate and maintain code for. Hardware that costs.
 
