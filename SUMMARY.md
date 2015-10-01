@@ -7,8 +7,8 @@
 * Part I - Script Types
    * [Mix](mix.md)
    * [Function](function.md)
-   * [Wizard](wizard.md)
    * [Telemetry](telemetry.md)
+   * [Wizard](wizard.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
 * Part III - Converting OpenTX 2.0 Scripts
