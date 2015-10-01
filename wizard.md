@@ -1,1 +1,0 @@
-TODO: Wizard Script description and example
