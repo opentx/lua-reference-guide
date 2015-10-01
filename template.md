@@ -1,1 +1,0 @@
-TODO: Template script description and example
