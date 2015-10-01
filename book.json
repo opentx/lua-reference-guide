@@ -1,4 +1,5 @@
 {
+    /* ***** changed to custom cover images 10/1/2015
     "plugins": ["autocover"],
     "pluginsConfig": {
         "autocover": {
@@ -15,4 +16,5 @@
             }
         }
     }
+    */
 }
