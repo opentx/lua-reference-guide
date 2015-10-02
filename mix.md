@@ -43,7 +43,7 @@ Every mix script must include a *return* statement at the end, that defines its 
 * script *init* function (optional)
 * script *run* function
 
-#####Example (interface only):
+Example (interface only):
 ```
 local inputs {}
 
@@ -64,7 +64,9 @@ This example defines:
 * run_func() function as periodic execution function that takes inputs as parameters and returns outputs table
 * init_func() function as function that is called one time when script is loaded and begins execution.
 
-Parameters *init*, *input* and *output* are optional. If model script doesn't use them, they can be omitted from return statement. Example without *init* and *output*:
+Parameters *init*, *input* and *output* are optional. If model script doesn't use them, they can be omitted from return statement.
+
+Example without *init* and *output*:
 
 ```
 local inputs = { { "Aileron", SOURCE }, { "Ail. ratio", VALUE, -100, 100, 0 } }
