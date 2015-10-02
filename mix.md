@@ -38,20 +38,28 @@ Place them on SD card in folder /SCRIPTS/MIXES/
 ##### Script interface definition
 
 Every mix script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
-* script *inputs* (optional)
-* script *outputs* (optional)
+* script *inputs* table (optional)
+* script *outputs* table (optional)
 * script *init* function (optional)
 * script *run* function
 
-For example:
+Example:
 ```
--- script body would be here
+local inputs {}
+
+local outputs {}
+
+local function init_func()
+end
+
+local function run_func()
+end
 
 return { input=inputs, output=outputs, run=run_func, init=init_func }
 ```
 
 This example defines:
-* inputs table (array) as input values to model script
+* inputs table as input values to model script
 * outputs table as output of model script
 * run_func() function as periodic execution function that takes inputs as parameters and returns outputs table
 * init_func() function as function that is called one time when script is loaded and begins execution.
