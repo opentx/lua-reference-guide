@@ -12,7 +12,7 @@
    * [Included Lua Libraries](included_lua_libraries.md)
    * [Key Events](key_events.md)
    * [Inputs Table Syntax](inputs_table_syntax.md)
-   * Outputs Table Syntax
+   * [Outputs Table Syntax](outputs_table_syntax.md)
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
