@@ -1,37 +1,33 @@
 ### Telemetry Scripts
 
-#### General description
+##### General description
 
-These scripts are used for building customized telemetry screens.
+Telemetry scripts are used for building customized screens. Each model can have up to three active scripts as configured on the model's telemetry configuration page. The same script can be assigned to multiple models.
 
-#### Anatomy of telemetry script
+##### File Location
 
-##### Location of telemetry scripts
-
-Place them on SD card in the folder /SCRIPTS/TELEMETRY/<name>.lua (name must be in 8.3 format).
+Scripts are located on the SD card in the folder /SCRIPTS/TELEMETRY/<name>.lua (name must be in 8 characters or less).
 
 ##### Lifetime of telemetry script
 
-Telemetry scripts are loaded from SD card and executed when the model is loaded.
+Telemetry scripts are started when the model is loaded.
 
 * script init function is called
-* script background function is periodically called when custom telemetry screen is not visible
-* script run function is periodically called when custom telemetry screen is visible
+* script background function is periodically called when custom telemetry screen is **not visible**
+* script run function is periodically called when custom telemetry screen is **visible**
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
 * all telemetry scripts are stopped while one-time script is running (see Lua One-time scripts)
 
 ### Script interface definition
 
 Every script must include a return statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
-* script init function (optional)
-* script background function
-* script run function
+* script **init** function *(optional)*
+* script **background** function
+* script **run** function
 
 For example:
 
 ```
--- this empty template can be used for telemetry scripts
-
 local function init_func()
   -- init_func is called once when model is loaded
 end
@@ -40,19 +36,21 @@ local function bg_func()
   -- bg_func is called periodically when screen is not visible
 end
 
-local function run_func()
+local function run_func(event)
   -- run_func is called periodically when screen is visible
+  -- the *event* parameter is the value of the current key press code (see Key Press Codes)
   bg_func() -- run typically calls bg_func to start
 end
 
 return { run=run_func, background=bg_func, init=init_func  }
 ```
 
-This example defines:
-bckgrnd_func() function as periodic execution function that is periodically called when custom telemetry screen is not visible
-run_func() function as periodic execution function that is periodically called when custom telemetry screen is visible
-init_func() function as function that is called one time when script is loaded and begins execution.
-Parameter init is optional.
+Note:
+
+* *init_func()* function is called once when script is loaded and begins execution.
+* *bg_func()* is called periodically when custom telemetry screen is not visible
+* *run_func()* function is called periodically when custom telemetry screen is visible
+
 Script initialization
 
 see script initialization
