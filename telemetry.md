@@ -25,7 +25,7 @@ Every script must include a return statement at the end, that defines its interf
 * script **background** function
 * script **run** function
 
-For example:
+Example (interface only):
 
 ```
 local function init_func()
