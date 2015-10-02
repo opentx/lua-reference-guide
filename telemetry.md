@@ -6,7 +6,7 @@ Telemetry scripts are used for building customized screens. Each model can have 
 
 ##### File Location
 
-Scripts are located on the SD card in the folder /SCRIPTS/TELEMETRY/<name>.lua (name must be in 8 characters or less).
+Scripts are located on the SD card in the folder /SCRIPTS/TELEMETRY/&lt;name&gt;.lua (name must be in 8 characters or less).
 
 ##### Lifetime of telemetry script
 
@@ -48,7 +48,7 @@ Note:
 
 * *init_func()* function is called once when script is loaded and begins execution.
 * *bg_func()* is called periodically when custom telemetry screen is not visible.
-* *run_func(event)* function is called periodically when custom telemetry screen is visible. The *event* parameter is the value of the current key press code (see [Key Press Codes](key_press_codes.md))
+* *run_func(key-event)* function is called periodically when custom telemetry screen is visible. The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
 
 Script initialization
 
