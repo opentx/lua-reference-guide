@@ -1,6 +1,6 @@
 # Key Events
 
-|Key Events|comments|
+|Key Event Name|Comments|
 |:--------:|:-------|
 |EVT_MENU_BREAK||
 |EVT_PAGE_BREAK||
@@ -14,3 +14,5 @@
 |EVT_MINUS_FIRST||
 |EVT_PLUS_RPT||
 |EVT_MINUS_RPT||
+
+
