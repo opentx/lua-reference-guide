@@ -6,7 +6,7 @@ Telemetry scripts are used for building customized screens. Each model can have 
 
 ##### File Location
 
-Scripts are located on the SD card in the folder /SCRIPTS/TELEMETRY/&lt;name&gt;.lua (name must be in 8 characters or less).
+Scripts are located on the SD card in the folder /SCRIPTS/TELEMETRY/&lt;*name*&gt;.lua (*name* must be in 8 characters or less).
 
 ##### Lifetime of telemetry script
 
