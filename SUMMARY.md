@@ -11,7 +11,7 @@
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
    * [Key Events](key_events.md)
-   * [Inputs Table Syntax](inputs_table_syntax.md)
+   * [Input Table Syntax](input_table_syntax.md)
    * [Output Table Syntax](output_table_syntax.md)
    * [Run Function Syntax](run_function_syntax.md)
    * [Init Function Syntax](init_function_syntax.md)
