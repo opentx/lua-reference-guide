@@ -58,7 +58,7 @@ end
 return { input=inputs, output=outputs, run=run_func, init=init_func }
 ```
 
-Note:
+Notes:
 * inputs table defines input parameters (name and source) to run function
 * outputs table defines names for values returned by run function
 * init_func() function is called once when script is loaded.
