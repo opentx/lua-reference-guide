@@ -36,7 +36,7 @@ local function bg_func()
   -- bg_func is called periodically when screen is not visible
 end
 
-local function run_func(event)
+local function run_func(key-event)
   -- run_func is called periodically when screen is visible
   bg_func() -- run typically calls bg_func to start
 end
