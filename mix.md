@@ -1,31 +1,27 @@
 # Mix Scripts
 
-**WARNING
-Do not use Lua mix scripts for controlling any aspect of your model that could cause a crash if script stops executing.
-**
+***WARNING - ***
+**Do not use Lua mix scripts for controlling any aspect of your model that could cause a crash if script stops executing.**
 
 ## General description
 
-Each model can have several mix scripts associated with it. These scripts are run periodically for entire time that model is selected/active. These scripts behave similar to standard OpenTX mixers but at the same time provide much more flexible and powerful tool.
+Each model can have several mix scripts associated with it. These scripts are run periodically for entire time that model is selected. These scripts behave similar to standard OpenTX mixers but at the same time provide much more flexible and powerful tool.
 
-Typically mix scripts take several values as inputs, do some calculation or logic processing based on them and output one or more values. Each run of scripts should be as short as possible. Exceeding certain script execution runtime will result in script being forcefully stopped and disabled.
+Mix scripts take one or more values as inputs, do some calculation or logic processing based on them and output one or more values. Each run of a script should be as short as possible. Exceeding the script execution runtime limit will result in the script being forcefully stopped and disabled.
 
 
-## Typical use
+## Typical uses
 
 * replacement for complex mixes that are not critical to model function
 * complex processing of inputs and reaction to their current state and/or their history
 * filtering of telemetry values
-* automatic detection of number of battery cells and setting of low battery threshold
-* automatic announcment of maximum altitude for each DLG throw
 
 ## Limitations
 
-* should not display anything on LCD screen.
-* can't wait for user input via dialog.
-* should not exceed maximum allowed runtime/ number of instructions.
-* standard OpenTX mixes are run every XX milliseconds in a very deterministic way (guaranteed execution) while model scripts are run from another thread with less priority. Their execution period is around 30ms and is not guaranteed!
-* a script could be disabled/killed anytime due to several causes like (error in script, not enough free memory, etc...)
+* cannot update LCD screen or perform user input.
+* should not exceed allowed run-time/ number of instructions.
+* mix scripts are run with less priority than built-in mixes. Their execution period is around 30ms and is not guaranteed!
+* can be disabled/killed anytime due to logic errors in script, not enough free memory, etc...)
 
 ### Anatomy
 
