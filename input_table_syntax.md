@@ -1,2 +1,2 @@
-# Inputs Table Syntax
+# Input Table Syntax
 
