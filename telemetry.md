@@ -44,7 +44,7 @@ end
 return { run=run_func, background=bg_func, init=init_func  }
 ```
 
-Note:
+Notes:
 
 * *init_func()* function is called once when script is loaded and begins execution.
 * *bg_func()* is called periodically when custom telemetry screen is not visible.
