@@ -11,7 +11,7 @@ end
 
 Input Parameters:
 <>
-zero or more input values, their names are arbitrary, their meaning and order is defined by the input table
+zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Inputs Table Syntax](inputs_table__syntax.md))
 
 Return Values:
 none
@@ -25,7 +25,7 @@ values
 #####Telemetry Script Syntax
 ```lua
 local function <run_function_name>(key-event)
-  return 0 -- return value is optional see below
+  return 0 -- values other than zero will halt the script
 end
 ```
 The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
