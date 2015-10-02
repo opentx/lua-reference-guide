@@ -43,7 +43,7 @@ Every mix script must include a *return* statement at the end, that defines its 
 * script *init* function (optional)
 * script *run* function
 
-Example:
+#####Example (interface only):
 ```
 local inputs {}
 
