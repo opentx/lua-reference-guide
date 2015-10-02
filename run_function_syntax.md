@@ -5,7 +5,8 @@ The run function is the function that is periodically called for the entire life
 <a name="mix-script-syntax"></a>
 ##### Mix Script Syntax
 ```lua
-local <run_function_name>([first input, [second input], …])
+local function <run_function_name>([first input, [second input], …])
+end
 ```
 
 Input Parameters:
@@ -23,5 +24,8 @@ values
 <a name="telemetry-script-syntax"></a>
 #####Telemetry Script Syntax
 ```lua
-local <run_function_name>(key-event)
+local function <run_function_name>(key-event)
+  return 0 -- return value is optional see below
+end
 ```
+The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
