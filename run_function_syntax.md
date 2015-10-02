@@ -3,7 +3,7 @@
 The run function is the function that is periodically called for the entire lifetime of script. Syntax of run function is different between [mix scripts](#mix-script-syntax) and [telemetry scripts](#telemetry-script-syntax).
 
 <a name="mix-script-syntax"></a>
-##### Mix Script Syntax
+##### Run Function for Mix Scripts
 ```lua
 local function <run_function_name>([first input, [second input], …])
 end
@@ -11,18 +11,17 @@ end
 
 Input Parameters:
 <>
-zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Inputs Table Syntax](inputs_table__syntax.md))
+zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Input Table Syntax](input_table__syntax.md))
 
 Return Values:
 none
 if output table is empty (i.e. script has no output)
 
-
 values
-(comma separated list of values) list of output values,                         their order and meaning is defined by the output table
+(comma separated list of values) list of output values, their order and meaning is defined by the output table. (see [Output Table Syntax](output_table_syntax.md))
 
 <a name="telemetry-script-syntax"></a>
-#####Telemetry Script Syntax
+#####Run Function for Telemetry Scripts
 ```lua
 local function <run_function_name>(key-event)
   return 0 -- values other than zero will halt the script
