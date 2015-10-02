@@ -1,2 +1,16 @@
-# Key Press Codes
+# Key Events
 
+|Key Events|comments|
+|:--------:|:-------|
+|EVT_MENU_BREAK||
+|EVT_PAGE_BREAK||
+|EVT_PAGE_LONG||
+|EVT_ENTER_BREAK||
+|EVT_ENTER_LONG||
+|EVT_EXIT_BREAK||
+|EVT_PLUS_BREAK||
+|EVT_MINUS_BREAK||
+|EVT_PLUS_FIRST||
+|EVT_MINUS_FIRST||
+|EVT_PLUS_RPT||
+|EVT_MINUS_RPT||
