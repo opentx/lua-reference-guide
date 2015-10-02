@@ -82,17 +82,6 @@ end
 return { run=run_func, input=inputs }
 ```
 
-#### Script initialization
-
-If defined, *init* function is called right after the script is loaded from SD card and begins execution. Init is called only once before the run function is called for the first time.
-
-local <init_function_name>()
-
-called once before first call to run function
-
-Parameters: none
-
-Returns: none
 
 
 #### Script execution
