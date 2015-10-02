@@ -3,7 +3,7 @@
 ***WARNING - ***
 **Do not use Lua mix scripts for controlling any aspect of your model that could cause a crash if script stops executing.**
 
-## General description
+## Description
 
 Each model can have several mix scripts associated with it. These scripts are run periodically for entire time that model is selected. These scripts behave similar to standard OpenTX mixers but at the same time provide much more flexible and powerful tool.
 
