@@ -27,4 +27,6 @@ local function <run_function_name>(key-event)
   return 0 -- values other than zero will halt the script
 end
 ```
-The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
+Input Parameters: The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
+
+Return Value: A non-zero return value will halt the script
