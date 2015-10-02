@@ -10,7 +10,7 @@
    * [Wizard](wizard.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
-   * Key Press Codes
+   * [Key Press Codes](key_press_codes.md)
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
