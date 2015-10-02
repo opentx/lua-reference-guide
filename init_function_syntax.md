@@ -4,8 +4,12 @@ If defined, *init* function is called right after the script is loaded from SD c
 
 ```lua
 local function <init_function_name>()
+  -- code here runs only once when the model is loaded
+end
 ```
->Parameters: none
 
->Returns: none
+Input Parameters: none
+
+Return values: none
+
 
