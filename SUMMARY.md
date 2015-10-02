@@ -13,6 +13,7 @@
    * [Key Events](key_events.md)
    * [Inputs Table Syntax](inputs_table_syntax.md)
    * [Outputs Table Syntax](outputs_table_syntax.md)
+   * Run Function Syntax
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
