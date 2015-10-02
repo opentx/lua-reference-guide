@@ -4,7 +4,7 @@
 * Introduction
    * [Acknowledgements](acknowledgements.md)
    * [Getting Started](getting_started.md)
-* Part I - Script Types
+* Part I - Script Type Overview
    * [Mix](mix.md)
    * [Telemetry](telemetry.md)
    * [Wizard](wizard.md)
