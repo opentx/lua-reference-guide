@@ -50,28 +50,4 @@ Note:
 * *bg_func()* is called periodically when custom telemetry screen is not visible.
 * *run_func(key-event)* function is called periodically when custom telemetry screen is visible. The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
 
-Script initialization
 
-see script initialization
-Script execution
-
-The run or background function is the function that is periodically called for the entire lifetime of script. Which one is called depends on the visibility of custom telemetry screen:
-not visible - the background function is called. Script should not draw to screen. Usually used to store/process telemetry data.
-visible - run function is called. Script should draw its screen.
-local <background_function_name>()
-Parameters:
-none
-Returns:
-none
-local <run_function_name>(event)
-Parameters:
-event
-number that contains currently active key press code. If no key is pressed, the value is 0
-Event contains two distinct fields:
-  * what happened (key up, key down, long key press, etc).
-  * which key is/was pressed.
-Returns:
-none
-Examples
-Telemetry Screen #1
-Telemetry Screen #2
