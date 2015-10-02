@@ -1,2 +1,2 @@
-# Outputs Table Syntax
+# Output Table Syntax
 
