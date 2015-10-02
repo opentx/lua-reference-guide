@@ -26,10 +26,28 @@ Every script must include a return statement at the end, that defines its interf
 * script init function (optional)
 * script background function
 * script run function
-For example:
--- script body would be here
 
-return { run=run_func, init=init_func, background=bckgrnd_func }
+For example:
+
+```
+-- this empty template can be used for telemetry scripts
+
+local function init_func()
+  -- init_func is called once when model is loaded
+end
+
+local function bg_func()
+  -- bg_func is called periodically when screen is not visible
+end
+
+local function run_func()
+  -- run_func is called periodically when screen is visible
+  bg_func() -- run typically calls bg_func to start
+end
+
+return { run=run_func, background=bg_func, init=init_func  }
+```
+
 This example defines:
 bckgrnd_func() function as periodic execution function that is periodically called when custom telemetry screen is not visible
 run_func() function as periodic execution function that is periodically called when custom telemetry screen is visible
