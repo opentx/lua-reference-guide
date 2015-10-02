@@ -38,7 +38,6 @@ end
 
 local function run_func(event)
   -- run_func is called periodically when screen is visible
-  -- the *event* parameter is the value of the current key press code (see Key Press Codes)
   bg_func() -- run typically calls bg_func to start
 end
 
@@ -48,8 +47,8 @@ return { run=run_func, background=bg_func, init=init_func  }
 Note:
 
 * *init_func()* function is called once when script is loaded and begins execution.
-* *bg_func()* is called periodically when custom telemetry screen is not visible
-* *run_func()* function is called periodically when custom telemetry screen is visible
+* *bg_func()* is called periodically when custom telemetry screen is not visible.
+* *run_func(event)* function is called periodically when custom telemetry screen is visible. The *event* parameter is the value of the current key press code (see [Key Press Codes](key_press_codes.md))
 
 Script initialization
 
