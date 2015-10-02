@@ -58,11 +58,11 @@ end
 return { input=inputs, output=outputs, run=run_func, init=init_func }
 ```
 
-This example defines:
-* inputs table as input values to model script
-* outputs table as output of model script
-* run_func() function as periodic execution function that takes inputs as parameters and returns outputs table
-* init_func() function as function that is called one time when script is loaded and begins execution.
+Note:
+* inputs table defines input parameters (name and source) to run function
+* outputs table defines names for values returned by run function
+* init_func() function is called once when script is loaded.
+* run_func() function is called periodically
 
 Parameters *init*, *input* and *output* are optional. If model script doesn't use them, they can be omitted from return statement.
 
