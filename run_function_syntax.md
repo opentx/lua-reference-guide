@@ -1,6 +1,6 @@
 # Run Function Syntax
 
-The run function is the function that is periodically called for the entire lifetime of script. Syntax of run function is different between [mix scripts](#mix-script-syntax) and [telemetry scripts](#telemetry-script-syntax).
+The run function is the function that is periodically called for the lifetime of script execution. Syntax of run function is different between [mix scripts](mix.md) and [telemetry scripts](telemetry.md).
 
 <a name="mix-script-syntax"></a>
 ##### Run Function for Mix Scripts
