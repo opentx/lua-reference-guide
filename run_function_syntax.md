@@ -26,9 +26,13 @@ local function <run_function_name>(key-event)
   return 0 -- values other than zero will halt the script
 end
 ```
+|  | |
+| -- | -- |
+| 0:0 | 1:0 |
+| 0:2 | 1:2 |
 
-<span class="box">
+<div class="panel-footer">
 Input Parameters: The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
-
+<p/><p/>
 Return Value: A non-zero return value will halt the script
-</span>
+</div>
