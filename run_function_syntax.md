@@ -7,7 +7,7 @@ The run function is the function that is periodically called for the lifetime of
 local function <run_function_name>([first input, [second input], …])
 end
 ```
-<div class=box>
+<span class="box">
 Input Parameters:
 <>
 zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Input Table Syntax](input_table__syntax.md))
@@ -18,7 +18,7 @@ if output table is empty (i.e. script has no output)
 
 values
 (comma separated list of values) list of output values, their order and meaning is defined by the output table. (see [Output Table Syntax](output_table_syntax.md))
-</div>
+</span>
 
 #####Run Function for Telemetry Scripts
 ```lua
@@ -26,8 +26,9 @@ local function <run_function_name>(key-event)
   return 0 -- values other than zero will halt the script
 end
 ```
-<div class=box>
+
+<span class="box">
 Input Parameters: The *key-event* parameter indicates which transmitter button has been pressed (see [Key Events](key_events.md))
 
 Return Value: A non-zero return value will halt the script
-</div>
+</span>
