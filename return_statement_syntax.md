@@ -1,6 +1,6 @@
 # Return Statement Syntax
 
-The return statment is the last statement in an OpenTX Lua script.  It defines the functions that will be invoked when the script is run.
+The return statment is the last statement in an OpenTX Lua script.  It defines the input/output table values and functions that will be invoked when the script is run.
 
 Parameters *init*, *input* and *output* are optional. If a script doesn't use them, they can be omitted from return statement.
 
