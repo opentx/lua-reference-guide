@@ -2,7 +2,7 @@
 
 * [OpenTX 2.1 Lua Reference Guide](README.md)
 * [Introduction](introduction.md)
-   * [Acknowledgements](acknowledgements.md)
+   * [Acknowledgments](acknowledgments.md)
    * [Getting Started](getting_started.md)
 * Part I - Script Type Overview
    * [Mix](mix.md)
