@@ -1,0 +1,11 @@
+.box {
+    background-color: #ddd;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.todo {
+    background-color: lemonchiffon;
+    border: 3px dotted black;
+    padding: 20px;
+}
