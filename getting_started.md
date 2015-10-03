@@ -15,4 +15,4 @@ When updating the firmware on your transmitter, be sure the lua option is checke
 
 Also note that the SD Structure path should contain a valid path to a copy of your transmitter's SD card contents.
 
-![](companion-settings.png)
+![Edit Settings dialog from OpenTX Companion](companion-settings.png)
