@@ -2,6 +2,10 @@
 
 The run function is the function that is periodically called for the lifetime of script execution. Syntax of the run function is different between [mix scripts](mix.md) and [telemetry scripts](telemetry.md).
 
+
+---
+
+
 #### Run Function for Mix Scripts
 ```lua
 local function <run_function_name>([first input, [second input], …])
@@ -15,6 +19,11 @@ none
 if output table is empty (i.e. script has no output)<br/>
 values
 (comma separated list of values) list of output values, their order and meaning is defined by the output table. (see [Output Table Syntax](output_table_syntax.md))
+
+
+
+---
+
 
 ####Run Function for Telemetry Scripts
 ```lua
