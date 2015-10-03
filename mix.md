@@ -44,7 +44,7 @@ Every mix script must include a *return* statement at the end, that defines its 
 * script *run* function
 
 Example (interface only):
-```
+```lua
 local input {}
 
 local output {}
@@ -68,7 +68,7 @@ Parameters *init*, *input* and *output* are optional. If model script doesn't us
 
 Example without *init* and *output*:
 
-```
+```lua
 local inputs = { { "Aileron", SOURCE }, { "Ail. ratio", VALUE, -100, 100, 0 } }
 
 local function run_func(ail, ratio)
