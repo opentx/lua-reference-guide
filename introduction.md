@@ -1,3 +1,3 @@
 # Introduction
 
-The introduction includes acknowledgments and a page on getting started.
+The introduction includes [acknowledgments](acknowledgments.md) and a page on getting started.
