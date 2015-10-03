@@ -15,6 +15,7 @@
    * [Output Table Syntax](output_table_syntax.md)
    * [Run Function Syntax](run_function_syntax.md)
    * [Init Function Syntax](init_function_syntax.md)
+   * Return Statement Syntax
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
