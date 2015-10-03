@@ -1,11 +1,4 @@
 {
-    "styles": {
-        "website": "styles/opentx.css",
-        "ebook": "styles/opentx.css",
-        "pdf": "styles/opentx.css",
-        "mobi": "styles/opentx.css",
-        "epub": "styles/opentx.css"
-    }    
     /* ***** changed to custom cover images 10/1/2015
     "plugins": ["autocover"],
     "pluginsConfig": {
