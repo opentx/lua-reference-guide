@@ -27,7 +27,7 @@ Every script must include a return statement at the end, that defines its interf
 
 Example (interface only):
 
-```
+```lua
 local function init_func()
   -- init_func is called once when model is loaded
 end
