@@ -1,7 +1,7 @@
 # Summary
 
 * [OpenTX 2.1 Lua Reference Guide](README.md)
-* Introduction
+* [Introduction](introduction.md)
    * [Acknowledgements](acknowledgements.md)
    * [Getting Started](getting_started.md)
 * Part I - Script Type Overview
