@@ -12,7 +12,7 @@ local function <run_function_name>([first input, [second input], …])
 end
 ```
 * #####Input parameters:
-zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Input Table Syntax](input_table__syntax.md))
+zero or more input values, their names are arbitrary, their meaning and order is defined by the input table. (see [Input Table Syntax](input_table_syntax.md))
 
 * #####Return values:
 none
