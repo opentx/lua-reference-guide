@@ -1,4 +1,7 @@
 {
+"plugins": [
+        "image-captions"
+    ]    
 "styles": {
         "website": "styles/luaref.css",
         "ebook": "styles/luaref.css",
