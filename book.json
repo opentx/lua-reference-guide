@@ -1,20 +1,9 @@
 {
-    /* ***** changed to custom cover images 10/1/2015
-    "plugins": ["autocover"],
-    "pluginsConfig": {
-        "autocover": {
-            "title": "OpenTX 2.1 Lua Reference Guide",
-            "author": "OpenTX Development Team",
-            "font": {
-                "size": null,
-                "family": "Impact",
-                "color": "#000"
-            },
-            "size": {
-                "w": 1800,
-                "h": 2360
-            }
-        }
+"styles": {
+        "website": "styles/luaref.css",
+        "ebook": "styles/luaref.css",
+        "pdf": "styles/luaref.css",
+        "mobi": "styles/luaref.css",
+        "epub": "styles/luaref.css"
     }
-    */
 }
