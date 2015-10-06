@@ -200,4 +200,4 @@
 |	tx-voltage	|	Transmitter battery voltage [volts]	|		|
 |	vertical-speed	|	Variometer vertical speed [m/s]	|		|
 |	vfas	|	Current sensor - voltage [volts]	|		|
-|	vfas-min	|	Current sensor - lowest voltage [volts]	|		|
+|	vfas-min	|	Current sensor - lowest voltage [volts]	| &nbsp;		|
