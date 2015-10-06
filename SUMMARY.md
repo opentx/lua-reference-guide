@@ -6,7 +6,7 @@
    * [Getting Started](getting_started.md)
 * Part I - Script Type Overview
    * [Mix Scripts](mix.md)
-   * [Telemetry](telemetry.md)
+   * [Telemetry Scripts](telemetry.md)
    * [Wizard](wizard.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
