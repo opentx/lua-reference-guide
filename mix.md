@@ -43,7 +43,7 @@ Every mix script must include a *return* statement at the end, that defines its 
 * script *init* function (optional)
 * script *run* function
 
-Example (interface only):
+#####Example (interface only):
 ```lua
 local input {}
 
@@ -58,7 +58,7 @@ end
 return { input=input, output=output, run=run_func, init=init_func }
 ```
 
-Notes:
+#####Notes:
 * inputs table defines input parameters (name and source) to run function ([see Input Table Syntax](input_table_syntax.md))
 * outputs table defines names for values returned by run function (see [Output Table Syntax](output_table_syntax.md))
 * init_func() function is called once when script is loaded.
