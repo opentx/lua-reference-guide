@@ -12,3 +12,12 @@ The [Github Donor List](https://github.com/opentx/opentx/blob/master/DONATIONS.t
 If you would like to contribute to OpenTX, donations are welcome and appreciated:
 
 [![](btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DJ9MASSKVW8WN)
+
+<span class="box">
+This is a header
+=================
+And this is the associated text
+
+with subheader
+--------------
+</span>
