@@ -18,6 +18,7 @@
    * [Return Statement Syntax](return_statement_syntax.md)
    * [getValue() Function](getvalue_function.md)
    * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
+   * getFieldInfo() Function
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
