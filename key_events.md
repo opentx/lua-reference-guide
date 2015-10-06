@@ -1,4 +1,4 @@
-# Key Events
+# Key Event Constants
 
 |Key Event Name|Comments|
 |:--------:|:-------|
