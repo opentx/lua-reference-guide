@@ -7,7 +7,7 @@
 * Part I - Script Type Overview
    * [Mix Scripts](mix.md)
    * [Telemetry Scripts](telemetry.md)
-   * [Wizard](wizard.md)
+   * [Wizard Script](wizard.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
    * [Key Events](key_events.md)
