@@ -17,7 +17,7 @@
    * [Init Function Syntax](init_function_syntax.md)
    * [Return Statement Syntax](return_statement_syntax.md)
    * [getValue() Function](getvalue_function.md)
-   * [getValue() Field Names](getvalue_field_names.md)
+   * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
