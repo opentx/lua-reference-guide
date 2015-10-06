@@ -10,7 +10,7 @@
    * [Wizard Script](wizard.md)
 * Part II - OpenTX Lua API
    * [Included Lua Libraries](included_lua_libraries.md)
-   * [Key Events](key_events.md)
+   * [Key Event Constants](key_events.md)
    * [Input Table Syntax](input_table_syntax.md)
    * [Output Table Syntax](output_table_syntax.md)
    * [Run Function Syntax](run_function_syntax.md)
