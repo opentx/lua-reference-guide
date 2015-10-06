@@ -9,6 +9,13 @@ The run function is the function that is periodically called for the lifetime of
 #### Run Function for Mix Scripts
 ```lua
 local function <run_function_name>([first input, [second input], …])
+   
+   -- if mix has no return values
+   return
+   
+   -- if mix has two return values
+   return value1, value2
+   
 end
 ```
 * #####Input parameters:
