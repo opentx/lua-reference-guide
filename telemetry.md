@@ -18,14 +18,14 @@ Telemetry scripts are started when the model is loaded.
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
 * all telemetry scripts are stopped while one-time script is running (see Lua One-time scripts)
 
-### Script interface definition
+#####Script interface definition
 
 Every script must include a return statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * script **init** function *(optional)*
 * script **background** function
 * script **run** function
 
-Example (interface only):
+#####Example (interface only):
 
 ```lua
 local function init_func()
@@ -44,7 +44,7 @@ end
 return { run=run_func, background=bg_func, init=init_func  }
 ```
 
-Notes:
+#####Notes:
 
 * *init_func()* function is called once when script is loaded and begins execution.
 * *bg_func()* is called periodically when custom telemetry screen is not visible.
