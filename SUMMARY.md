@@ -16,6 +16,7 @@
    * [Run Function Syntax](run_function_syntax.md)
    * [Init Function Syntax](init_function_syntax.md)
    * [Return Statement Syntax](return_statement_syntax.md)
+   * getValue() Function
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
