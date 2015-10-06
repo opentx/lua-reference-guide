@@ -5,7 +5,7 @@
    * [Acknowledgments](acknowledgments.md)
    * [Getting Started](getting_started.md)
 * Part I - Script Type Overview
-   * [Mix](mix.md)
+   * [Mix Scripts](mix.md)
    * [Telemetry](telemetry.md)
    * [Wizard](wizard.md)
 * Part II - OpenTX Lua API
