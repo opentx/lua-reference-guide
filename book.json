@@ -1,5 +1,5 @@
 {
-"plugins": ["image-captions"],
+"plugins": ["image-captions", "ungrey"],
 "pluginsConfig": {
       "image-captions": {
           "caption": "_CAPTION_"
