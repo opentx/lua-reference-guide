@@ -21,4 +21,5 @@
    * [getFieldInfo() Function](getfieldinfo_function.md)
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
+* Part III - OpenTX Lua API Reference
 
