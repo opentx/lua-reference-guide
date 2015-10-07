@@ -26,7 +26,7 @@
        * [getValue()](getvalue_function.md)
        * [getFieldInfo()](getfieldinfo_function.md)
        * [playFile()](playfile.md)
-       * playNumber()
+       * [playNumber()](playnumber.md)
        * playDuration()
        * playTone()
        * popupInput()
