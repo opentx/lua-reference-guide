@@ -44,7 +44,7 @@
        * [model.resetTimer()](modelresettimer.md)
        * [model.getInputsCount()](modelgetinputscount.md)
        * [model.getInput()](modelgetinput.md)
-       * model.insertInput()
+       * [model.insertInput()](modelinsertinput.md)
        * model.deleteInput()
        * model.deleteInputs()
        * model.getMixesCount()
