@@ -59,7 +59,7 @@
        * [model.getCurve()](modelgetcurve.md)
        * [model.getOutput()](modelgetoutput.md)
        * [model.setOutput()](modelsetoutput.md)
-       * model.getGlobalVariable()
+       * [model.getGlobalVariable()](modelgetglobalvariable.md)
        * model.setGlobalVariable()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
