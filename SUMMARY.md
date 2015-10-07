@@ -34,7 +34,7 @@
        * [defaultChannel()](defaultchannel.md)
        * [killEvents()](killevents.md)
        * [GREY()](grey.md)
-   * Model Functions
+   * [Model Functions](model_functions.md)
        * [model.getInfo()](modelgetinfo.md)
        * [model.setInfo()](modelsetinfo.md)
        * [model.getModule()](modelgetmodule.md)
