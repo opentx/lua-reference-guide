@@ -29,6 +29,7 @@
        * playNumber()
        * playDuration()
        * playTone()
+       * popupInput()
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
