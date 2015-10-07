@@ -67,6 +67,7 @@
        * lcd.getLastPos()
        * lcd.drawPoint()
        * lcd.drawLine()
+       * lcd.drawRectangle()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
