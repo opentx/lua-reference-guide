@@ -49,7 +49,7 @@
        * [model.deleteInputs()](modeldeleteinputs.md)
        * [model.getMixesCount()](modelgetmixescount.md)
        * [model.getMix()](modelgetmix.md)
-       * model.insertMix()
+       * [model.insertMix()](modelinsertmix.md)
        * model.deleteMix()
        * model.deleteMixes()
        * model.getLogicalSwitch()
