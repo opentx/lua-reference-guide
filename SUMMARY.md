@@ -36,7 +36,6 @@
        * [GREY()](grey.md)
    * Model Functions
    * Display Functions
-   * placeholder
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
