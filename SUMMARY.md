@@ -64,7 +64,7 @@
    * Display Functions
        * [ldc.lock()](ldclock.md)
        * [lcd.clear()](lcdclear.md)
-       * lcd.getLastPos()
+       * [lcd.getLastPos()](lcdgetlastpos.md)
        * lcd.drawPoint()
        * lcd.drawLine()
        * lcd.drawRectangle()
