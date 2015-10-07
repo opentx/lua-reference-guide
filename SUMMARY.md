@@ -73,7 +73,7 @@
        * [lcd.drawText()](lcddrawtext.md)
        * [lcd.drawTimer()](lcddrawtimer.md)
        * [lcd.drawNumber()](lcddrawnumber.md)
-       * lcd.drawChannel()
+       * [lcd.drawChannel()](lcddrawchannel.md)
        * lcd.drawSwitch()
        * lcd.drawSource()
        * lcd.drawPixmap()
