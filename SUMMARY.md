@@ -20,7 +20,7 @@
        * [Key Event Constants](key_events.md)
    * General Functions
        * getTime()
-       * getDateTime
+       * getDateTime()
        * getVersion
        * getGeneralSettings
        * [getValue()](getvalue_function.md)
