@@ -18,7 +18,7 @@
 * [Part III - OpenTX Lua API Reference](part_iii_-_opentx_lua_api_reference.md)
    * [Constants](constants.md)
        * [Key Event Constants](key_events.md)
-   * General Functions
+   * [General Functions](general_functions.md)
        * [getTime()](gettime.md)
        * [getDateTime()](getdatetime.md)
        * [getVersion()](getversion.md)
