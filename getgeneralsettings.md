@@ -1,0 +1,2 @@
+# getGeneralSettings()
+
