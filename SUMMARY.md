@@ -76,7 +76,7 @@
        * [lcd.drawChannel()](lcddrawchannel.md)
        * [lcd.drawSwitch()](lcddrawswitch.md)
        * [lcd.drawSource()](lcddrawsource.md)
-       * lcd.drawPixmap()
+       * [lcd.drawPixmap()](lcddrawpixmap.md)
        * lcd.drawScreenTitle()
        * lcd.drawCombobox()
 * Part IV - Converting OpenTX 2.0 Scripts
