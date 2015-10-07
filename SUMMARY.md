@@ -18,7 +18,6 @@
 * Part III - OpenTX Lua API Reference
    * Constants
        * [Key Event Constants](key_events.md)
-       * placeholder
    * General Functions
        * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
        * [getFieldInfo() Function](getfieldinfo_function.md)
