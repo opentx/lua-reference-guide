@@ -35,7 +35,7 @@
        * [killEvents()](killevents.md)
        * [GREY()](grey.md)
    * Model Functions
-       * model.getInfo()
+       * [model.getInfo()](modelgetinfo.md)
        * model.setInfo()
        * model.getModule()
        * model.setModule()
