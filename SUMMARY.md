@@ -28,7 +28,7 @@
        * [playFile()](playfile.md)
        * [playNumber()](playnumber.md)
        * [playDuration()](playduration.md)
-       * playTone()
+       * [playTone()](playtone.md)
        * popupInput()
        * defaultStick()
        * defaultChannel()
