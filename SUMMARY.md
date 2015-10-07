@@ -72,6 +72,7 @@
        * lcd.drawGauge()
        * lcd.drawText()
        * lcd.drawTimer()
+       * lcd.drawNumber()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
