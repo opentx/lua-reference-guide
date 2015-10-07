@@ -8,7 +8,7 @@
    * [Mix Scripts](mix.md)
    * [Telemetry Scripts](telemetry.md)
    * [Wizard Script](wizard.md)
-* Part II - OpenTX Lua API Programming Guide
+* [Part II - OpenTX Lua API Programming Guide](part_ii_-_opentx_lua_api_programming_guide.md)
    * [Included Lua Libraries](included_lua_libraries.md)
    * [Input Table Syntax](input_table_syntax.md)
    * [Output Table Syntax](output_table_syntax.md)
