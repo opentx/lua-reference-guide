@@ -38,7 +38,7 @@
        * [model.getInfo()](modelgetinfo.md)
        * [model.setInfo()](modelsetinfo.md)
        * [model.getModule()](modelgetmodule.md)
-       * model.setModule()
+       * [model.setModule()](modelsetmodule.md)
        * module.getTimer()
        * model.setTimer()
        * model.resetTimer()
