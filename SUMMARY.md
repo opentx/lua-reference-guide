@@ -22,6 +22,7 @@
        * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
        * [getFieldInfo() Function](getfieldinfo_function.md)
        * [getValue() Function](getvalue_function.md)
+   * Model Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
