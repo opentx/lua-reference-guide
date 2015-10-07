@@ -22,7 +22,7 @@
        * [getTime()](gettime.md)
        * [getDateTime()](getdatetime.md)
        * [getVersion()](getversion.md)
-       * getGeneralSettings()
+       * [getGeneralSettings()](getgeneralsettings.md)
        * [getValue()](getvalue_function.md)
        * [getFieldInfo()](getfieldinfo_function.md)
        * playFile()
