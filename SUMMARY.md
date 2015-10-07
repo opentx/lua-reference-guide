@@ -37,7 +37,7 @@
    * Model Functions
        * [model.getInfo()](modelgetinfo.md)
        * [model.setInfo()](modelsetinfo.md)
-       * model.getModule()
+       * [model.getModule()](modelgetmodule.md)
        * model.setModule()
        * module.getTimer()
        * model.setTimer()
