@@ -22,9 +22,9 @@
        * [getFieldInfo()](getfieldinfo_function.md)
        * getTime()
        * getDateTime
-       * [getValue()](getvalue_function.md)
        * getVersion
        * getGeneralSettings
+       * [getValue()](getvalue_function.md)
        * GREY()
    * Model Functions
    * Display Functions
