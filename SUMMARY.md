@@ -57,6 +57,7 @@
        * model.getCustomFunction()
        * model.setCustomFunction()
        * model.getCurve()
+       * model.getOutput()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
