@@ -19,8 +19,8 @@
    * Constants
        * [Key Event Constants](key_events.md)
        * placeholder
-   * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
    * General Functions
+       * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
        * [getFieldInfo() Function](getfieldinfo_function.md)
        * [getValue() Function](getvalue_function.md)
 * Part IV - Converting OpenTX 2.0 Scripts
