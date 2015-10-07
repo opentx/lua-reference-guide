@@ -56,7 +56,7 @@
        * [model.setLogicalSwitch()](modelsetlogicalswitch.md)
        * [model.getCustomFunction()](modelgetcustomfunction.md)
        * [model.setCustomFunction()](modelsetcustomfunction.md)
-       * model.getCurve()
+       * [model.getCurve()](modelgetcurve.md)
        * model.getOutput()
        * model.setOutput()
        * model.getGlobalVariable()
