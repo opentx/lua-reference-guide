@@ -68,7 +68,7 @@
        * [lcd.drawPoint()](lcddrawpoint.md)
        * [lcd.drawLine()](lcddrawline.md)
        * [lcd.drawRectangle()](lcddrawrectangle.md)
-       * lcd.drawFilledRectangle()
+       * [lcd.drawFilledRectangle()](lcddrawfilledrectangle.md)
        * lcd.drawGauge()
        * lcd.drawText()
        * lcd.drawTimer()
