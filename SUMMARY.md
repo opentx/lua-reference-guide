@@ -58,7 +58,7 @@
        * [model.setCustomFunction()](modelsetcustomfunction.md)
        * [model.getCurve()](modelgetcurve.md)
        * [model.getOutput()](modelgetoutput.md)
-       * model.setOutput()
+       * [model.setOutput()](modelsetoutput.md)
        * model.getGlobalVariable()
        * model.setGlobalVariable()
    * Display Functions
