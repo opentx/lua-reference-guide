@@ -39,7 +39,7 @@
        * [model.setInfo()](modelsetinfo.md)
        * [model.getModule()](modelgetmodule.md)
        * [model.setModule()](modelsetmodule.md)
-       * module.getTimer()
+       * [module.getTimer()](modulegettimer.md)
        * model.setTimer()
        * model.resetTimer()
        * model.getInputsCount()
