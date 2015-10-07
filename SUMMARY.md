@@ -73,6 +73,7 @@
        * lcd.drawText()
        * lcd.drawTimer()
        * lcd.drawNumber()
+       * lcd.drawChannel()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
