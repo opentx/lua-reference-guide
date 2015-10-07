@@ -19,7 +19,7 @@
    * Constants
        * [Key Event Constants](key_events.md)
    * General Functions
-       * [getFieldInfo() Function](getfieldinfo_function.md)
+       * [getFieldInfo()](getfieldinfo_function.md)
        * [getValue() Function](getvalue_function.md)
    * Model Functions
    * Display Functions
