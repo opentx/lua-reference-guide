@@ -21,7 +21,7 @@
    * General Functions
        * [getTime()](gettime.md)
        * [getDateTime()](getdatetime.md)
-       * getVersion()
+       * [getVersion()](getversion.md)
        * getGeneralSettings()
        * [getValue()](getvalue_function.md)
        * [getFieldInfo()](getfieldinfo_function.md)
