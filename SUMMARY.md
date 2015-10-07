@@ -50,7 +50,7 @@
        * [model.getMixesCount()](modelgetmixescount.md)
        * [model.getMix()](modelgetmix.md)
        * [model.insertMix()](modelinsertmix.md)
-       * model.deleteMix()
+       * [model.deleteMix()](modeldeletemix.md)
        * model.deleteMixes()
        * model.getLogicalSwitch()
        * model.setLogicalSwitch()
