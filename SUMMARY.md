@@ -16,12 +16,12 @@
    * [Init Function Syntax](init_function_syntax.md)
    * [Return Statement Syntax](return_statement_syntax.md)
 * Part III - OpenTX Lua API Reference
-   * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
-   * [getFieldInfo() Function](getfieldinfo_function.md)
-   * [getValue() Function](getvalue_function.md)
    * OpenTX Constants
        * [Key Event Constants](key_events.md)
        * placeholder
+   * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
+   * [getFieldInfo() Function](getfieldinfo_function.md)
+   * [getValue() Function](getvalue_function.md)
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
