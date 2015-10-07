@@ -63,7 +63,7 @@
        * [model.setGlobalVariable()](modelsetglobalvariable.md)
    * Display Functions
        * [ldc.lock()](ldclock.md)
-       * lcd.clear()
+       * [lcd.clear()](lcdclear.md)
        * lcd.getLastPos()
        * lcd.drawPoint()
        * lcd.drawLine()
