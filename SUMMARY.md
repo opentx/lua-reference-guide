@@ -19,12 +19,12 @@
    * Constants
        * [Key Event Constants](key_events.md)
    * General Functions
-       * [getFieldInfo()](getfieldinfo_function.md)
        * getTime()
        * getDateTime
        * getVersion
        * getGeneralSettings
        * [getValue()](getvalue_function.md)
+       * [getFieldInfo()](getfieldinfo_function.md)
        * GREY()
    * Model Functions
    * Display Functions
