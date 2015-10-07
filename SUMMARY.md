@@ -30,7 +30,7 @@
        * [playDuration()](playduration.md)
        * [playTone()](playtone.md)
        * [popupInput()](popupinput.md)
-       * defaultStick()
+       * [defaultStick()](defaultstick.md)
        * defaultChannel()
        * killEvents()
        * GREY()
