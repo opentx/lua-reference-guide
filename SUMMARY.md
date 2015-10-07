@@ -66,7 +66,7 @@
        * [lcd.clear()](lcdclear.md)
        * [lcd.getLastPos()](lcdgetlastpos.md)
        * [lcd.drawPoint()](lcddrawpoint.md)
-       * lcd.drawLine()
+       * [lcd.drawLine()](lcddrawline.md)
        * lcd.drawRectangle()
        * lcd.drawFilledRectangle()
        * lcd.drawGauge()
