@@ -33,7 +33,7 @@
        * [defaultStick()](defaultstick.md)
        * [defaultChannel()](defaultchannel.md)
        * [killEvents()](killevents.md)
-       * GREY()
+       * [GREY()](grey.md)
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
