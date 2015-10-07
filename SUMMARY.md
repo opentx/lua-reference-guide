@@ -25,6 +25,7 @@
        * [getValue()](getvalue_function.md)
        * getVersion
        * getGeneralSettings
+       * GREY()
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
