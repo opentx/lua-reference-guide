@@ -1,7 +1,6 @@
 # Summary
 
 * [OpenTX 2.1 Lua Reference Guide](README.md)
-   * Part III - OpenTX Lua API Reference
 * Introduction
    * [Acknowledgments](acknowledgments.md)
    * [Getting Started](getting_started.md)
@@ -20,6 +19,7 @@
    * [getValue() Function](getvalue_function.md)
    * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
    * [getFieldInfo() Function](getfieldinfo_function.md)
+* Part III - OpenTX Lua API Reference
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
