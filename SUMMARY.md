@@ -77,6 +77,7 @@
        * lcd.drawSwitch()
        * lcd.drawSource()
        * lcd.drawPixmap()
+       * lcd.drawScreenTitle()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
