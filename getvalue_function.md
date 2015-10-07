@@ -4,9 +4,6 @@
 
 The getValue() function is used to retrieve the current value of an OpenTX field.  OpenTX fields include transmitter based data (sticks, switches, sliders, etc.) as well as telemetry based data (gps, rssi, etc.).
 
-
-
-
 ```lua
 local value=getValue(<fieldId>)
 ```
