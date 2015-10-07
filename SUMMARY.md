@@ -70,6 +70,7 @@
        * lcd.drawRectangle()
        * lcd.drawFilledRectangle()
        * lcd.drawGauge()
+       * lcd.drawText()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
