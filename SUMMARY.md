@@ -27,6 +27,7 @@
        * [getFieldInfo()](getfieldinfo_function.md)
        * playFile()
        * playNumber()
+       * playDuration()
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
