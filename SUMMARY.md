@@ -79,6 +79,6 @@
        * [lcd.drawPixmap()](lcddrawpixmap.md)
        * [lcd.drawScreenTitle()](lcddrawscreentitle.md)
        * [lcd.drawCombobox()](lcddrawcombobox.md)
-* Part IV - Converting OpenTX 2.0 Scripts
+* [Part IV - Converting OpenTX 2.0 Scripts](part_iv_-_converting_opentx_20_scripts.md)
    * [Known Issues](known_issues.md)
 
