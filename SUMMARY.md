@@ -52,6 +52,7 @@
        * model.insertMix()
        * model.deleteMix()
        * model.deleteMixes()
+       * model.getLogicalSwitch()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
