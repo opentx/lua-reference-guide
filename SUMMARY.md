@@ -41,6 +41,7 @@
        * model.setModule()
        * module.getTimer()
        * model.setTimer()
+       * model.resetTimer()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
