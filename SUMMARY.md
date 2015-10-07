@@ -51,7 +51,7 @@
        * [model.getMix()](modelgetmix.md)
        * [model.insertMix()](modelinsertmix.md)
        * [model.deleteMix()](modeldeletemix.md)
-       * model.deleteMixes()
+       * [model.deleteMixes()](modeldeletemixes.md)
        * model.getLogicalSwitch()
        * model.setLogicalSwitch()
        * model.getCustomFunction()
