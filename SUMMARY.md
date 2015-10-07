@@ -62,6 +62,7 @@
        * [model.getGlobalVariable()](modelgetglobalvariable.md)
        * [model.setGlobalVariable()](modelsetglobalvariable.md)
    * Display Functions
+       * ldc.lock()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
