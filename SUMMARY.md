@@ -44,6 +44,7 @@
        * model.resetTimer()
        * model.getInputsCount()
        * model.getInput()
+       * model.insertInput()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
