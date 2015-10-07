@@ -1,6 +1,7 @@
 # Summary
 
 * [OpenTX 2.1 Lua Reference Guide](README.md)
+   * Part III - OpenTX Lua API Reference
 * Introduction
    * [Acknowledgments](acknowledgments.md)
    * [Getting Started](getting_started.md)
