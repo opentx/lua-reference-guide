@@ -18,13 +18,13 @@
 * Part III - OpenTX Lua API Reference
    * Constants
        * [Key Event Constants](key_events.md)
+   * [getValue()](getvalue_function.md)
    * General Functions
        * [getFieldInfo()](getfieldinfo_function.md)
        * getTime()
        * getDateTime
        * getVersion
        * getGeneralSettings
-   * [getValue()](getvalue_function.md)
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
