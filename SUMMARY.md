@@ -16,11 +16,11 @@
    * [Run Function Syntax](run_function_syntax.md)
    * [Init Function Syntax](init_function_syntax.md)
    * [Return Statement Syntax](return_statement_syntax.md)
-* Part III - Converting OpenTX 2.0 Scripts
-   * [Known Issues](known_issues.md)
 * Part III - OpenTX Lua API Reference
    * [getFieldInfo() Field Names](getfieldinfo_field_names.md)
    * [getFieldInfo() Function](getfieldinfo_function.md)
    * [getValue() Function](getvalue_function.md)
    * placeholder
+* Part III - Converting OpenTX 2.0 Scripts
+   * [Known Issues](known_issues.md)
 
