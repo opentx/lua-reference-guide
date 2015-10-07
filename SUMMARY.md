@@ -31,7 +31,7 @@
        * [playTone()](playtone.md)
        * [popupInput()](popupinput.md)
        * [defaultStick()](defaultstick.md)
-       * defaultChannel()
+       * [defaultChannel()](defaultchannel.md)
        * killEvents()
        * GREY()
    * Model Functions
