@@ -53,7 +53,7 @@
        * [model.deleteMix()](modeldeletemix.md)
        * [model.deleteMixes()](modeldeletemixes.md)
        * [model.getLogicalSwitch()](modelgetlogicalswitch.md)
-       * model.setLogicalSwitch()
+       * [model.setLogicalSwitch()](modelsetlogicalswitch.md)
        * model.getCustomFunction()
        * model.setCustomFunction()
        * model.getCurve()
