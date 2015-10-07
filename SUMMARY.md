@@ -65,6 +65,7 @@
        * ldc.lock()
        * lcd.clear()
        * lcd.getLastPos()
+       * lcd.drawPoint()
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
 
