@@ -36,7 +36,7 @@
        * [GREY()](grey.md)
    * Model Functions
        * [model.getInfo()](modelgetinfo.md)
-       * model.setInfo()
+       * [model.setInfo()](modelsetinfo.md)
        * model.getModule()
        * model.setModule()
        * module.getTimer()
