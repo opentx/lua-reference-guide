@@ -16,7 +16,7 @@
    * [Init Function Syntax](init_function_syntax.md)
    * [Return Statement Syntax](return_statement_syntax.md)
 * [Part III - OpenTX Lua API Reference](part_iii_-_opentx_lua_api_reference.md)
-   * Constants
+   * [Constants](constants.md)
        * [Key Event Constants](key_events.md)
    * General Functions
        * [getTime()](gettime.md)
