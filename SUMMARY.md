@@ -50,6 +50,7 @@
        * model.getMixesCount()
        * model.getMix()
        * model.insertMix()
+       * model.deleteMix()
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
