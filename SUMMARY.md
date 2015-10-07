@@ -32,7 +32,7 @@
        * [popupInput()](popupinput.md)
        * [defaultStick()](defaultstick.md)
        * [defaultChannel()](defaultchannel.md)
-       * killEvents()
+       * [killEvents()](killevents.md)
        * GREY()
    * Model Functions
    * Display Functions
