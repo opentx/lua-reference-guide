@@ -61,7 +61,7 @@
        * [model.setOutput()](modelsetoutput.md)
        * [model.getGlobalVariable()](modelgetglobalvariable.md)
        * [model.setGlobalVariable()](modelsetglobalvariable.md)
-   * Display Functions
+   * [Display Functions](display_functions.md)
        * [ldc.lock()](ldclock.md)
        * [lcd.clear()](lcdclear.md)
        * [lcd.getLastPos()](lcdgetlastpos.md)
