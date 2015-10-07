@@ -27,7 +27,7 @@
        * [getFieldInfo()](getfieldinfo_function.md)
        * [playFile()](playfile.md)
        * [playNumber()](playnumber.md)
-       * playDuration()
+       * [playDuration()](playduration.md)
        * playTone()
        * popupInput()
        * defaultStick()
