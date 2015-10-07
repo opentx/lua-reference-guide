@@ -20,7 +20,7 @@
    * [getFieldInfo() Function](getfieldinfo_function.md)
 * Part III - Converting OpenTX 2.0 Scripts
    * [Known Issues](known_issues.md)
-* [getValue() Function](getvalue_function.md)
 * Part III - OpenTX Lua API Reference
+   * [getValue() Function](getvalue_function.md)
    * placeholder
 
