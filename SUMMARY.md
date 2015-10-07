@@ -22,6 +22,7 @@
        * [getFieldInfo()](getfieldinfo_function.md)
        * [getValue()](getvalue_function.md)
        * getTime()
+       * getDateTime
    * Model Functions
    * Display Functions
 * Part IV - Converting OpenTX 2.0 Scripts
