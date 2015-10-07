@@ -25,7 +25,7 @@
        * [getGeneralSettings()](getgeneralsettings.md)
        * [getValue()](getvalue_function.md)
        * [getFieldInfo()](getfieldinfo_function.md)
-       * playFile()
+       * [playFile()](playfile.md)
        * playNumber()
        * playDuration()
        * playTone()
