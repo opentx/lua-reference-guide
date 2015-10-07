@@ -75,7 +75,7 @@
        * [lcd.drawNumber()](lcddrawnumber.md)
        * [lcd.drawChannel()](lcddrawchannel.md)
        * [lcd.drawSwitch()](lcddrawswitch.md)
-       * lcd.drawSource()
+       * [lcd.drawSource()](lcddrawsource.md)
        * lcd.drawPixmap()
        * lcd.drawScreenTitle()
        * lcd.drawCombobox()
