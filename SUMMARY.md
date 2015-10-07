@@ -19,7 +19,7 @@
    * Constants
        * [Key Event Constants](key_events.md)
    * General Functions
-       * getTime()
+       * [getTime()](gettime.md)
        * getDateTime()
        * getVersion()
        * getGeneralSettings()
