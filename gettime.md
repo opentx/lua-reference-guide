@@ -9,8 +9,6 @@ Returns the time since the radio was started in multiple of 10ms
 
 #####Example telemetry script
 
-[Download gettime.lua](gettime.lua)
-
 ```lua
 local function run(e)
   lcd.clear()
