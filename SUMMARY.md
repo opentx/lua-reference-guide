@@ -7,8 +7,8 @@
 * [Part I - Script Type Overview](part_i_-_script_type_overview.md)
    * [Mix Scripts](mix.md)
    * [Telemetry Scripts](telemetry.md)
-   * [Wizard Script](wizard.md)
    * One-Time Scripts
+   * [Wizard Script](wizard.md)
 * [Part II - OpenTX Lua API Programming Guide](part_ii_-_opentx_lua_api_programming_guide.md)
    * [Input Table Syntax](input_table_syntax.md)
    * [Output Table Syntax](output_table_syntax.md)
