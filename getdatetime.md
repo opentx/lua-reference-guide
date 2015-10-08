@@ -31,4 +31,4 @@ return{run=run}
 
 
 #####Example output
-![getDateTime() example output](getdatetime.png)
+![getDateTime() example output](getdttim.png)
