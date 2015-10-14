@@ -151,8 +151,8 @@
 |	ls30	|	Logical switch L30	|		|
 |	ls31	|	Logical switch L31	|		|
 |	ls32	|	Logical switch L32	|		|
-|	pilot-latitude	|	Latitude of frist GPS position [degrees, North is positive]	|		|
-|	pilot-longitude	|	Longitude of frist GPS position [degrees, East is positive]	|		|
+|	pilot-latitude	|	Latitude of first GPS position [degrees, North is positive]	|		|
+|	pilot-longitude	|	Longitude of first GPS position [degrees, East is positive]	|		|
 |	power	|	Current sensor - power [wats]	|		|
 |	power-max	|	Current sensor - highest power [wats]	|		|
 |	rpm	|	Rotational speed [revolutions per minute]	|		|
