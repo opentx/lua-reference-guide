@@ -2,7 +2,7 @@
 
 #####Overview
 
-With OpenTx 2.1 it is possible to multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
+With OpenTx 2.1 it is possible to have multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
 
 Value names are case sensitive and may include some or all of the following:
  - GPS (latitude and longitude as a lua table containing [lat] and [lng])
