@@ -83,5 +83,5 @@
        * [lcd.drawCombobox()](lcddrawcombobox.md)
 * [Part IV - Converting OpenTX 2.0 Scripts](part_iv_-_converting_opentx_20_scripts.md)
    * [Known Issues](known_issues.md)
-   * Replacement for getValue('latitude') and getValue("longitude")
+   * [Replacement for getValue('latitude') and getValue("longitude")](replacement_for_getvaluelatitude_and_getvaluelongitude.md)
 
