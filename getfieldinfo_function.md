@@ -116,7 +116,7 @@
 |	input30	|	Input [I30]	|		|
 |	input31	|	Input [I31]	|		|
 |	input32	|	Input [I32]	|		|
-|	latitude	|	GPS latitude [degrees, North is positive]	|		|
+|	latitude	|	GPS latitude [degrees, North is positive]	|	deprecated in 2.1 see [Replacement for getValue('latitude') and getValue('longitude')](replacement_for_getvaluelatitude_and_getvaluelongitude.md)	|
 |	longitude	|	GPS longitude [degrees, East is positive]	|		|
 |	ls	|	Left slider	|		|
 |	ls1	|	Logical switch L1	|		|
