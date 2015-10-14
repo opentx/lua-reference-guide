@@ -1,8 +1,17 @@
-# Replacement for getValue('latitude') and getValue("longitude")
+# Handling GPS Sensor data
 
 #####Overview
 
-With OpenTx 2.1 it is possible to multiple GPS sensors, each with their own user-assigned name.  This example demonstrates getting latitude and longitude from a sensor with the default name of 'GPS'
+With OpenTx 2.1 it is possible to multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
+
+Value names are case sensitive and may include some or all of the following:
+ - GPS (latitude and longitude)
+ - GSpd (speed in knots)
+ - GAlt (altitude in meters)
+ - Date (gps date converted to local time)
+ - Hdg (heading in degrees true)
+
+This example demonstrates getting latitude and longitude from a sensor with the default name of 'GPS'
 
 ```lua
 local gpsValue = "unknown"
