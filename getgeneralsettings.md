@@ -7,7 +7,7 @@ Returns current radio settings values via a Lua table
  - Returns: settings values (as a Lua string) containing members:
    - battMin
    - battMax
-   - imperial
+   - imperial (0 == metric, 1 == imperial)
  - Status: current Introduced in 2.1
 
 #####Example telemetry script
