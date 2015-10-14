@@ -84,4 +84,5 @@
 * [Part IV - Converting OpenTX 2.0 Scripts](part_iv_-_converting_opentx_20_scripts.md)
    * [Known Issues](known_issues.md)
    * [Handling GPS Sensor data](handling_gps_sensor_data.md)
+   * Handling Lipo Sensor Data
 
