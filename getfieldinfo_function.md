@@ -21,7 +21,7 @@
 |	altitude	|	Variometer altitude [meters]	|		|
 |	altitude-max	|	Highest altitude [meters]	|		|
 |	altitude-min	|	Lowest altitude [meters]	|		|
-|	cell-min	|	LiPo sensor - lowest current cell voltage [volts]	|		|
+|	cell-min	|	LiPo sensor - lowest current cell voltage [volts]	| obsolete in 2.1 see [Handling Lipo Sensor data](handling_lipo_sensor_data.md)		|
 |	cell-min-min	|	LiPo sensor - all time lowest cell voltage [volts]	|		|
 |	cell-sum	|	LiPo sensor - current summ of all cell voltages [volts]	|		|
 |	cell-sum-min	|	LiPo sensor - all time lowest summ of all cell voltages [volts]	|		|
@@ -116,8 +116,8 @@
 |	input30	|	Input [I30]	|		|
 |	input31	|	Input [I31]	|		|
 |	input32	|	Input [I32]	|		|
-|	latitude	|	GPS latitude [degrees, North is positive]	|	deprecated in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)	|
-|	longitude	|	GPS longitude [degrees, East is positive]	| deprecated in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
+|	latitude	|	GPS latitude [degrees, North is positive]	|	obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)	|
+|	longitude	|	GPS longitude [degrees, East is positive]	| obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
 |	ls	|	Left slider	|		|
 |	ls1	|	Logical switch L1	|		|
 |	ls2	|	Logical switch L2	|		|
