@@ -22,9 +22,9 @@
 |	altitude-max	|	Highest altitude [meters]	|		|
 |	altitude-min	|	Lowest altitude [meters]	|		|
 |	cell-min	|	LiPo sensor - lowest current cell voltage [volts]	| obsolete in 2.1 see [Handling Lipo Sensor data](handling_lipo_sensor_data.md)		|
-|	cell-min-min	|	LiPo sensor - all time lowest cell voltage [volts]	|		|
-|	cell-sum	|	LiPo sensor - current summ of all cell voltages [volts]	|		|
-|	cell-sum-min	|	LiPo sensor - all time lowest summ of all cell voltages [volts]	|		|
+|	cell-min-min	|	LiPo sensor - all time lowest cell voltage [volts]	|obsolete in 2.1 see [Handling Lipo Sensor data](handling_lipo_sensor_data.md)		|
+|	cell-sum	|	LiPo sensor - current summ of all cell voltages [volts]	|obsolete in 2.1 see [Handling Lipo Sensor data](handling_lipo_sensor_data.md)		|
+|	cell-sum-min	|	LiPo sensor - all time lowest summ of all cell voltages [volts]	|obsolete in 2.1 see [Handling Lipo Sensor data](handling_lipo_sensor_data.md)		|
 |	ch1	|	Channel CH1	|		|
 |	ch2	|	Channel CH2	|		|
 |	ch3	|	Channel CH3	|		|
