@@ -70,10 +70,10 @@
 |	ele	|	Elevator	|		|
 |	flight-mode	|	Current flight mode number [number]	|		|
 |	fuel	|	Fuel level [percent]	|		|
-|	gps-altitude	|	GPS altitude [meters]	|		|
-|	gps-clock	|	GPS clock [seconds from midnight]	|		|
-|	gps-speed	|	GPS speed [knots]	|		|
-|	gps-speed-max	|	Highest GPS speed [knots]	|		|
+|	gps-altitude	|	GPS altitude [meters]	| obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
+|	gps-clock	|	GPS clock [seconds from midnight]	|obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
+|	gps-speed	|	GPS speed [knots]	|obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
+|	gps-speed-max	|	Highest GPS speed [knots]	|obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
 |	gvar1	|	Global variable 1	|		|
 |	gvar2	|	Global variable 2	|		|
 |	gvar3	|	Global variable 3	|		|
