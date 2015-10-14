@@ -5,12 +5,12 @@ Returns the date and time from the transmitter realtime clock
 
  - Parameters: none
  - Returns: a Lua table with the following named elements
- - - year
- - - mon
- - - day
- - - hour
- - - min
- - - sec
+   - year
+   - mon
+   - day
+   - hour
+   - min
+   - sec
  - Status: current Introduced in 2.0.0
 
 #####Example telemetry script
