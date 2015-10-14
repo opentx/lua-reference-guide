@@ -49,7 +49,7 @@ end
 local function run(e)
   lcd.clear()
   background() -- update current GPS position
-  lcd.drawText(1,1,"OpenTx 2.1 GPS example",0)
+  lcd.drawText(1,1,"OpenTX 2.1 GPS example",0)
   lcd.drawText(1,11,"GPS:", 0)
   lcd.drawText(lcd.getLastPos()+2,11,gpsValue,0)
 end
