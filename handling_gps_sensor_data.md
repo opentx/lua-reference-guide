@@ -5,10 +5,10 @@
 With OpenTx 2.1 it is possible to multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
 
 Value names are case sensitive and may include some or all of the following:
- - GPS (latitude and longitude)
+ - GPS (latitude and longitude as a lua table containing [lat] and [lng])
  - GSpd (speed in knots)
  - GAlt (altitude in meters)
- - Date (gps date converted to local time)
+ - Date (gps date converted to local time as a lua table containing [year] [mon] [day] [hour] [min] [sec])
  - Hdg (heading in degrees true)
 
 This example demonstrates getting latitude and longitude from a sensor with the default name of 'GPS'
