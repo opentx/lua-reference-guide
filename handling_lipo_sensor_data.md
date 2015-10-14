@@ -38,7 +38,7 @@ end
 local function run(e)
   background()
   lcd.clear()
-  lcd.drawText(1,1,"OpenTx 2.1 cell voltage example",0)
+  lcd.drawText(1,1,"OpenTX 2.1 cell voltage example",0)
   lcd.drawText(1,11,"Cels:", 0)
   lcd.drawText(lcd.getLastPos()+2,11,cellValue,0)
 end
