@@ -83,7 +83,7 @@
 |	gvar7	|	Global variable 7	|		|
 |	gvar8	|	Global variable 8	|		|
 |	gvar9	|	Global variable 9	|		|
-|	heading	|	GPS heading [degrees]	|		|
+|	heading	|	GPS heading [degrees]	|obsolete in 2.1 see [Handling GPS Sensor data](handling_gps_sensor_data.md)		|
 |	input1	|	Input [I1]	|		|
 |	input2	|	Input [I2]	|		|
 |	input3	|	Input [I3]	|		|
