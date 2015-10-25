@@ -17,6 +17,10 @@ SOURCE inputs provide the current value of a selected OpenTX variable. The sourc
 { "<name>", VALUE, <min>, <max>, <default> }
 ```
 VALUE inputs provide a constant value that is set by the user when the mix script is configured.
+  * *name* - maximum length of 8 characters
+  * *min* - minimum value of -128
+  * *max* - maximum value of 127
+  * *default* - must be within the valid range specified
 
 #####Example using a SOURCE and a VALUE
 ```lua
