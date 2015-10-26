@@ -22,6 +22,9 @@ VALUE inputs provide a constant value that is set by the user when the mix scrip
   * *max* - maximum value of 127
   * *default* - must be within the valid range specified
 
+
+*  #####Maximum of 8 inputs per script
+
 #####Example using a SOURCE and a VALUE
 ```lua
 local input =
@@ -34,7 +37,7 @@ local function run(strength, interval)
     -- variable strength will contain the current slider value
     -- variable interval is set by the user and constant through script lifetime
 
-    -- ****script has no return value but may use playFile() to alert user
+    -- this script has no return value but may use playFile() to alert user
 
     return
 end
