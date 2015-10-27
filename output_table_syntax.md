@@ -24,6 +24,8 @@ return {output=output, run=run}
 
 * Output name is limited to four characters.
 
+* A maximum of 6 outputs are supported
+
 * Number Format
 Outputs are 16 bit signed integers when they leave Lua script and are then divided by 10.24 to produce output value in percent:
 
