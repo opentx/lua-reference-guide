@@ -1,4 +1,4 @@
-# io.read(<file object> , <length>)
+# io.read(\<file object> , \<length>)
 
 The io.read() function is used to read data from the file on SD card.
 
@@ -13,6 +13,6 @@ The io.read() function is used to read data from the file on SD card.
 
 ### Return value
 
-* `<string>` a string with a length equal or less than <length>
+* `\<string>` a string with a length equal or less than <length>
 
 * `""` a zero length string if the end of file was reached

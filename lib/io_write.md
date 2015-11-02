@@ -1,4 +1,4 @@
-# io.write(<file object> , <data>[, <data>, ...])
+# io.write(\<file object> , \<data>[, \<data>, ...])
 
 The io.write() function is used to write data to the file on SD card.
 
@@ -7,7 +7,7 @@ The io.write() function is used to write data to the file on SD card.
 
 * `file object` a file object that was returned by the io.open() function. The file must be opened in write or append mode.
 
-* `<data>` any Lua type that can be converted into string. If more than one data parameter is used their contents are written to the file by one in the same order as they are specified.
+* `data` any Lua type that can be converted into string. If more than one data parameter is used their contents are written to the file by one in the same order as they are specified.
 
 ### Return value
 

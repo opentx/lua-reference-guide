@@ -1,4 +1,4 @@
-# io.open(<filename> [, <mode>])
+# io.open(\<filename> [, \<mode>])
 
 The io.open() function is used to open the file on SD card for subsequent reading or writing. After the script is done with the file manipulation [io.close()](io_close.md) function should be used.
 
@@ -19,7 +19,7 @@ The io.open() function is used to open the file on SD card for subsequent readin
 
 ### Return value
 
-* `<file object>` if file was successfully opened.
+* `\<file object>` if file was successfully opened.
 
 * `nil` if file could not be opened.
 
