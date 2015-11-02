@@ -1,4 +1,4 @@
-# io.write(\<file object> , \<data>[, \<data>, ...])
+# io.write(&lt;file object&gt; , &lt;data&gt;[, &lt;data&gt;, ...])
 
 The io.write() function is used to write data to the file on SD card.
 

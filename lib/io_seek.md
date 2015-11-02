@@ -1,4 +1,4 @@
-# io.seek(\<file object> , \<offset>)
+# io.seek(&lt;file object&gt; , &lt;offset&gt;)
 
 The io.seek() function is used to move the current read/write position.
 
