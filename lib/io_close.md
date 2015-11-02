@@ -1,4 +1,4 @@
-# io.close(\<file object>)
+# io.close(&lt;file object&gt;)
 
 The io.close() function is used to close open file.
 
