@@ -70,7 +70,7 @@
        * [model.getGlobalVariable()](model/modelgetglobalvariable.md)
        * [model.setGlobalVariable()](model/modelsetglobalvariable.md)
    * [Display Functions](lcd/display_functions.md)
-       * [ldc.lock()](lcd/lcd/lcdlock.md)
+       * [lcd.lock()](lcd/lcdlock.md)
        * [lcd.clear()](lcd/lcdclear.md)
        * [lcd.getLastPos()](lcd/lcdgetlastpos.md)
        * [lcd.drawPoint()](lcd/lcddrawpoint.md)
