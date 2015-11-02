@@ -22,17 +22,3 @@ The io.open() function is used to open the file on SD card for subsequent readin
 * `<file object>` if file was successfully opened.
 
 * `nil` if file could not be opened.
-
-
-### io.seek(fd, offset)
-`fd` file object
-`offset` is always based from the beginning of the file. If offset is bigger than the file size, the pointer is moved to the end of the file.
-Other standard seek bases (like "cur", "end") are not supported.
-
-### io.read(fd, length)
-`fd` file object
-`length` number of characters to read.
-
-Other read *commands* (like "*all") are **not supported**.
-
-Return: string, number of characters returned is <= length. If end of file is reached, then empty string is returned.
