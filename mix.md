@@ -33,11 +33,11 @@ Place them on SD card in folder /SCRIPTS/MIXES/
 * script *init* function is called
 * script *run* function is periodically called (inside GUI thread, period cca 30ms)
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
-* all model scripts are stopped while one-time script is running (see Lua One-time scripts)
+* all mix scripts are stopped while one-time script is running (see Lua One-time scripts)
 
 ##### Script interface definition
 
-Every mix script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
+Every script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * script *input* table (optional, see [Input Table Syntax](input_table_syntax.md))
 * script *output* table (optional, see [Output Table Syntax](output_table_syntax.md))
 * script *init* function (optional, see [Init Function Syntax](init_function_syntax.md))

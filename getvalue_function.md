@@ -27,4 +27,4 @@ The format of the returned value can vary based on the field requested.
  - Simple return values may be lua numbers or a string
 
 #####Table return values
- - Some fields return complex data via lua tables.
+ - Some fields return complex data via lua tables. See ['Handling GPS Sensor Data'](handling_gps_sensor_data.md) and ['Handling Lipo Sensor Data'](handling_lipo_sensor_data.md) for examples.
