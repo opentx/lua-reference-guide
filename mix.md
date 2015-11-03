@@ -37,7 +37,7 @@ Place them on SD card in folder /SCRIPTS/MIXES/
 
 ##### Script interface definition
 
-Every mix script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
+Every script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * script *input* table (optional, see [Input Table Syntax](input_table_syntax.md))
 * script *output* table (optional, see [Output Table Syntax](output_table_syntax.md))
 * script *init* function (optional, see [Init Function Syntax](init_function_syntax.md))
