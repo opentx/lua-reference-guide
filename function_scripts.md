@@ -32,7 +32,7 @@ Place them on SD card in folder /SCRIPTS/FUNCTIONS/
 
 ##### Script interface definition
 
-Every function script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
+Every script must include a *return* statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * script *init* function (optional, see [Init Function Syntax](init_function_syntax.md))
 * script *run* function (see [Run Function Syntax](run_function_syntax.md))
 
