@@ -12,5 +12,7 @@ Part III is the OpenTX Lua API Reference
 
 Part IV addresses common issues in converting Lua scripts that were originally written for OpenTX 2.0
 
+Part V covers advanced topics with examples
+
 
 

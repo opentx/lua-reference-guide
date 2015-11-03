@@ -9,7 +9,7 @@ The input table defines what values are available as input(s) to [mix scripts](m
 { "<name>", SOURCE }
 ```
 SOURCE inputs provide the current value of a selected OpenTX variable. The source must set by the user when the mix script is configured. Source can be any value OpenTX knows about (inputs, channels, telemetry values, switches, custom functions,...).<br/>
-*Note:* see [getValue()](getvalue_function.md) function for proper interpretation of input values.
+*Note:* typical range is -1024 thru +1024 see [getValue()](getvalue_function.md) function for proper interpretation of input values.
 
 
 * #####VALUE syntax

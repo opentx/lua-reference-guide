@@ -91,4 +91,8 @@
    * [General Issues](known_issues.md)
    * [Handling GPS Sensor data](handling_gps_sensor_data.md)
    * [Handling Lipo Sensor Data](handling_lipo_sensor_data.md)
+* [Part V - Advanced Topics](part_v_-_advanced_topics.md)
+   * [Lua data sharing across scripts](lua_data_sharing_across_scripts.md)
+   * [Debugging techniques](debugging_techniques.md)
+
 

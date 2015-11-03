@@ -1,6 +1,42 @@
 # getFieldInfo() Function
 
-#### getFieldInfo() Field Names
+#####Overview
+
+This function gets detailed information about field.
+
+#####Parameters
+ - Field name (see table below)
+ 
+#####Return values
+ - Returns a Lua table containing the following fields:
+     - id - numeric identifier (see getValue())
+     - name - short name
+     - desc - description
+
+#####Example telemetry script
+```lua
+local function run(e)
+  local fieldinfo = getFieldInfo('rs')
+  lcd.clear()
+  lcd.drawText(1,1,"getFieldInfo() example",0)
+  if fieldinfo then 
+    lcd.drawText(1,11,"id: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,11,fieldinfo['id'],0)
+    lcd.drawText(1,21,"name: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,21,fieldinfo['name'],0)
+    lcd.drawText(1,31,"desc: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,31,fieldinfo['desc'],0)
+  else
+    lcd.drawText(1,11,"Requested field not available!", 0)    
+  end
+end
+
+return{run=run}```
+
+#####Sample output
+![getFieldInfo() example](getFieldInfo.png)
+
+##### getFieldInfo() Field Names
 
 |	Field Name	|	Description	|	Notes	|
 |---|---|---|
