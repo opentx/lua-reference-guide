@@ -33,7 +33,7 @@ Place them on SD card in folder /SCRIPTS/MIXES/
 * script *init* function is called
 * script *run* function is periodically called (inside GUI thread, period cca 30ms)
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
-* all model scripts are stopped while one-time script is running (see Lua One-time scripts)
+* all mix scripts are stopped while one-time script is running (see Lua One-time scripts)
 
 ##### Script interface definition
 
