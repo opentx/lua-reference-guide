@@ -1,6 +1,7 @@
 # Summary
 
 * [OpenTX 2.1 Lua Reference Guide](README.md)
+   * intro
 * [Introduction](introduction.md)
    * [Acknowledgments](acknowledgments.md)
    * [Getting Started](getting_started.md)
@@ -18,11 +19,11 @@
    * [Return Statement Syntax](return_statement_syntax.md)
    * [Included Lua Libraries](included_lua_libraries.md)
        * [io Library](lib/io.md)
-          * [io.open()](lib/io_open.md)
-          * [io.close()](lib/io_close.md)
-          * [io.read()](lib/io_read.md)
-          * [io.write()](lib/io_write.md)
-          * [io.seek()](lib/io_seek.md)
+           * [io.open()](lib/io_open.md)
+           * [io.close()](lib/io_close.md)
+           * [io.read()](lib/io_read.md)
+           * [io.write()](lib/io_write.md)
+           * [io.seek()](lib/io_seek.md)
 * [Part III - OpenTX Lua API Reference](part_iii_-_opentx_lua_api_reference.md)
    * [Constants](constants.md)
        * [Key Event Constants](key_events.md)
@@ -94,5 +95,4 @@
 * [Part V - Advanced Topics](part_v_-_advanced_topics.md)
    * [Lua data sharing across scripts](lua_data_sharing_across_scripts.md)
    * [Debugging techniques](debugging_techniques.md)
-
 
