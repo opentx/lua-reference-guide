@@ -25,7 +25,7 @@ Place them on SD card in folder /SCRIPTS/FUNCTIONS/
 
 ##### Lifetime
 
-* script *init* function is called once with model is loaded
+* script *init* function is called once when model is loaded
 * script *run* function is periodically called as long as switch condition is true
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
 
