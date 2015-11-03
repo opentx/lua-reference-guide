@@ -16,7 +16,7 @@ Function scripts are invoked via the **'Lua Script'** option of Special Function
 ##### Limitations
 
 * should not exceed allowed run-time/ number of instructions.
-* all function scripts are stopped while function script is running
+* all function scripts are stopped while one-time script is running (see Lua One-time scripts)
 * Version 2.1 function scripts **DO NOT HAVE ACCESS TO LCD DISPLAY**
 
 ##### Location
