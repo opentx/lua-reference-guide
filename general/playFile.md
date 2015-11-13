@@ -18,6 +18,6 @@ the current language path (example for English language: `/SOUNDS/en`)
 none
 
 ---
-Plays a track with given name
+Plays a track with a given name
 
 

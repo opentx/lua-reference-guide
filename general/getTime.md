@@ -12,7 +12,7 @@ none
 
 * `number` current system time. Returned value is the 
 number of 10ms periods since the radio start. Example: 
- *run time: 12.54 seconds, return value: 1254
+run time: 12.54 seconds, return value: 1254
 
 
 
