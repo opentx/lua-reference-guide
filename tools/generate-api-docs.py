@@ -231,7 +231,7 @@ for m in MODULES.iterkeys():
     with open(docName, "w") as out:
       out.write(doc)
       logInfo("generated %s" % docName)
-    if len(f[0]) > 0:
+    if f[0] != "general":
       summary += "       * [%s.%s()](%s)\n" % (f[0], f[1], docName)
     else:
       summary += "       * [%s()](%s)\n" % (f[1], docName)
