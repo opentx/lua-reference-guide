@@ -4,6 +4,9 @@
 
 
 
+Draws a straight line on LCD
+
+
 #### Parameters
 
 * `x1,y1` (positive numbers) starting coordinate
@@ -19,10 +22,6 @@
 #### Return
 
 none
-
----
-Draws a straight line on LCD
-
 
 ##### Notice
 If the start or the end of the line is outside the LCD dimensions, then the

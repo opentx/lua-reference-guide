@@ -4,6 +4,9 @@
 
 
 
+Sets current global variable value. See also model.getGlobalVariable()
+
+
 #### Parameters
 
 * `index`  zero based output index, use 0 for CH1, 31 for CH32
@@ -23,8 +26,4 @@
 #### Return
 
 none
-
----
-Sets current global variable value. See also model.getGlobalVariable()
-
 

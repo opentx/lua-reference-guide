@@ -4,6 +4,9 @@
 
 
 
+Returns (some of) the general radio settings
+
+
 #### Parameters
 
 * `index`  zero based global variable index, use 0 for GV1, 8 for GV9
@@ -19,9 +22,5 @@
  IMPERIAL units
 
 
-
-
----
-Returns (some of) the general radio settings
 
 

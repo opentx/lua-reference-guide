@@ -4,6 +4,9 @@
 
 
 
+Returns detailed information about a field
+
+
 #### Parameters
 
 * `name`  name of the field (string)
@@ -19,9 +22,5 @@
 
 * `nil` the requested filed was not found
 
-
-
----
-Returns detailed information about a field
 
 

@@ -4,6 +4,9 @@
 
 
 
+Sets current global variable value. See also model.getGlobalVariable()
+
+
 #### Parameters
 
 * `index`  zero based global variable index, use 0 for GV1, 8 for GV9
@@ -20,10 +23,6 @@ from -1024 to 1024.
 
 none
 
----
-Sets current global variable value. See also model.getGlobalVariable()
-
-
 ##### Notice
 Global variable can only store integer values, 
 any floating point value is converted (todo check how) into integer value.
@@ -31,8 +30,20 @@ any floating point value is converted (todo check how) into integer value.
 
 
 
+---
+
+### Examples
+
 ### Example
 
 this is a sample example
 
+
+![](setGlobalVariable-example05.png)
+
+```lua
+function foo(bar)
+  local x = bar * 2
+end
+```
 

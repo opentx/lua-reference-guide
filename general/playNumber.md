@@ -4,6 +4,9 @@
 
 
 
+Plays a numerical value (text to speech)
+
+
 #### Parameters
 
 * `value` (number) number to play. Value is interpreted as integer.
@@ -21,8 +24,4 @@
 #### Return
 
 none
-
----
-Plays a numerical value (text to speech)
-
 

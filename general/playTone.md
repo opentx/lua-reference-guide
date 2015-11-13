@@ -4,6 +4,9 @@
 
 
 
+Plays a tone
+
+
 #### Parameters
 
 * `frequency` (number) tone frequency in Hz
@@ -25,10 +28,6 @@ negative number decreases it. Bigger number has more effect
 #### Return
 
 none
-
----
-Plays a tone
-
 
 ##### Notice
 Minimum played frequency is 150Hz even if a lower value is specified.

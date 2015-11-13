@@ -4,6 +4,9 @@
 
 
 
+Erases all contents of LCD.
+
+
 #### Parameters
 
 none
@@ -11,10 +14,6 @@ none
 #### Return
 
 none
-
----
-Erases all contents of LCD.
-
 
 ##### Notice
 This function only works in stand-alone and telemetry scripts.

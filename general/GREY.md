@@ -4,6 +4,9 @@
 
 
 
+Returns gray value which can be used in lcd functions
+
+
 #### Parameters
 
 none
@@ -13,9 +16,5 @@ none
 * `(number)` a value that represents amount of *greyness* (from 0 to 15)
 
 
-
-
----
-Returns gray value which can be used in lcd functions
 
 

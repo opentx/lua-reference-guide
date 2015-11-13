@@ -4,6 +4,9 @@
 
 
 
+Plays a track with a given name
+
+
 #### Parameters
 
 * `name` (string) file name (including path) to play. If the path is not 
@@ -16,8 +19,4 @@ the current language path (example for English language: `/SOUNDS/en`)
 #### Return
 
 none
-
----
-Plays a track with a given name
-
 

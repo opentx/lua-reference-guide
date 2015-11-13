@@ -4,6 +4,9 @@
 
 
 
+Plays a numerical value (text to speech)
+
+
 #### Parameters
 
 * `duration` (number) number of seconds to play. Only integral part is used.
@@ -18,8 +21,4 @@
 #### Return
 
 none
-
----
-Plays a numerical value (text to speech)
-
 

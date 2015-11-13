@@ -4,6 +4,9 @@
 
 
 
+Returns current system time
+
+
 #### Parameters
 
 none
@@ -15,9 +18,5 @@ number of 10ms periods since the radio start. Example:
 run time: 12.54 seconds, return value: 1254
 
 
-
-
----
-Returns current system time
 
 

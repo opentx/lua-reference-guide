@@ -4,6 +4,7 @@
 
 
 
+
 #### Parameters
 
 none
@@ -11,8 +12,6 @@ none
 #### Return
 
 none
-
----
 
 ##### Notice
 This function has no effect in OpenTX 2.1

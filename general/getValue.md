@@ -4,6 +4,9 @@
 
 
 
+Returns current value of the requested field. 
+
+
 #### Parameters
 
 * `name_or_id`  identifier (number) or name (string) of the field
@@ -30,10 +33,6 @@ case the returned value is 0):
  * each item name is the cell number (1 to number of cells)
  * each item value is the current cell voltage
 
-
-
----
-Returns current value of the requested field. 
 
 
 ##### Notice

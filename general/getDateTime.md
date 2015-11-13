@@ -4,6 +4,9 @@
 
 
 
+Returns current system date and time that is kept by the RTC unit
+
+
 #### Parameters
 
 none
@@ -18,9 +21,5 @@ none
  * `min` minutes
  * `sec` seconds
 
-
-
----
-Returns current system date and time that is kept by the RTC unit
 
 

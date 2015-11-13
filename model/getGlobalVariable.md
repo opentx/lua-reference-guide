@@ -4,6 +4,17 @@
 
 
 
+Returns current global variable value. 
+See also model.setGlobalVariable()
+
+Example:
+
+```lua
+  -- get GV3 (index = 2) from flight phase 1 (phase = 0)
+  val = model.getGlobalVariable(2, 0)
+```
+
+
 #### Parameters
 
 * `index`  zero based global variable index, use 0 for GV1, 8 for GV9
@@ -18,18 +29,6 @@
 
 * `number` current value of global variable
 
-
-
----
-Returns current global variable value. 
-See also model.setGlobalVariable()
-
-Example:
-
-```lua
-  -- get GV3 (index = 2) from flight phase 1 (phase = 0)
-  val = model.getGlobalVariable(2, 0)
-```
 
 
 ##### Notice

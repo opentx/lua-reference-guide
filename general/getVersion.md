@@ -4,22 +4,6 @@
 
 
 
-#### Parameters
-
-none
-
-#### Return
-
-* `string` OpenTX version (ie "2.1.5")
-
-* `list` (available since OpenTX 2.1.7) returns two values:
- * `string` OpenTX version (ie "2.1.5")
- * `string` radio version: `taranisx9e`, `taranisplus` or `taranis`. 
-If running in simulator the "-simu" is added
-
-
-
----
 Returns OpenTX version
 
 ### Example
@@ -42,5 +26,20 @@ version: 2.1.7
 radio: taranis-simu
 Script finished with status 1
 ```
+
+
+#### Parameters
+
+none
+
+#### Return
+
+* `string` OpenTX version (ie "2.1.5")
+
+* `list` (available since OpenTX 2.1.7) returns two values:
+ * `string` OpenTX version (ie "2.1.5")
+ * `string` radio version: `taranisx9e`, `taranisplus` or `taranis`. 
+If running in simulator the "-simu" is added
+
 
 

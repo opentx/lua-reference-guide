@@ -4,6 +4,9 @@
 
 
 
+Cancels the key press propagation to the normal user interface algorithm.
+
+
 #### Parameters
 
 * `event` (number) event to be suppressed
@@ -13,10 +16,6 @@
 #### Return
 
 none
-
----
-Cancels the key press propagation to the normal user interface algorithm.
-
 
 ##### Notice
 This function has currently no effect in OpenTX 2.1.x series

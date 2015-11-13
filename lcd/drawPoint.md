@@ -4,6 +4,9 @@
 
 
 
+Draws a single pixel on LCD
+
+
 #### Parameters
 
 * `x` (positive number) x position, starts from 0 in top left corner. 
@@ -15,10 +18,6 @@
 #### Return
 
 none
-
----
-Draws a single pixel on LCD
-
 
 ##### Notice
 Drawing on an existing black pixel produces white pixel (TODO check this!)

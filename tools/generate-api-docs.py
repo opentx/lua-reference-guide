@@ -124,14 +124,33 @@ def escape(txt):
 
 def addExamples(moduleName, funcName):
   doc = ""
-  examplePattern = "%s/%s-example*.md" % (moduleName, funcName)
-  logDebug("Looking for examples that fit patter: %s" % examplePattern)
-  for example in glob.iglob(examplePattern):
-    logInfo("Adding contents of example %s" % example)
-    with open(example, "r") as e:
-      doc += "\n\n"
-      doc += e.read()
-      doc += "\n\n"
+  examplePattern = "%s/%s-example*.*" % (moduleName, funcName)
+  logDebug("Looking for examples that fit pattern: %s" % examplePattern)
+  examples = glob.glob(examplePattern)
+  if len(examples) > 0:
+    # sort examples without considering their extension
+    examples = sorted( [x.split(".") for x in examples] )
+    # header
+    doc += "\n\n---\n\n### Examples\n\n"
+    for example in examples:
+      fileName = example[0]+"."+example[1]
+      logInfo("Adding contents of example %s" % fileName)
+      with open(fileName, "r") as e:
+        if example[1] == "md":
+          # md files are included verbatim
+          doc += e.read()
+          doc += "\n\n"
+        if example[1] == "lua":
+          # lua files are escaped in code block
+          doc += "```lua\n"
+          doc += e.read()
+          if doc[-1] != '\n':
+            doc += "\n"
+          doc += "```\n\n"
+        if example[1] == "png":
+          # png files are linked as images
+          doc += "![](%s)" % os.path.basename(fileName)
+          doc += "\n\n"
   return doc  
 
 def generateFunctionDoc(f):
@@ -140,6 +159,10 @@ def generateFunctionDoc(f):
   
   # name
   doc += "## %s\n\n" % escape(f[2])
+
+  # description
+  doc += "%s" % f[3]
+  doc += "\n" 
 
   # params
   doc += "#### Parameters\n\n"
@@ -158,11 +181,6 @@ def generateFunctionDoc(f):
     for p in f[5]:
       doc += "* `%s` %s" % p
   doc += "\n\n"
-
-  # description
-  doc += "---\n"
-  doc += "%s" % f[3]
-  doc += "\n" 
 
   # notices
   if len(f[6]) > 0:
