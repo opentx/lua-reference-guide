@@ -19,7 +19,7 @@ Draws a straight line on LCD
 
 
 
-#### Return
+#### Return value
 
 none
 

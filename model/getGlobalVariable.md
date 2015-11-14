@@ -23,7 +23,7 @@ Example:
 
 
 
-#### Return
+#### Return value
 
 * `nil`   requested global variable does not exist
 

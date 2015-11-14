@@ -11,7 +11,7 @@ Returns current system date and time that is kept by the RTC unit
 
 none
 
-#### Return
+#### Return value
 
 * `table` current date and time, table elements:
  * `year` year

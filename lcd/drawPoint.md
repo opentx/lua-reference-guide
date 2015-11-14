@@ -15,7 +15,7 @@ Draws a single pixel on LCD
 
 
 
-#### Return
+#### Return value
 
 none
 

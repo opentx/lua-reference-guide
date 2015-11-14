@@ -11,7 +11,7 @@ Returns current system time
 
 none
 
-#### Return
+#### Return value
 
 * `number` current system time. Returned value is the 
 number of 10ms periods since the radio start. Example: 

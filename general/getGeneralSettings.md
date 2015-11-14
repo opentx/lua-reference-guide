@@ -13,7 +13,7 @@ Returns (some of) the general radio settings
 
 
 
-#### Return
+#### Return value
 
 * `table` with elements:
  * `battMin` radio battery range - minimum value

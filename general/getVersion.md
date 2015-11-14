@@ -32,7 +32,7 @@ Script finished with status 1
 
 none
 
-#### Return
+#### Return value
 
 * `string` OpenTX version (ie "2.1.5")
 

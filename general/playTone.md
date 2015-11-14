@@ -25,7 +25,7 @@ negative number decreases it. Bigger number has more effect
 
 
 
-#### Return
+#### Return value
 
 none
 

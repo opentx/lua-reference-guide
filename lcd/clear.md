@@ -11,7 +11,7 @@ Erases all contents of LCD.
 
 none
 
-#### Return
+#### Return value
 
 none
 

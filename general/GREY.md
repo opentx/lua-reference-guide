@@ -11,7 +11,7 @@ Returns gray value which can be used in lcd functions
 
 none
 
-#### Return
+#### Return value
 
 * `(number)` a value that represents amount of *greyness* (from 0 to 15)
 

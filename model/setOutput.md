@@ -23,7 +23,7 @@ Sets current global variable value. See also model.getGlobalVariable()
 
 
 
-#### Return
+#### Return value
 
 none
 

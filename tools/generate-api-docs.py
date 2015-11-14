@@ -175,7 +175,7 @@ def generateFunctionDoc(f):
   doc += "\n\n"
 
   # return values
-  doc += "#### Return\n\n"
+  doc += "#### Return value\n\n"
   if len(f[5]) == 0:
     doc += "none"
   else:

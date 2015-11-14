@@ -13,7 +13,7 @@ Returns detailed information about a field
 
 
 
-#### Return
+#### Return value
 
 * `table` information about requested field, table elements:
  * `id` field identifier (number)
