@@ -219,14 +219,14 @@ if len(args.files) == 0:
     args.files.insert(0, "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua_api.cpp")
 
 for fileName in args.files:
-  logDebug("Opening %s" % fileName)
+  logInfo("Opening %s" % fileName)
   if fileName.startswith("http"):
     inp = urllib2.urlopen(fileName)
   else:
     inp = open(fileName, "r")
   data = inp.read()
-  parseSource(data)
   inp.close()
+  parseSource(data)
 
 #show gathered data
 for m in MODULES.iterkeys():
