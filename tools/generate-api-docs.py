@@ -115,7 +115,7 @@ def parseDoc(doc):
 
 def parseSource(data):
   docs = re.findall("/\*luadoc.*?\*/", data, flags = re.DOTALL)
-  logDebug("Found %d documentation sections" % len(docs))
+  logInfo("Found %d documentation sections" % len(docs))
   for doc in docs:
     parseDoc(doc)
 
