@@ -18,7 +18,7 @@ FUNCTIONS = []
 
 STARTMARKER = "[//]: <> (LUADOC-BEGIN:"
 ENDMARKER = "[//]: <> (LUADOC-END:"
-SUMMARYFILE = "SUMMARY.MD"
+SUMMARYFILE = "SUMMARY.md"
 
 def logDebug(txt):
   if DEBUG:
