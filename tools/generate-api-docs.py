@@ -16,6 +16,10 @@ DEBUG = False
 MODULES = {}
 FUNCTIONS = []
 
+STARTMARKER = "[//]: <> (LUADOC-BEGIN:"
+ENDMARKER = "[//]: <> (LUADOC-END:"
+SUMMARYFILE = "SUMMARY.MD"
+
 def logDebug(txt):
   if DEBUG:
     print(txt)
@@ -202,6 +206,40 @@ def mkdir_p(path):
       pass
     else: raise
 
+def insertSection(newContents, sectionName):
+  print("Inserting section: %s" % sectionName)
+  newContents.append("%s%s)\n\n" % (STARTMARKER, sectionName))
+  newContents.append("   * [%s Functions](%s/%s_functions.md)\n" % (sectionName.capitalize(), sectionName, sectionName))
+
+  for f in sorted(MODULES[sectionName]):
+    # f = (moduleName, funcName, funcDefinition, description, params, retvals, notices)
+    newContents.append("      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1]))
+    foo = "      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1])
+    print(foo)
+  newContents.append("\n%s%s)\n\n" % (ENDMARKER, sectionName))
+
+def processSummary():
+  newContents = []
+  ignoreLine = False
+  with open(SUMMARYFILE, "r") as summary:
+    sumContents = summary.readlines()
+
+  for line in sumContents:
+    if line.startswith(STARTMARKER):
+      ignoreLine = True
+    elif line.startswith(ENDMARKER):
+      # parse the section name and call insertSection
+      sectionName = line.split(ENDMARKER)[1].split(")")[0]
+      insertSection(newContents, sectionName)
+      ignoreLine = False
+    else:
+      if not ignoreLine:
+        newContents.append(line)
+
+  with open(SUMMARYFILE, "w+") as out:
+    for line in newContents:
+      out.write(line)
+    logInfo("generated %s" % SUMMARYFILE)
 
 # start of main program
 
@@ -213,10 +251,7 @@ args = parser.parse_args()
 DEBUG = args.debug
 
 if len(args.files) == 0:
-  if DEBUG:
-    args.files.insert(0, "https://raw.githubusercontent.com/opentx/opentx/projectkk2glider/autogen_lua_docs_2/radio/src/lua_api.cpp")
-  else:
-    args.files.insert(0, "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua_api.cpp")
+  args.files.insert(0, "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua_api.cpp")
 
 for fileName in args.files:
   logInfo("Opening %s" % fileName)
@@ -246,6 +281,8 @@ for m in MODULES.iterkeys():
       summary += "       * [%s.%s()](%s)\n" % (f[0], f[1], docName)
     else:
       summary += "       * [%s()](%s)\n" % (f[1], docName)
-
   print("Summary:")
   print(summary)
+
+#now update SUMMARY.MD replacing the outdated sections
+processSummary()
