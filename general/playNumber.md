@@ -6,6 +6,8 @@
 
 Plays a numerical value (text to speech)
 
+@status current Introduced in 2.0.0
+
 
 #### Parameters
 
@@ -13,11 +15,10 @@ Plays a numerical value (text to speech)
 
 * `unit` (number) unit identifier (see table todo)
 
-* `attributes` possible values:
+* `attributes` (unsigned number) possible values:
  * `0 or not present` plays integral part of the number (for a number 123 it plays 123)
  * `PREC1` plays a number with one decimal place (for a number 123 it plays 12.3)
  * `PREC2` plays a number with two decimal places (for a number 123 it plays 1.23)
-
 
 
 

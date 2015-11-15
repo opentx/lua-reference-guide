@@ -6,6 +6,8 @@
 
 Plays a tone
 
+@status current Introduced in 2.1.0
+
 
 #### Parameters
 

@@ -4,7 +4,9 @@
 
 
 
-Plays a numerical value (text to speech)
+Plays a time value (text to speech)
+
+@status current Introduced in 2.1.0
 
 
 #### Parameters
@@ -14,7 +16,6 @@ Plays a numerical value (text to speech)
 * `hourFormat` (number):
  * `0 or not present` play format: minutes and seconds.
  * `!= 0` play format: hours, minutes and seconds.
-
 
 
 

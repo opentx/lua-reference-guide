@@ -4,15 +4,16 @@
 
 
 
-Plays a track with a given name
+Plays a file from the SD card 
+
+@status current Introduced in 2.0.0, changed in 2.1.0
 
 
 #### Parameters
 
-* `name` (string) file name (including path) to play. If the path is not 
-absolute (name starts with the `/` character), then the given name is used relative to
-the current language path (example for English language: `/SOUNDS/en`)
-
+* `path` (string) full path to wav file (i.e. “/SOUNDS/en/system/tada.wav”)
+Introduced in 2.1.0: If you use a relative path, the current language is appended
+to the path (example for English language: `/SOUNDS/en` is appended)
 
 
 

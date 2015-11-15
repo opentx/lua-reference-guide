@@ -4,23 +4,25 @@
 
 
 
-Returns detailed information about a field
+Returns detailed information about field (source)
+
+@status current Introduced in 2.0.8
 
 
 #### Parameters
 
-* `name`  name of the field (string)
+* `name` (string) name of the field
 
 
 
 #### Return value
 
 * `table` information about requested field, table elements:
- * `id` field identifier (number)
- * `name` field name (string)
- * `desc` field description (string)
+ * `id`   (number) field identifier 
+ * `name` (string) field name 
+ * `desc` (string) field description 
 
-* `nil` the requested filed was not found
+* `nil` the requested field was not found
 
 
 

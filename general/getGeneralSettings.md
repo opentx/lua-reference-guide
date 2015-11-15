@@ -6,12 +6,13 @@
 
 Returns (some of) the general radio settings
 
+@status current Introduced in 2.0.6, `imperial` added in TODO
+
+
 
 #### Parameters
 
-* `index`  zero based global variable index, use 0 for GV1, 8 for GV9
-
-
+none
 
 #### Return value
 
@@ -20,7 +21,6 @@ Returns (some of) the general radio settings
  * `battMax` radio battery range - maximum value
  * `imperial` set to a value different from 0 if the radio is set to the
  IMPERIAL units
-
 
 
 

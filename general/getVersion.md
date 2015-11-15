@@ -6,6 +6,8 @@
 
 Returns OpenTX version
 
+@status current Introduced in 2.0.0, expanded in 2.1.7
+
 ### Example
 
 This example also runs in OpenTX versions where the radio version was not available:

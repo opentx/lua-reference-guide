@@ -4,7 +4,9 @@
 
 
 
-Returns current system time
+Returns the time since the radio was started in multiple of 10ms
+
+@status current Introduced in 2.0.0
 
 
 #### Parameters
@@ -13,10 +15,8 @@ none
 
 #### Return value
 
-* `number` current system time. Returned value is the 
-number of 10ms periods since the radio start. Example: 
+* `number` Number of 10ms ticks since the radio was started Example: 
 run time: 12.54 seconds, return value: 1254
-
 
 
 
