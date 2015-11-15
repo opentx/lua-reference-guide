@@ -207,15 +207,13 @@ def mkdir_p(path):
     else: raise
 
 def insertSection(newContents, sectionName):
-  print("Inserting section: %s" % sectionName)
+  logDebug("Inserting section: %s" % sectionName)
   newContents.append("%s%s)\n\n" % (STARTMARKER, sectionName))
   newContents.append("   * [%s Functions](%s/%s_functions.md)\n" % (sectionName.capitalize(), sectionName, sectionName))
 
   for f in sorted(MODULES[sectionName]):
     # f = (moduleName, funcName, funcDefinition, description, params, retvals, notices)
     newContents.append("      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1]))
-    foo = "      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1])
-    print(foo)
   newContents.append("\n%s%s)\n\n" % (ENDMARKER, sectionName))
 
 def processSummary():
