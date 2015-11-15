@@ -48,7 +48,6 @@
 
 [//]: <> (LUADOC-END:general)
 
-
 [//]: <> (LUADOC-BEGIN:model)
 
    * [Model Functions](model/model_functions.md)
@@ -64,7 +63,6 @@
 
 [//]: <> (LUADOC-END:model)
 
-
 [//]: <> (LUADOC-BEGIN:lcd)
 
    * [Lcd Functions](lcd/lcd_functions.md)
@@ -74,7 +72,6 @@
       * [lcd.lock()](lcd/lock.md)
 
 [//]: <> (LUADOC-END:lcd)
-
 
 * [Part IV - Converting OpenTX 2.0 Scripts](part_iv_-_converting_opentx_20_scripts.md)
    * [General Issues](known_issues.md)

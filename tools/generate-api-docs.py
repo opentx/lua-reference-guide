@@ -214,7 +214,7 @@ def insertSection(newContents, sectionName):
   for f in sorted(MODULES[sectionName]):
     # f = (moduleName, funcName, funcDefinition, description, params, retvals, notices)
     newContents.append("      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1]))
-  newContents.append("\n%s%s)\n\n" % (ENDMARKER, sectionName))
+  newContents.append("\n%s%s)\n" % (ENDMARKER, sectionName))
 
 def processSummary():
   newContents = []
