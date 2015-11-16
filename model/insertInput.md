@@ -4,7 +4,7 @@
 
 
 
-Inserts an Input at specified line
+Insert an Input at specified line
 
 @status current Introduced in 2.0.0, `switch` added in TODO
 

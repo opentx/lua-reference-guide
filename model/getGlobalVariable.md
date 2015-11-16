@@ -4,8 +4,7 @@
 
 
 
-Returns current global variable value. 
-See also model.setGlobalVariable()
+Return current global variable value
 
 Example:
 

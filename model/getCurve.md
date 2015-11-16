@@ -23,7 +23,7 @@ Get Curve parameters
  * `name` (string) name
  * `type` (number) type
  * `smooth` (boolean) smooth
- * `points` (number) number of points (0 = 5 points, 4 = 9points)
+ * `points` (number) number of points
  * `y` (table) table of Y values:
    * `key` is point number (zero based)
    * `value` is y value

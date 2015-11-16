@@ -21,3 +21,8 @@ Set Logical Switch parameters
 
 none
 
+##### Notice
+If a parameter is missing from the value, then 
+that parameter remains unchanged.
+
+

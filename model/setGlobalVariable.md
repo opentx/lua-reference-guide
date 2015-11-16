@@ -18,12 +18,15 @@ from -1024 to 1024.
     
 
 
-
 #### Return value
 
 none
 
 ##### Notice
+If a parameter is missing from the value, then 
+that parameter remains unchanged.
+
+
 Global variable can only store integer values, 
 any floating point value is converted (todo check how) into integer value.
 

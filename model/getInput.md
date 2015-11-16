@@ -4,7 +4,7 @@
 
 
 
-Returns input data for given input and line number 
+Return input data for given input and line number 
 
 @status current Introduced in 2.0.0, `switch` added in TODO
 
