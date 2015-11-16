@@ -25,11 +25,8 @@
            * [io.seek()](lib/io_seek.md)
 * [Part III - OpenTX Lua API Reference](part_iii_-_opentx_lua_api_reference.md)
    * [Constants](constants.md)
-       * [Key Event Constants](key_events.md)
-
-[//]: <> (LUADOC-BEGIN:general)
-
-   * [General Functions](general/general_functions.md)
+       * [Key Event Constants](key_events.md) 
+   * [General Functions](general/general_functions.md) [//]: <> (LUADOC-BEGIN:general)
       * [GREY()](general/GREY.md)
       * [defaultChannel(stick)](general/defaultChannel.md)
       * [defaultStick(channel)](general/defaultStick.md)
@@ -44,35 +41,29 @@
       * [playFile(name)](general/playFile.md)
       * [playNumber(value, unit [, attributes])](general/playNumber.md)
       * [playTone(frequency, duration, pause [, flags [, freqIncr]])](general/playTone.md)
-      * [popupInput(title, event, input, min, max)](general/popupInput.md)
-
-[//]: <> (LUADOC-END:general)
-
-[//]: <> (LUADOC-BEGIN:model)
-
-   * [Model Functions](model/model_functions.md)
+      * [popupInput(title, event, input, min, max)](general/popupInput.md) [//]: <> (LUADOC-END:general)
+   * [Model Functions](model/model_functions.md) [//]: <> (LUADOC-BEGIN:model)
       * [model.defaultInputs()](model/defaultInputs.md)
       * [model.deleteInput(input, line)](model/deleteInput.md)
       * [model.deleteInputs()](model/deleteInputs.md)
+      * [model.deleteMix(channel, line)](model/deleteMix.md)
+      * [model.getCurve(curve)](model/getCurve.md)
       * [model.getGlobalVariable(index [, phase])](model/getGlobalVariable.md)
       * [model.getInput(input, line)](model/getInput.md)
       * [model.getInputsCount(input)](model/getInputsCount.md)
+      * [model.getLogicalSwitch(switch)](model/getLogicalSwitch.md)
+      * [model.getMix(channel, line)](model/getMix.md)
+      * [model.getMixesCount(channel)](model/getMixesCount.md)
       * [model.insertInput(input, line, value)](model/insertInput.md)
+      * [model.insertMix(channel, line, value)](model/insertMix.md)
       * [model.setGlobalVariable(index, phase, value)](model/setGlobalVariable.md)
-      * [model.setOutput(index, value)](model/setOutput.md)
-
-[//]: <> (LUADOC-END:model)
-
-[//]: <> (LUADOC-BEGIN:lcd)
-
-   * [Lcd Functions](lcd/lcd_functions.md)
+      * [model.setLogicalSwitch(switch, value)](model/setLogicalSwitch.md)
+      * [model.setOutput(index, value)](model/setOutput.md) [//]: <> (LUADOC-END:model)
+   * [Lcd Functions](lcd/lcd_functions.md) [//]: <> (LUADOC-BEGIN:lcd)
       * [lcd.clear()](lcd/clear.md)
       * [lcd.drawLine(x1, y1, x2, y2, pattern, flags)](lcd/drawLine.md)
       * [lcd.drawPoint(x, y)](lcd/drawPoint.md)
-      * [lcd.lock()](lcd/lock.md)
-
-[//]: <> (LUADOC-END:lcd)
-
+      * [lcd.lock()](lcd/lock.md) [//]: <> (LUADOC-END:lcd)
 * [Part IV - Converting OpenTX 2.0 Scripts](part_iv_-_converting_opentx_20_scripts.md)
    * [General Issues](known_issues.md)
    * [Handling GPS Sensor data](handling_gps_sensor_data.md)
