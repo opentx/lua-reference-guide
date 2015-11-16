@@ -249,7 +249,8 @@ args = parser.parse_args()
 DEBUG = args.debug
 
 if len(args.files) == 0:
-  args.files.insert(0, "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua_api.cpp")
+  urlBase = "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua/"
+  args.files = [ urlBase + f for f in ("api_general.cpp", "api_lcd.cpp", "api_model.cpp")]
 
 for fileName in args.files:
   logInfo("Opening %s" % fileName)
