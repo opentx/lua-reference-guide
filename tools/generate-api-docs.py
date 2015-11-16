@@ -208,13 +208,13 @@ def mkdir_p(path):
 
 def insertSection(newContents, sectionName):
   logDebug("Inserting section: %s" % sectionName)
-  newContents.append("%s%s)\n\n" % (STARTMARKER, sectionName))
-  newContents.append("   * [%s Functions](%s/%s_functions.md)\n" % (sectionName.capitalize(), sectionName, sectionName))
+  newContents.append("   * [%s Functions](%s/%s_functions.md) %s%s)\n" % (sectionName.capitalize(), sectionName, sectionName, STARTMARKER, sectionName))
 
   for f in sorted(MODULES[sectionName]):
     # f = (moduleName, funcName, funcDefinition, description, params, retvals, notices)
     newContents.append("      * [%s](%s/%s.md)\n" % (f[2].rstrip(), sectionName, f[1]))
-  newContents.append("\n%s%s)\n" % (ENDMARKER, sectionName))
+
+  newContents[-1] = "%s %s%s)\n" % (newContents[-1].rstrip(),ENDMARKER, sectionName)
 
 def processSummary():
   newContents = []
@@ -223,9 +223,9 @@ def processSummary():
     sumContents = summary.readlines()
 
   for line in sumContents:
-    if line.startswith(STARTMARKER):
+    if line.find(STARTMARKER) > 0:
       ignoreLine = True
-    elif line.startswith(ENDMARKER):
+    elif line.find(ENDMARKER) > 0:
       # parse the section name and call insertSection
       sectionName = line.split(ENDMARKER)[1].split(")")[0]
       insertSection(newContents, sectionName)
