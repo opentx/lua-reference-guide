@@ -17,9 +17,9 @@ none
 #### Return value
 
 * `table` with elements:
- * `battMin` radio battery range - minimum value
- * `battMax` radio battery range - maximum value
- * `imperial` set to a value different from 0 if the radio is set to the
+ * `battMin` (number) radio battery range - minimum value
+ * `battMax` (number) radio battery range - maximum value
+ * `imperial` (number) set to a value different from 0 if the radio is set to the
  IMPERIAL units
 
 

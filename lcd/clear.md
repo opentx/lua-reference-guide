@@ -4,7 +4,9 @@
 
 
 
-Erases all contents of LCD.
+Clears the LCD screen 
+
+@status current Introduced in 2.0.0
 
 
 #### Parameters

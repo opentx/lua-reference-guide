@@ -4,7 +4,7 @@
 
 
 
-Raises a popup on screen that allows uses input
+Raises a pop-up on screen that allows uses input
 
 @status current Introduced in 2.0.0
 

@@ -4,7 +4,7 @@
 
 
 
-Returns OpenTX version
+Return OpenTX version
 
 @status current Introduced in 2.0.0, expanded in 2.1.7
 
@@ -22,7 +22,7 @@ end
 
 return {  run=run }
 ```
-Output of above script in simulator:
+Output of the above script in simulator:
 ```
 version: 2.1.7
 radio: taranis-simu
@@ -38,7 +38,7 @@ none
 
 * `string` OpenTX version (ie "2.1.5")
 
-* `list` (available since OpenTX 2.1.7) returns two values:
+* `list` (available since 2.1.7) returns two values:
  * `string` OpenTX version (ie "2.1.5")
  * `string` radio version: `taranisx9e`, `taranisplus` or `taranis`. 
 If running in simulator the "-simu" is added

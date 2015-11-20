@@ -4,7 +4,7 @@
 
 
 
-Returns current system date and time that is kept by the RTC unit
+Return current system date and time that is kept by the RTC unit
 
 
 #### Parameters
@@ -14,12 +14,12 @@ none
 #### Return value
 
 * `table` current date and time, table elements:
- * `year` year
- * `mon` month
- * `day` day of month
- * `hour` hours
- * `min` minutes
- * `sec` seconds
+ * `year` (number) year
+ * `mon` (number) month
+ * `day` (number) day of month
+ * `hour` (number) hours
+ * `min` (number) minutes
+ * `sec` (number) seconds
 
 
 

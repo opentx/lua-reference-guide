@@ -4,6 +4,8 @@
 
 
 
+@status depreciated since 2.1
+
 
 #### Parameters
 
@@ -14,6 +16,6 @@ none
 none
 
 ##### Notice
-This function has no effect in OpenTX 2.1
+This function has no effect in OpenTX 2.1 and will be removed in 2.2
 
 

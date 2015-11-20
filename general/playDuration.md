@@ -4,7 +4,7 @@
 
 
 
-Plays a time value (text to speech)
+Play a time value (text to speech)
 
 @status current Introduced in 2.1.0
 

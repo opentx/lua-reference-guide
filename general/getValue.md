@@ -11,7 +11,7 @@ The list of valid sources is available:
 * for OpenTX 2.1.x at http://downloads-21.open-tx.org/firmware/lua_fields.txt
 
 In OpenTX 2.1.x the telemetry sources no longer have a predefined name. 
-To get a telemetry value simply use its sensor name. For example:
+To get a telemetry value simply use it's sensor name. For example:
  * Altitude sensor has a name "Alt"
  * to get the current altitude use the source "Alt"
  * to get the minimum altitude use the source "Alt-", to get the maximum use "Alt+"
@@ -33,18 +33,17 @@ or a name (string) of the source.
  * for all telemetry source when the telemetry stream is not received
 
 * `table` GPS position is returned in a table:
- * `lat` latitude, positive is North (number)
- * `lon` longitude, positive is East (number)
+ * `lat` (number) latitude, positive is North 
+ * `lon` (number) longitude, positive is East
 
-* `table` GPS date/time is returned in a table, format is the same 
-as is returned from getDateTime()
+* `table` GPS date/time, see getDateTime()
 
 * `table` Cells are returned in a table 
 (except where no cells were detected in which 
 case the returned value is 0):
- * table has one item for each detected cell
- * each item name is the cell number (1 to number of cells)
- * each item value is the current cell voltage
+ * table has one item for each detected cell:
+  * key (number) cell number (1 to number of cells)
+  * value (number) current cell voltage
 
 
 

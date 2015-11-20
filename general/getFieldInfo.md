@@ -4,7 +4,7 @@
 
 
 
-Returns detailed information about field (source)
+Return detailed information about field (source)
 
 @status current Introduced in 2.0.8
 

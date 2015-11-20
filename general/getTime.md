@@ -4,7 +4,7 @@
 
 
 
-Returns the time since the radio was started in multiple of 10ms
+Return the time since the radio was started in multiple of 10ms
 
 @status current Introduced in 2.0.0
 

@@ -4,7 +4,7 @@
 
 
 
-Plays a tone
+Play a tone
 
 @status current Introduced in 2.1.0
 

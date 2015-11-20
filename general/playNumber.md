@@ -4,7 +4,7 @@
 
 
 
-Plays a numerical value (text to speech)
+Play a numerical value (text to speech)
 
 @status current Introduced in 2.0.0
 
