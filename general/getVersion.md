@@ -10,13 +10,16 @@ Return OpenTX version
 
 ### Example
 
-This example also runs in OpenTX versions where the radio version was not available:
+This example also runs in OpenTX versions where the function returned only one value:
 
 ```lua
 local function run(event)
-  local ver, radio = getVersion()
+  local ver, radio, maj, minor, rev = getVersion()
   print("version: "..ver)
   if radio then print ("radio: "..radio) end
+  if maj then print ("maj: "..maj) end
+  if minor then print ("minor: "..minor) end
+  if rev then print ("rev: "..rev) end
   return 1
 end
 
@@ -26,7 +29,9 @@ Output of the above script in simulator:
 ```
 version: 2.1.7
 radio: taranis-simu
-Script finished with status 1
+maj: 2
+minor: 1
+rev: 7
 ```
 
 
@@ -38,10 +43,13 @@ none
 
 * `string` OpenTX version (ie "2.1.5")
 
-* `list` (available since 2.1.7) returns two values:
- * `string` OpenTX version (ie "2.1.5")
- * `string` radio version: `taranisx9e`, `taranisplus` or `taranis`. 
+* `multiple` (available since 2.1.7) returns 5 values:
+ * (string) OpenTX version (ie "2.1.5")
+ * (string) radio version: `taranisx9e`, `taranisplus` or `taranis`. 
 If running in simulator the "-simu" is added
+ * (number) major version (ie 2 if version 2.1.5)
+ * (number) minor version (ie 1 if version 2.1.5)
+ * (number) revison number (ie 5 if version 2.1.5)
 
 
 

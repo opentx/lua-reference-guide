@@ -6,6 +6,10 @@
 
 Return detailed information about field (source)
 
+The list of valid sources is available:
+* for OpenTX 2.0.x at http://downloads-20.open-tx.org/firmware/lua_fields.txt
+* for OpenTX 2.1.x at http://downloads-21.open-tx.org/firmware/lua_fields.txt
+
 @status current Introduced in 2.0.8
 
 
@@ -25,4 +29,32 @@ Return detailed information about field (source)
 * `nil` the requested field was not found
 
 
+
+
+
+---
+
+### Examples
+
+```lua
+local function run(e)
+  local fieldinfo = getFieldInfo('rs')
+  lcd.clear()
+  lcd.drawText(1,1,"getFieldInfo() example",0)
+  if fieldinfo then 
+    lcd.drawText(1,11,"id: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,11,fieldinfo['id'],0)
+    lcd.drawText(1,21,"name: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,21,fieldinfo['name'],0)
+    lcd.drawText(1,31,"desc: ", 0)
+    lcd.drawText(lcd.getLastPos()+2,31,fieldinfo['desc'],0)
+  else
+    lcd.drawText(1,11,"Requested field not available!", 0)    
+  end
+end
+
+return{run=run}
+```
+
+![](getFieldInfo-example11.png)
 

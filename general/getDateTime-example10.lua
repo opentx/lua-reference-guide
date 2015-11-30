@@ -1,21 +1,3 @@
-# getDateTime()
-
-#####Overview
-Returns the date and time from the transmitter realtime clock
-
- - Parameters: none
- - Returns: a Lua table with the following named elements
-   - year
-   - mon
-   - day
-   - hour
-   - min
-   - sec
- - Status: current Introduced in 2.0.0
-
-#####Example telemetry script
-
-```lua
 local function run(e)
   local datenow = getDateTime()
   lcd.clear()
@@ -27,8 +9,3 @@ local function run(e)
 end
 
 return{run=run}
-```
-
-
-#####Example output
-![getDateTime() example output](getdttim.png)

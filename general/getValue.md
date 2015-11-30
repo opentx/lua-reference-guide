@@ -35,6 +35,8 @@ or a name (string) of the source.
 * `table` GPS position is returned in a table:
  * `lat` (number) latitude, positive is North 
  * `lon` (number) longitude, positive is East
+ * `pilot-lat` (number) pilot latitude, positive is North 
+ * `pilot-lon` (number) pilot longitude, positive is East
 
 * `table` GPS date/time, see getDateTime()
 
