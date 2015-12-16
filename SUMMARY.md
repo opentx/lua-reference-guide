@@ -32,7 +32,7 @@
       * [defaultStick(channel)](general/defaultStick.md)
       * [getDateTime()](general/getDateTime.md)
       * [getFieldInfo(name)](general/getFieldInfo.md)
-      * [getFlightMode()](general/getFlightMode.md)
+      * [getFlightMode(mode)](general/getFlightMode.md)
       * [getGeneralSettings()](general/getGeneralSettings.md)
       * [getTime()](general/getTime.md)
       * [getValue(source)](general/getValue.md)

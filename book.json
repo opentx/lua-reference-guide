@@ -1,15 +1,15 @@
 {
-"plugins": ["image-captions"],
-"pluginsConfig": {
-      "image-captions": {
-          "caption": "_CAPTION_"
-      }
-  },
-"styles": {
-        "website": "styles/luaref.css",
-        "ebook": "styles/luaref.css",
-        "pdf": "styles/luaref.css",
-        "mobi": "styles/luaref.css",
-        "epub": "styles/luaref.css"
+  "plugins": [ "image-captions" ],
+  "pluginsConfig": {
+    "image-captions": {
+      "caption": "_CAPTION_"
     }
+  },
+  "styles": {
+    "website": "styles/luaref.css",
+    "ebook": "styles/luaref.css",
+    "pdf": "styles/luaref.css",
+    "mobi": "styles/luaref.css",
+    "epub": "styles/luaref.css"
+  }
 }
