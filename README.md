@@ -1,6 +1,6 @@
 # OpenTX 2.1 Lua Reference Guide
 
-[![Join the chat at https://gitter.im/opentx/lua-reference-guide](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opentx/lua-reference-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/opentx/lua-reference-guide](https://badges.gitter.im/Join%20Chat.png)](https://gitter.im/opentx/lua-reference-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Go to https://www.gitbook.com/book/opentx/opentx-lua-reference-guide/details for the latest published version of this guide.
 
