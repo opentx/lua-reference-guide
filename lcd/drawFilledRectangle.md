@@ -25,3 +25,25 @@ Draws a solid rectangle from top left corner (x,y) of specified width and height
 
 none
 
+
+
+---
+
+### Examples
+
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd\drawFilledRectangle-example.lua">lcd\drawFilledRectangle-example</a>
+
+```lua
+
+local function run()
+  lcd.clear()
+  lcd.drawText(10,22,"drawFilledRectangle()",DBLSIZE)
+  lcd.drawFilledRectangle(5, 5, 103, 50, GREY_DEFAULT)
+  lcd.drawFilledRectangle(152, 33, 50, 25, SOLID)
+end
+
+return{run=run}
+```
+
+![](drawFilledRectangle-example.png)
+

@@ -19,6 +19,7 @@ FUNCTIONS = []
 STARTMARKER = "[//]: <> (LUADOC-BEGIN:"
 ENDMARKER = "[//]: <> (LUADOC-END:"
 SUMMARYFILE = "SUMMARY.md"
+DOCBASE = "https://raw.githubusercontent.com/opentx/lua-reference-guide/master/"
 
 def logDebug(txt):
   if DEBUG:
@@ -127,6 +128,15 @@ def parseSource(data):
 def escape(txt):
   return txt.replace("<", "&lt;").replace(">", "&gt;")
 
+def byExtension_key(example):
+  # sorts such that display order is notes(.md), example(.lua), output(.png)
+  order = ".0" # assume notes
+  if example[1] == "lua":
+    order = ".1"
+  elif example[1] == "png":
+    order = ".2"
+  return (example[0] + order)
+
 def addExamples(moduleName, funcName):
   doc = ""
   examplePattern = "%s/%s-example*.*" % (moduleName, funcName)
@@ -134,7 +144,7 @@ def addExamples(moduleName, funcName):
   examples = glob.glob(examplePattern)
   if len(examples) > 0:
     # sort examples without considering their extension
-    examples = sorted( [x.split(".") for x in examples] )
+    examples = sorted([x.split(".") for x in examples], key = byExtension_key)
     # header
     doc += "\n\n---\n\n### Examples\n\n"
     for example in examples:
@@ -146,6 +156,8 @@ def addExamples(moduleName, funcName):
           doc += e.read()
           doc += "\n\n"
         if example[1] == "lua":
+          # add download link before content is included
+          doc += "<a class=\"dlbtn\" href=\"%s%s\">%s</a>\n\n" % (DOCBASE, fileName, example[0])
           # lua files are escaped in code block
           doc += "```lua\n"
           doc += e.read()

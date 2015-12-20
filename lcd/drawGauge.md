@@ -29,3 +29,24 @@ Draws a simple gauge that is filled based upon fill value
 
 none
 
+
+
+---
+
+### Examples
+
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd\drawGauge-example.lua">lcd\drawGauge-example</a>
+
+```lua
+
+local function run(event)
+  lcd.clear()
+  lcd.drawText(1,1,"drawGauge() example", 0)
+  lcd.drawGauge(1, 11, 120, 25, 250, 1000)
+end
+
+return{run=run}
+```
+
+![](drawGauge-example.png)
+
