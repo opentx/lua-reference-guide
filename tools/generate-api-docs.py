@@ -143,7 +143,7 @@ def addExamples(moduleName, funcName):
   logDebug("Looking for examples that fit pattern: %s" % examplePattern)
   examples = glob.glob(examplePattern)
   if len(examples) > 0:
-    # sort examples without considering their extension
+    # sort examples considering their extension (.md -> .lua -> .png within the same base name)
     examples = sorted([x.split(".") for x in examples], key = byExtension_key)
     # header
     doc += "\n\n---\n\n### Examples\n\n"
@@ -157,7 +157,7 @@ def addExamples(moduleName, funcName):
           doc += "\n\n"
         if example[1] == "lua":
           # add download link before content is included
-          doc += "<a class=\"dlbtn\" href=\"%s%s\">%s</a>\n\n" % (DOCBASE, fileName, example[0])
+          doc += "<a class=\"dlbtn\" href=\"%s%s\">%s</a>\n\n" % (DOCBASE, fileName.replace("\\", "/"), example[0])
           # lua files are escaped in code block
           doc += "```lua\n"
           doc += e.read()
@@ -221,6 +221,11 @@ def mkdir_p(path):
 def insertSection(newContents, sectionName):
   logDebug("Inserting section: %s" % sectionName)
   newContents.append("   * [%s Functions](%s/%s_functions.md) %s%s)\n" % (sectionName.capitalize(), sectionName, sectionName, STARTMARKER, sectionName))
+
+  # look for an overview for the section and insert it if found
+  overviewFileName = "%s/%s_functions-overview.md" % (sectionName, sectionName)
+  if os.path.isfile(overviewFileName):
+    newContents.append("      * [%s Functions Overview](%s)\n" % (sectionName.capitalize(), overviewFileName))
 
   for f in sorted(MODULES[sectionName]):
     # f = (moduleName, funcName, funcDefinition, description, params, retvals, notices)

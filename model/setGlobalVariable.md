@@ -42,7 +42,7 @@ any floating point value is converted (todo check how) into integer value.
 this is a sample example
 
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/model\setGlobalVariable-example.lua">model\setGlobalVariable-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/model/setGlobalVariable-example.lua">model\setGlobalVariable-example</a>
 
 ```lua
 function foo(bar)

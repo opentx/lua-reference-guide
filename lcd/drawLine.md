@@ -36,7 +36,7 @@ whole line will not be drawn (starting from OpenTX 2.1.5)
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd\drawLine-example.lua">lcd\drawLine-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawLine-example.lua">lcd\drawLine-example</a>
 
 ```lua
 local alpha = (2 * math.pi) / 10
@@ -51,9 +51,9 @@ end
 
 local function drawStar(centerX, centerY, radius, pattern, flags)
   local point = 10
-  startX, startY = getPoint(centerX, centerY, radius, point)
+  local startX, startY = getPoint(centerX, centerY, radius, point)
   for point = 1, 10 do
-    nextX, nextY = getPoint(centerX, centerY, radius, point)
+    local nextX, nextY = getPoint(centerX, centerY, radius, point)
     lcd.drawLine(startX, startY, nextX, nextY, pattern, flags)
     startX = nextX
     startY = nextY

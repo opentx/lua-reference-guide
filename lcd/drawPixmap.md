@@ -21,3 +21,23 @@ Draws a bitmap at (x,y)
 
 none
 
+
+
+---
+
+### Examples
+
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawPixmap-example.lua">lcd\drawPixmap-example</a>
+
+```lua
+local function run(event)
+  lcd.clear()
+  lcd.drawText(1,1,"drawPixmap() example", 0)
+  lcd.drawPixmap(96, 0, "/bmp/lua.bmp")
+end
+
+return{run=run}
+```
+
+![](drawPixmap-example.png)
+

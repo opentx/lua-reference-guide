@@ -27,7 +27,7 @@ This function only works in stand-alone and telemetry scripts.
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd\clear-example.lua">lcd\clear-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/clear-example.lua">lcd\clear-example</a>
 
 ```lua
 --
