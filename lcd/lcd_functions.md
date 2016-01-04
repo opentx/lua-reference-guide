@@ -1,2 +1,2 @@
-# Display Functions
+# Lcd Functions
 

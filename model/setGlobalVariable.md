@@ -42,11 +42,13 @@ any floating point value is converted (todo check how) into integer value.
 this is a sample example
 
 
-![](setGlobalVariable-example05.png)
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/model/setGlobalVariable-example.lua">model/setGlobalVariable-example</a>
 
 ```lua
 function foo(bar)
   local x = bar * 2
 end
 ```
+
+![](setGlobalVariable-example.png)
 

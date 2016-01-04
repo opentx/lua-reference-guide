@@ -30,6 +30,8 @@ none
 
 ### Examples
 
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getGeneralSettings-example.lua">general/getGeneralSettings-example</a>
+
 ```lua
 local function run(e)
   local settings = getGeneralSettings()
@@ -46,5 +48,5 @@ end
 return{run=run}
 ```
 
-![](getGeneralSettings-example11.png)
+![](getGeneralSettings-example.png)
 

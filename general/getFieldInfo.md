@@ -38,6 +38,8 @@ The list of valid sources is available:
 
 ### Examples
 
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getFieldInfo-example.lua">general/getFieldInfo-example</a>
+
 ```lua
 local function run(e)
   local fieldinfo = getFieldInfo('rs')
@@ -58,5 +60,5 @@ end
 return{run=run}
 ```
 
-![](getFieldInfo-example11.png)
+![](getFieldInfo-example.png)
 

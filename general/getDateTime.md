@@ -29,6 +29,8 @@ none
 
 ### Examples
 
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getDateTime-example.lua">general/getDateTime-example</a>
+
 ```lua
 local function run(e)
   local datenow = getDateTime()
@@ -43,5 +45,5 @@ end
 return{run=run}
 ```
 
-![](getDateTime-example11.png)
+![](getDateTime-example.png)
 

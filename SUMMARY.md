@@ -72,6 +72,7 @@
       * [model.setOutput(index, value)](model/setOutput.md)
       * [model.setTimer(timer, value)](model/setTimer.md) [//]: <> (LUADOC-END:model)
    * [Lcd Functions](lcd/lcd_functions.md) [//]: <> (LUADOC-BEGIN:lcd)
+      * [Lcd Functions Overview](lcd/lcd_functions-overview.md)
       * [lcd.clear()](lcd/clear.md)
       * [lcd.drawChannel(x, y, source, flags)](lcd/drawChannel.md)
       * [lcd.drawCombobox(x, y, w, list, idx [, flags])](lcd/drawCombobox.md)
