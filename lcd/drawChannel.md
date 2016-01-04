@@ -30,7 +30,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawChannel-example.lua">lcd\drawChannel-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawChannel-example.lua">lcd/drawChannel-example</a>
 
 ```lua
 local function run(e)

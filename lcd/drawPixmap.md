@@ -27,7 +27,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawPixmap-example.lua">lcd\drawPixmap-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawPixmap-example.lua">lcd/drawPixmap-example</a>
 
 ```lua
 local function run(event)

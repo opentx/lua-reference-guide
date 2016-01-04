@@ -157,7 +157,7 @@ def addExamples(moduleName, funcName):
           doc += "\n\n"
         if example[1] == "lua":
           # add download link before content is included
-          doc += "<a class=\"dlbtn\" href=\"%s%s\">%s</a>\n\n" % (DOCBASE, fileName.replace("\\", "/"), example[0])
+          doc += "<a class=\"dlbtn\" href=\"%s%s\">%s</a>\n\n" % (DOCBASE, fileName.replace("\\", "/"), example[0].replace("\\", "/"))
           # lua files are escaped in code block
           doc += "```lua\n"
           doc += e.read()

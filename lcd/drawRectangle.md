@@ -31,7 +31,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawRectangle-example.lua">lcd\drawRectangle-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawRectangle-example.lua">lcd/drawRectangle-example</a>
 
 ```lua
 local function run()

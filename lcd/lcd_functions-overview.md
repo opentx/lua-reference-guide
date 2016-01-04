@@ -6,7 +6,7 @@ Lcd functions allow scripts to interact with the transmitter display. This acces
 
 ##### Notes:
 
-The run function is periodically called when the screen is visible. In OpenTX 2.1 each invocation starts with a blank screen, whereas 2.0 scripts screen images persisted across calls.
+The run function is periodically called when the screen is visible. In OpenTX 2.0 each invocation starts with a blank screen (unless lcd.lock() is used). Under OpenTX 2.1 screen state is always persisted across calls to the run function. **Many scripts originally written for OpenTX 2.0 require a call to lcd.clear() at the beginning of their run function in order to display properly under 2.1.**
 
 Many of the lcd functions accept parameters named *flags* and *patterns*.  The names and their meanings are described below.
 

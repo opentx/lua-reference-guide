@@ -30,7 +30,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawScreenTitle-example.lua">lcd\drawScreenTitle-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawScreenTitle-example.lua">lcd/drawScreenTitle-example</a>
 
 ```lua
 local function run(event)

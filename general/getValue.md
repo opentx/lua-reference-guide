@@ -59,7 +59,7 @@ Getting a value by its numerical identifier is faster then by its name.
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getValue-example.lua">general\getValue-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getValue-example.lua">general/getValue-example</a>
 
 ```lua
 local function run(e)
