@@ -12,6 +12,12 @@ The list of valid sources is available:
 * for OpenTX 2.1.x Taranis and Taranis Plus at http://downloads-21.open-tx.org/firmware/lua_fields_taranis.txt
 * for OpenTX 2.1.x Taranis X9E at http://downloads-21.open-tx.org/firmware/lua_fields_taranis_x9e.txt
 
+In OpenTX 2.1.x the telemetry sources no longer have a predefined name. 
+To get a telemetry value simply use it's sensor name. For example:
+ * Altitude sensor has a name "Alt"
+ * to get the current altitude use the source "Alt"
+ * to get the minimum altitude use the source "Alt-", to get the maximum use "Alt+"
+
 @status current Introduced in 2.0.8
 
 
