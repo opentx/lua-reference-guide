@@ -11,27 +11,24 @@ Play a tone
 
 #### Parameters
 
-* `frequency` (number) tone frequency in Hz
+* `frequency` (number) tone frequency in Hz (from 150 to 15000)
 
-* `duration` (number) length of the tone in (TODO units)
+* `duration` (number) length of the tone in milliseconds
 
-* `pause` (number) length of the pause in (TODO units)
+* `pause` (number) length of the silence after the tone in milliseconds
 
 * `flags` (number):
  * `0 or not present` play with normal priority.
- * `PLAY_BACKGROUND` play in background (built in vario function used this context)
+ * `PLAY_BACKGROUND` play in background (built in vario function uses this context)
  * `PLAY_NOW` play immediately
 
 * `freqIncr` (number) positive number increases the tone pitch (frequency with time),
-negative number decreases it. Bigger number has more effect
+negative number decreases it. The frequency changes every 10 milliseconds, the change is `freqIncr * 10Hz`.
+The valid range is from -127 to 127.
 
 
 
 #### Return value
 
 none
-
-##### Notice
-Minimum played frequency is 150Hz even if a lower value is specified.
-
 
