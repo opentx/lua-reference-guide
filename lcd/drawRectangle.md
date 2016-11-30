@@ -4,7 +4,7 @@
 
 
 
-Draws a rectangle from top left corner (x,y) of specified width and height 
+Draw a rectangle from top left corner (x,y) of specified width and height
 
 @status current Introduced in 2.0.0
 
@@ -18,6 +18,8 @@ Draws a rectangle from top left corner (x,y) of specified width and height
 * `h` (number) height in pixels
 
 * `flags` (unsigned number) drawing flags
+
+* `t` (number) thickness in pixels
 
 
 

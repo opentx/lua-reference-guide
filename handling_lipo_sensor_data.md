@@ -1,5 +1,5 @@
 # Handling Lipo Sensor Data
-With OpenTx 2.1 it is possible to have multiple Lipo sensors, each with a user-assigned name. The call to getValue() returns a table with the current voltage of each of the cells it is monitoring.
+With OpenTx 2.2 it is possible to have multiple Lipo sensors, each with a user-assigned name. The call to getValue() returns a table with the current voltage of each of the cells it is monitoring.
 
 This example demonstrates getting Lipo cell voltage from a sensor with the default name of 'Cels'
 
@@ -38,7 +38,7 @@ end
 local function run(e)
   background()
   lcd.clear()
-  lcd.drawText(1,1,"OpenTX 2.1 cell voltage example",0)
+  lcd.drawText(1,1,"OpenTX 2.2 cell voltage example",0)
   lcd.drawText(1,11,"Cels:", 0)
   lcd.drawText(lcd.getLastPos()+2,11,cellValue,0)
 end

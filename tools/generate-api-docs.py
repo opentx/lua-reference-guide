@@ -266,7 +266,7 @@ args = parser.parse_args()
 DEBUG = args.debug
 
 if len(args.files) == 0:
-  urlBase = "https://raw.githubusercontent.com/opentx/opentx/master/radio/src/lua/"
+  urlBase = "https://raw.githubusercontent.com/opentx/opentx/next/radio/src/lua/"
   args.files = [ urlBase + f for f in ("api_general.cpp", "api_lcd.cpp", "api_model.cpp")]
 
 for fileName in args.files:

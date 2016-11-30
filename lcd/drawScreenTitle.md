@@ -4,7 +4,7 @@
 
 
 
-Draws a title bar
+Draw a title bar
 
 @status current Introduced in 2.0.0
 
@@ -23,6 +23,10 @@ the right side of title bar. (i.e. idx=2, cnt=5, display `2/5`)
 #### Return value
 
 none
+
+##### Notice
+Only available on monochrome screens
+
 
 
 

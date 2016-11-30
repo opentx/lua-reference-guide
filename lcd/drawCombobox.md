@@ -4,7 +4,7 @@
 
 
 
-Draws a combo box
+Draw a combo box
 
 @status current Introduced in 2.0.0
 

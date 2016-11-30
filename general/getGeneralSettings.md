@@ -6,7 +6,8 @@
 
 Returns (some of) the general radio settings
 
-@status current Introduced in 2.0.6, `imperial` added in TODO
+@status current Introduced in 2.0.6, `imperial` added in TODO,
+`language` and `voice` added int 2.2.0.
 
 
 
@@ -21,6 +22,8 @@ none
  * `battMax` (number) radio battery range - maximum value
  * `imperial` (number) set to a value different from 0 if the radio is set to the
  IMPERIAL units
+ * `language` (string) radio language (used for menus)
+ * `voice` (string) voice language (used for speech)
 
 
 

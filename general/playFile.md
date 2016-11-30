@@ -4,7 +4,7 @@
 
 
 
-Play a file from the SD card 
+Play a file from the SD card
 
 @status current Introduced in 2.0.0, changed in 2.1.0
 

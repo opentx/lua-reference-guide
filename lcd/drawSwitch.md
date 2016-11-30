@@ -4,7 +4,7 @@
 
 
 
-Draws a text representation of switch at (x,y)
+Draw a text representation of switch at (x,y)
 
 @status current Introduced in 2.0.0
 
@@ -13,7 +13,7 @@ Draws a text representation of switch at (x,y)
 
 * `x,y` (positive numbers) starting coordinate
 
-* `switch` (number) number of switch to display, negative number 
+* `switch` (number) number of switch to display, negative number
 displays negated switch
 
 * `flags` (unsigned number) drawing flags, only SMLSIZE, BLINK and INVERS.

@@ -4,14 +4,14 @@
 
 
 
-Return flight mode data. 
+Return flight mode data.
 
 @status current Introduced in 2.1.7
 
 
 #### Parameters
 
-* `mode` (number) flight mode number to return (0 - 8). If mode parameter 
+* `mode` (number) flight mode number to return (0 - 8). If mode parameter
 is not specified (or contains invalid value), then the current flight mode data is returned.
 
 

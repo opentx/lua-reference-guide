@@ -4,21 +4,20 @@
 
 
 
-Returns the value of a source. 
+Returns the value of a source.
 
 The list of valid sources is available:
 * for OpenTX 2.0.x at http://downloads-20.open-tx.org/firmware/lua_fields.txt
-* for OpenTX 2.1.x at http://downloads-21.open-tx.org/firmware/lua_fields.txt (depreciated)
-* for OpenTX 2.1.x Taranis and Taranis Plus at http://downloads-21.open-tx.org/firmware/lua_fields_taranis.txt
-* for OpenTX 2.1.x Taranis X9E at http://downloads-21.open-tx.org/firmware/lua_fields_taranis_x9e.txt
+* for OpenTX 2.1.x at http://downloads-21.open-tx.org/firmware/lua_fields.txt
 
-In OpenTX 2.1.x the telemetry sources no longer have a predefined name. 
+In OpenTX 2.1.x the telemetry sources no longer have a predefined name.
 To get a telemetry value simply use it's sensor name. For example:
  * Altitude sensor has a name "Alt"
  * to get the current altitude use the source "Alt"
  * to get the minimum altitude use the source "Alt-", to get the maximum use "Alt+"
 
-@status current Introduced in 2.0.0, changed in 2.1.0
+@status current Introduced in 2.0.0, changed in 2.1.0, `Cels+` and
+`Cels-` added in 2.1.9
 
 
 #### Parameters
@@ -35,15 +34,15 @@ or a name (string) of the source.
  * for all telemetry source when the telemetry stream is not received
 
 * `table` GPS position is returned in a table:
- * `lat` (number) latitude, positive is North 
+ * `lat` (number) latitude, positive is North
  * `lon` (number) longitude, positive is East
- * `pilot-lat` (number) pilot latitude, positive is North 
+ * `pilot-lat` (number) pilot latitude, positive is North
  * `pilot-lon` (number) pilot longitude, positive is East
 
 * `table` GPS date/time, see getDateTime()
 
-* `table` Cells are returned in a table 
-(except where no cells were detected in which 
+* `table` Cells are returned in a table
+(except where no cells were detected in which
 case the returned value is 0):
  * table has one item for each detected cell:
   * key (number) cell number (1 to number of cells)
@@ -53,6 +52,8 @@ case the returned value is 0):
 
 ##### Notice
 Getting a value by its numerical identifier is faster then by its name.
+While `Cels` sensor returns current values of all cells in a table, a `Cels+` or
+`Cels-` will return a single value - the maximum or minimum Cels value.
 
 
 

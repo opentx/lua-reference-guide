@@ -4,7 +4,7 @@
 
 
 
-Draws a text beginning at (x,y)
+Draw a text beginning at (x,y)
 
 @status current Introduced in 2.0.0
 

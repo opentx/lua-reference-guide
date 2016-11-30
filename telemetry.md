@@ -15,7 +15,7 @@ Telemetry scripts are started when the model is loaded.
 * script init function is called
 * script background function is periodically called when custom telemetry screen is **not visible**. *Notice*:
   * In OpenTX 2.0 this function is **not called** when the custom telemetry screen is visible.
-  * In OpenTX 2.1 and successors this function is **always called** no matter if the custom screen is visible or not.
+  * Starting from OpenTX 2.1 this function is **always called** no matter if the custom screen is visible or not.
 * script run function is periodically called when custom telemetry screen is **visible**
 * script is stopped and disabled if it misbehaves (too long runtime, error in code, low memory)
 * all telemetry scripts are stopped while one-time script is running (see Lua One-time scripts)

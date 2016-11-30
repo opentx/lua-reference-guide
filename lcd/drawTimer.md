@@ -4,7 +4,7 @@
 
 
 
-Display a value formatted as time at (x,y) 
+Display a value formatted as time at (x,y)
 
 @status current Introduced in 2.0.0
 

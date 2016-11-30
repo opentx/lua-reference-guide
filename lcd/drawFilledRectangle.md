@@ -4,7 +4,7 @@
 
 
 
-Draws a solid rectangle from top left corner (x,y) of specified width and height 
+Draw a solid rectangle from top left corner (x,y) of specified width and height
 
 @status current Introduced in 2.0.0
 

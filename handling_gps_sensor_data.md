@@ -2,7 +2,7 @@
 
 #####Overview
 
-With OpenTx 2.1 it is possible to have multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
+With OpenTx 2.2 it is possible to have multiple GPS sensors, each with their own set of telemetry values which may have user-assigned names.
 
 Value names are case sensitive and may include some or all of the following:
  - GPS (latitude and longitude as a lua table containing [lat] and [lng])
@@ -49,7 +49,7 @@ end
 local function run(e)
   lcd.clear()
   background() -- update current GPS position
-  lcd.drawText(1,1,"OpenTX 2.1 GPS example",0)
+  lcd.drawText(1,1,"OpenTX 2.2 GPS example",0)
   lcd.drawText(1,11,"GPS:", 0)
   lcd.drawText(lcd.getLastPos()+2,11,gpsValue,0)
 end

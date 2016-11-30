@@ -11,16 +11,16 @@ Raises a pop-up on screen that allows uses input
 
 #### Parameters
 
-* `title` (string) text to display 
+* `title` (string) text to display
 
-* `event` (number) the event variable that is passed in from the 
+* `event` (number) the event variable that is passed in from the
 Run function (key pressed)
 
-* `input` (number) value that can be adjusted by the +/­- keys 
+* `input` (number) value that can be adjusted by the +/­- keys
 
 * `min`  (number) min value that input can reach (by pressing the -­ key)
 
-* `max`  (number) max value that input can reach 
+* `max`  (number) max value that input can reach
 
 
 
@@ -28,9 +28,9 @@ Run function (key pressed)
 
 * `number` result of the input adjustment
 
-* `"OK"` user pushed ENT key 
+* `"OK"` user pushed ENT key
 
-* `"CANCEL"` user pushed EXIT key 
+* `"CANCEL"` user pushed EXIT key
 
 
 

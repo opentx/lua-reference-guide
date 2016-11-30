@@ -15,7 +15,7 @@ none
 
 #### Return value
 
-* `number` Number of 10ms ticks since the radio was started Example: 
+* `number` Number of 10ms ticks since the radio was started Example:
 run time: 12.54 seconds, return value: 1254
 
 

@@ -4,7 +4,7 @@
 
 
 
-Draws a straight line on LCD
+Draw a straight line on LCD
 
 @status current Introduced in 2.0.0
 

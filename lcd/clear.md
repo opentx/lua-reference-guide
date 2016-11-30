@@ -4,7 +4,7 @@
 
 
 
-Clears the LCD screen 
+Clear the LCD screen
 
 @status current Introduced in 2.0.0
 

@@ -4,7 +4,7 @@
 
 
 
-Get channel assigned to stick. See Default Channel Order in General Settings 
+Get channel assigned to stick. See Default Channel Order in General Settings
 
 @status current Introduced in 2.0.0
 

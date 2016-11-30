@@ -4,22 +4,26 @@
 
 
 
-Draws a bitmap at (x,y)  
+Draw a bitmap at (x,y)
 
 @status current Introduced in 2.0.0
 
 
 #### Parameters
 
-* `x,y` (positive numbers) starting coordinate
+* `x,y` (positive numbers) starting coordinates
 
-* `name` (string) full path to the bitmap on SD card (i.e. “/BMP/test.bmp”)
+* `name` (string) full path to the bitmap on SD card (i.e. “/IMAGES/test.bmp”)
 
 
 
 #### Return value
 
 none
+
+##### Notice
+Only available on monochrome screens
+
 
 
 

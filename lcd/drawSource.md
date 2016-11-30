@@ -4,7 +4,7 @@
 
 
 
-Displays the name of the corresponding input as defined by the source at (x,y)  
+Displays the name of the corresponding input as defined by the source at (x,y)
 
 @status current Introduced in 2.0.0
 

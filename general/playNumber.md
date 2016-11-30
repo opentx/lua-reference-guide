@@ -34,36 +34,36 @@ OpenTX 2.0:
 | 19  | Gee | 152 |   |
 | 20  | Degrees | 128 |   |
 
-    
+
 OpenTX 2.1:
 
-| 2.1 Unit  | Sound | Sound File (.wav) |   
-| --- | --- | --- | --- | 
+| 2.1 Unit  | Sound | Sound File (.wav) |
+| --- | --- | --- |
 | 0 | --- | --- (no unit played) |   |
-| 1 | Volts | 116 |   
-| 2 | Amps  | 118 |   
-| 3 | Milliamps | 120 |   
-| 4 | Knots | 122 |   
-| 5 | Meters per Second | 124 |   
-| 6 | Feet per Second | 126 |   
-| 7 | Kilometers per Hour | 128 |   
-| 8 | Miles per Hour  | 130 |   
-| 9 | Meters  | 132 |   
-| 10  | Feet  | 134 |   
-| 11  | Degrees Celsius | 136 |   
-| 12  | Degrees Fahrenheit  | 138 |   
-| 13  | Percent | 140 |   
-| 14  | Milliamp Hours  | 142 |   
-| 15  | Watts | 144 |   
-| 16  | DB  | 146 |   
-| 17  | RPM | 148 |   
-| 18  | Gee | 150 |   
-| 19  | Degrees | 152 |   
-| 20  | Milliliters | 154 |   
-| 21  | Fluid Ounces  | 156 |   
-| 22  | Hours | 158 |   
-| 23  | Minutes | 160 |   
-| 24  | Seconds | 162 |   
+| 1 | Volts | 116 |
+| 2 | Amps  | 118 |
+| 3 | Milliamps | 120 |
+| 4 | Knots | 122 |
+| 5 | Meters per Second | 124 |
+| 6 | Feet per Second | 126 |
+| 7 | Kilometers per Hour | 128 |
+| 8 | Miles per Hour  | 130 |
+| 9 | Meters  | 132 |
+| 10  | Feet  | 134 |
+| 11  | Degrees Celsius | 136 |
+| 12  | Degrees Fahrenheit  | 138 |
+| 13  | Percent | 140 |
+| 14  | Milliamp Hours  | 142 |
+| 15  | Watts | 144 |
+| 16  | DB  | 146 |
+| 17  | RPM | 148 |
+| 18  | Gee | 150 |
+| 19  | Degrees | 152 |
+| 20  | Milliliters | 154 |
+| 21  | Fluid Ounces  | 156 |
+| 22  | Hours | 158 |
+| 23  | Minutes | 160 |
+| 24  | Seconds | 162 |
 
 
 
