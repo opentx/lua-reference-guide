@@ -8,7 +8,7 @@ This guide covers the development of user-written scripts for R/C transmitters r
 
 Part I of the guide shows how to enable Lua support for Taranis and includes basic examples of each types of script.
 
-Part II is a programming guide and introduces the types of OpenTX Lua scripts and how they can be used.
+Part II is a programming guide that introduces the types of OpenTX Lua scripts and how to use them.
 
 Part III is the OpenTX Lua API Reference
 
