@@ -19,7 +19,7 @@ FUNCTIONS = []
 STARTMARKER = "[//]: <> (LUADOC-BEGIN:"
 ENDMARKER = "[//]: <> (LUADOC-END:"
 SUMMARYFILE = "SUMMARY.md"
-DOCBASE = "https://raw.githubusercontent.com/opentx/lua-reference-guide/master/"
+DOCBASE = "https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/"
 
 def logDebug(txt):
   if DEBUG:

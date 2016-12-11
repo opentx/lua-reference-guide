@@ -20,6 +20,6 @@ Loads a bitmap in memory, for later use with lcd.drawBitmap()
 none
 
 ##### Notice
-Only available on color screens
+Only available on Horus
 
 

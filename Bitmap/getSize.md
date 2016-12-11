@@ -20,6 +20,6 @@ Return width, heigh of a bitmap in memory
 none
 
 ##### Notice
-Only available on color screens
+Only available on Horus
 
 

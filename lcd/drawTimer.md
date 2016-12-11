@@ -32,7 +32,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawTimer-example.lua">lcd/drawTimer-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawTimer-example.lua">lcd/drawTimer-example</a>
 
 ```lua
 local upTime

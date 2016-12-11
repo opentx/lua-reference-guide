@@ -25,7 +25,7 @@ the right side of title bar. (i.e. idx=2, cnt=5, display `2/5`)
 none
 
 ##### Notice
-Only available on monochrome screens
+Only available on Taranis
 
 
 
@@ -34,7 +34,7 @@ Only available on monochrome screens
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawScreenTitle-example.lua">lcd/drawScreenTitle-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawScreenTitle-example.lua">lcd/drawScreenTitle-example</a>
 
 ```lua
 local function run(event)

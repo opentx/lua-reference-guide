@@ -22,7 +22,7 @@ Draw a bitmap at (x,y)
 none
 
 ##### Notice
-Only available on monochrome screens
+Only available on Taranis
 
 
 
@@ -31,7 +31,7 @@ Only available on monochrome screens
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawPixmap-example.lua">lcd/drawPixmap-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawPixmap-example.lua">lcd/drawPixmap-example</a>
 
 ```lua
 local function run(event)

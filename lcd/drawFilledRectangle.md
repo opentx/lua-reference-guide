@@ -31,7 +31,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawFilledRectangle-example.lua">lcd/drawFilledRectangle-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawFilledRectangle-example.lua">lcd/drawFilledRectangle-example</a>
 
 ```lua
 

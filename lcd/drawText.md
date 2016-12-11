@@ -38,7 +38,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawText-example.lua">lcd/drawText-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawText-example.lua">lcd/drawText-example</a>
 
 ```lua
 local function run(event)

@@ -33,7 +33,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawNumber-example.lua">lcd/drawNumber-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawNumber-example.lua">lcd/drawNumber-example</a>
 
 ```lua
 function round(num, decimals)

@@ -32,13 +32,17 @@ Draw a combo box
 
 none
 
+##### Notice
+Only available on Taranis
+
+
 
 
 ---
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawCombobox-example.lua">lcd/drawCombobox-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawCombobox-example.lua">lcd/drawCombobox-example</a>
 
 ```lua
 local comboOptions

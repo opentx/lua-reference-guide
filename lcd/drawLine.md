@@ -36,7 +36,7 @@ whole line will not be drawn (starting from OpenTX 2.1.5)
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawLine-example.lua">lcd/drawLine-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawLine-example.lua">lcd/drawLine-example</a>
 
 ```lua
 local alpha = (2 * math.pi) / 10

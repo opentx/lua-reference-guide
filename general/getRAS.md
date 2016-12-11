@@ -20,3 +20,7 @@ This is just a hardware pass/fail measure and does not represent the quality of 
 
 
 
+##### Notice
+RAS was called SWR in the past
+
+

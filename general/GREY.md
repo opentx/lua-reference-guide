@@ -6,6 +6,8 @@
 
 Returns gray value which can be used in LCD functions
 
+@status current Introduced in 2.0.13
+
 
 #### Parameters
 
@@ -16,5 +18,8 @@ none
 * `(number)` a value that represents amount of *greyness* (from 0 to 15)
 
 
+
+##### Notice
+Only available on Taranis
 
 

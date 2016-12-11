@@ -24,6 +24,6 @@ Displays a bitmap at (x,y)
 none
 
 ##### Notice
-Only available on color screens
+Only available on Horus
 
 

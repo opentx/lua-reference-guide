@@ -6,7 +6,7 @@
 
 Draw a simple gauge that is filled based upon fill value
 
-@status current Introduced in 2.0.0
+@status current Introduced in 2.0.0, changed in 2.2.0
 
 
 #### Parameters
@@ -35,7 +35,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawGauge-example.lua">lcd/drawGauge-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawGauge-example.lua">lcd/drawGauge-example</a>
 
 ```lua
 

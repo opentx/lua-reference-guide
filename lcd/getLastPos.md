@@ -19,3 +19,7 @@ none
 
 
 
+##### Notice
+Only available on Taranis and X7D
+
+

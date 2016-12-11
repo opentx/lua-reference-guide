@@ -33,7 +33,7 @@ bottom line is 63. Drawing on an existing black pixel produces white pixel (TODO
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/lcd/drawPoint-example.lua">lcd/drawPoint-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawPoint-example.lua">lcd/drawPoint-example</a>
 
 ```lua
 local function circle(xCenter, yCenter, radius)

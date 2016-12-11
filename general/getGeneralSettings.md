@@ -7,7 +7,7 @@
 Returns (some of) the general radio settings
 
 @status current Introduced in 2.0.6, `imperial` added in TODO,
-`language` and `voice` added int 2.2.0.
+`language` and `voice` added in 2.2.0.
 
 
 
@@ -33,7 +33,7 @@ none
 
 ### Examples
 
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/master/general/getGeneralSettings-example.lua">general/getGeneralSettings-example</a>
+<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/general/getGeneralSettings-example.lua">general/getGeneralSettings-example</a>
 
 ```lua
 local function run(e)
