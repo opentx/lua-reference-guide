@@ -13,6 +13,8 @@ This section also covers some of the requirements for scripts that are necessary
 
 * Horus doesn't support Telemetry scripts.
 
+* Telemetry and Mix scripts maximum file name length (without extension) was reduced from 8 to 6 characters.
+
 #### LCD Functions
 
 * Function `lcd.lock()` was removed.

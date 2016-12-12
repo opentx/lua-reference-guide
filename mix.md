@@ -25,7 +25,7 @@ Mix scripts take one or more values as inputs, do some calculation or logic proc
 
 ##### Location
 
-Place them on SD card in folder /SCRIPTS/MIXES/
+Place them on SD card in folder /SCRIPTS/MIXES/. File name length (without extension) **must be 6 characters or less** (this limit was 8 characters in OpenTX 2.1).
 
 ##### Lifetime
 
