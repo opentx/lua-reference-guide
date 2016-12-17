@@ -18,7 +18,8 @@ To get a telemetry value simply use it's sensor name. For example:
  * to get the current altitude use the source "Alt"
  * to get the minimum altitude use the source "Alt-", to get the maximum use "Alt+"
 
-@status current Introduced in 2.0.0, changed in 2.1.0
+@status current Introduced in 2.0.0, changed in 2.1.0, `Cels+` and 
+`Cels-` added in 2.1.9
 
 
 #### Parameters
@@ -53,6 +54,8 @@ case the returned value is 0):
 
 ##### Notice
 Getting a value by its numerical identifier is faster then by its name.
+While `Cels` sensor returns current values of all cells in a table, a `Cels+` or 
+`Cels-` will return a single value - the maximum or minimum Cels value.
 
 
 
