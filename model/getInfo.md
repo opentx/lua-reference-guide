@@ -17,7 +17,7 @@ none
 
 * `table` model information:
  * `name` (string) model name
- * `bitmap` (string) bitmap name (not present on X7D)
+ * `bitmap` (string) bitmap name (not present on X7)
 
 
 
