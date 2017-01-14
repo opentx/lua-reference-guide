@@ -22,7 +22,11 @@ Set Logical Switch parameters
 none
 
 ##### Notice
-If a parameter is missing from the value, then 
+If a parameter is missing from the value, then
 that parameter remains unchanged.
+
+
+To set the `and` member (which is Lua keyword)
+use the following syntax: `model.setLogicalSwitch(30, {func=4,v1=1,v2=-99, ["and"]=24})`
 
 
