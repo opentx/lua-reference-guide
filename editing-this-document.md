@@ -2,7 +2,7 @@
 
 OpenTx is a community driven project. We appreciate your willingness to help.
 
-Please follow these steps.
+To help edit this document please follow these steps.
 
 ## GitHub Fork
 
