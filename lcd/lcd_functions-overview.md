@@ -34,3 +34,11 @@ Many of the lcd functions accept parameters named *flags* and *patterns*.  The n
 |FORCE|pixels will be black|
 |ERASE|pixels will be white|
 |DOTTED|lines will appear dotted|
+
+#### Screen Constants
+
+|Name|Description|
+|---|---|
+|LCD_W|width in pixels|
+|LCD_H|height in pixels|
+
