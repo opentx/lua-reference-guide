@@ -15,6 +15,8 @@ This section also covers some of the requirements for scripts that are necessary
 
 * Telemetry and Mix scripts maximum file name length (without extension) was reduced from 8 to 6 characters.
 
+* Telemetry and Mix scripts maximum number of inputs reduced from 8 to 6
+
 #### LCD Functions
 
 * Function `lcd.lock()` was removed.
