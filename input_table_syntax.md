@@ -22,7 +22,7 @@ VALUE inputs provide a constant value that is set by the user when the mix scrip
   * *default* - must be within the valid range specified
 
 
-*  #####Maximum of 6 inputs per script (warning : was 6 in 2.1)
+*  #####Maximum of 6 inputs per script (warning : was 8 in 2.1)
 
 #####Example using a SOURCE and a VALUE
 ```lua
