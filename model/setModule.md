@@ -4,7 +4,7 @@
 
 
 
-Set RF module parameters 
+Set RF module parameters
 
 @status current Introduced in TODO
 

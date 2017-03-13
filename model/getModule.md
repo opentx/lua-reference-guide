@@ -6,6 +6,12 @@
 
 Get RF module parameters
 
+`rfProtocol` values:
+ * -1 OFF
+ * 0 D16
+ * 1 D8
+ * 2 LR12
+
 @status current Introduced in TODO
 
 
@@ -22,7 +28,7 @@ Get RF module parameters
 * `table` module parameters:
  * `rfProtocol` (number) protocol index
  * `modelId` (number) receiver number
- * `firstChannel` (number) start channel (0 is CH1) 
+ * `firstChannel` (number) start channel (0 is CH1)
  * `channelsCount` (number) number of channels sent to module
 
 

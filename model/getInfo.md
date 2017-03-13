@@ -4,7 +4,7 @@
 
 
 
-Get current Model information 
+Get current Model information
 
 @status current Introduced in 2.0.6, changed in 2.2.0
 

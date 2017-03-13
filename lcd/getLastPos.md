@@ -4,7 +4,7 @@
 
 
 
-Returns the last x position from previous output
+Returns the rightmost x position from previous output
 
 @status current Introduced in 2.0.0
 
@@ -21,5 +21,8 @@ none
 
 ##### Notice
 Only available on Taranis
+
+
+For added clarity, it is recommended to use lcd.getLastRightPos()
 
 

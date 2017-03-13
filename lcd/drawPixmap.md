@@ -22,7 +22,7 @@ Draw a bitmap at (x,y)
 none
 
 ##### Notice
-Only available on Taranis
+Only available on Taranis X9 series. Maximum image size if 106 x 64 pixels (width x height).
 
 
 
