@@ -1,7 +1,7 @@
 # Speed and Memory Optimization Tricks
 
 
-## faster getValue()
+## Faster getValue()
 
 Normally one uses [getValue()](general/getValue.md) function with the source/filed name like so:
 
