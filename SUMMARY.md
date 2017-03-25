@@ -119,4 +119,5 @@
 * [Part VI - Advanced Topics](part_vi_-_advanced_topics.md)
    * [Lua data sharing across scripts](lua_data_sharing_across_scripts.md)
    * [Debugging techniques](debugging_techniques.md)
+   * [Speed/memory optimizaton tricks](optimization_tricks.md)
 
