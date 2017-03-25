@@ -4,16 +4,15 @@
 
 
 
-Stops key state machine.
+Stops key state machine. See [Key Events](../key_events.md) for the detailed description.
 
 @status current Introduced in 2.0.0
 
-TODO table of events/masks
 
 
 #### Parameters
 
-* `key` (number) key to be killed, can also include event type (only key part is used)
+* `key` (number) key to be killed, can also include event type (only the key part is used)
 
 
 
