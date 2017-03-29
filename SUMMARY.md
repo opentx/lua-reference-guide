@@ -120,4 +120,6 @@
    * [Lua data sharing across scripts](lua_data_sharing_across_scripts.md)
    * [Debugging techniques](debugging_techniques.md)
    * [Speed/memory optimizaton tricks](optimization_tricks.md)
+* [Part VII - Appendix](part_vii_-_appendix.md)
+   * [Fonts](appendix/fonts.md)
 
