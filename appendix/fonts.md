@@ -92,7 +92,7 @@
 |SMLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_pt_04x06.png)|
 |BOLD_FONT |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_pt_05x07.png)|
 
-### Serbian
+### Swedish
 
 |Font Set|Available Characters|
 |---|---|
