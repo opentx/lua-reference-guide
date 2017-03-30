@@ -96,9 +96,9 @@
 
 |Font Set|Available Characters|
 |---|---|
-|XXLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_sr_22x38_num.png)|
-|DBLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_sr_10x14.png)|
-|MIDSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_sr_08x10.png)|
-|SMLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_sr_04x06.png)|
-|BOLD_FONT |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_sr_05x07_B_compressed.png)|
+|XXLSIZE |--|
+|DBLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_se_10x14.png)|
+|MIDSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_se_08x10.png)|
+|SMLSIZE |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_se_04x06.png)|
+|BOLD_FONT |![](https://github.com/opentx/opentx/blob/next/radio/src/fonts/std/font_se_05x07.png)|
 
