@@ -2,7 +2,7 @@
 
 ## Taranis X7 & X9 series
 
-### English
+### English (Default)
 
 |Font Set|Available Characters|
 |---|---|
