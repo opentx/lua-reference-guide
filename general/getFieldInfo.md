@@ -7,6 +7,7 @@
 Return detailed information about field (source)
 
 The list of valid sources is available:
+
 | OpenTX Version | Radio |
 |----------------|-------|
 | 2.0 | [all](http://downloads-20.open-tx.org/firmware/lua_fields.txt) |
@@ -28,7 +29,7 @@ The list of valid sources is available:
  * `id`   (number) field identifier
  * `name` (string) field name
  * `desc` (string) field description
- * 'unit' (number) unit identifier (https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/appendix/units.html)
+ * 'unit' (number) unit identifier [Full list](../appendix/units.html)
 
 * `nil` the requested field was not found
 

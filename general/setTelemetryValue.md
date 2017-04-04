@@ -17,7 +17,7 @@
 
 * `value` fed to the sensor
 
-* `unit` unit of the sensor.(https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/appendix/units.html)
+* `unit` unit of the sensor [Full list](../appendix/units.html)
 
 * `precision` the precision of the sensor
  * `0 or not present` no decimal precision.

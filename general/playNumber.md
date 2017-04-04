@@ -14,7 +14,7 @@ Play a numerical value (text to speech)
 
 * `value` (number) number to play. Value is interpreted as integer.
 
-* `unit` (number) unit identifier ((https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/appendix/units.html))
+* `unit` (number) unit identifier [Full list]((../appendix/units.html))
 
 * `attributes` (unsigned number) possible values:
  * `0 or not present` plays integral part of the number (for a number 123 it plays 123)
