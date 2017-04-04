@@ -4,7 +4,7 @@
 
 
 
-Load a Lua script file. This is similar to Lua's own [loadfile()](https://www.lua.org/manual/5.2/manual.html#pdf-loadfile) 
+Load a Lua script file. This is similar to Lua's own [loadfile()](https://www.lua.org/manual/5.2/manual.html#pdf-loadfile)
 API method,  but it uses OpenTx's optional pre-compilation feature to save memory and time during load.
 
 Return values are same as from Lua API loadfile() method: If the script was loaded w/out errors
@@ -33,17 +33,17 @@ then the loaded script (or "chunk") is returned as a function. Otherwise, return
 
 * `mode` (string) (optional) Controls whether to force loading the text (.lua) or pre-compiled binary (.luac)
   version of the script. By default OTx will load the newest version and compile a new binary if necessary (overwriting any
-  existing .luac version of the same script, and stripping some debug info like line numbers).  
+  existing .luac version of the same script, and stripping some debug info like line numbers).
   You can use `mode` to control the loading behavior more specifically. Possible values are:
    * `b` only binary.
    * `t` only text.
    * `T` (default on simulator) prefer text but load binary if that is the only version available.
    * `bt` (default on radio) either binary or text, whichever is newer (binary preferred when timestamps are equal).
-   * Add `x` to avoid automatic compilation of source file to .luac version.  
+   * Add `x` to avoid automatic compilation of source file to .luac version.
        Eg: "tx", "bx", or "btx".
-   * Add `c` to force compilation of source file to .luac version (even if existing version is newer than source file).  
+   * Add `c` to force compilation of source file to .luac version (even if existing version is newer than source file).
        Eg: "tc" or "btc" (forces "t", overrides "x").
-   * Add `d` to keep extra debug info in the compiled binary.  
+   * Add `d` to keep extra debug info in the compiled binary.
        Eg: "td", "btd", or "tcd" (no effect with just "b" or with "x").
 
 * `env` (integer) See documentation for Lua function loadfile().
@@ -59,7 +59,6 @@ then the loaded script (or "chunk") is returned as a function. Otherwise, return
 
 
 ##### Notice
-
   Note that you will get an error if you specify `mode` as "b" or "t" and that specific version of the file does not exist (eg. no .luac file when "b" is used).
   Also note that `mode` is NOT passed on to Lua's loader function, so unlike with loadfile() the actual file content is not checked (as if no mode or "bt" were passed to loadfile()).
 

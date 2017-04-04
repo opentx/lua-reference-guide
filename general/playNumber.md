@@ -9,43 +9,12 @@ Play a numerical value (text to speech)
 @status current Introduced in 2.0.0
 
 
-| 2.2 Unit  | Sound        |
-| --- | ---                |
-| 0   | (no unit played)   |
-| 1   | Volts              |
-| 2   | Amps               |
-| 3   | Milliamps          |
-| 4   | Knots              |
-| 5   | Meters per Second  |
-| 6   | Feet per Second    |
-| 7   | Kilometers per Hour|
-| 8   | Miles per Hour     |
-| 9   | Meters             |
-| 10  | Feet               |
-| 11  | Degrees Celsius    |
-| 12  | Degrees Fahrenheit |
-| 13  | Percent            |
-| 14  | Milliamp Hours     |
-| 15  | Watts              |
-| 16  | Milliwatts         |
-| 17  | DB                 |
-| 18  | RPM                |
-| 19  | Gee                |
-| 20  | Degrees            |
-| 21  | Radians            |
-| 22  | Milliliters        |
-| 23  | Fluid Ounces       |
-| 24  | Hours              |
-| 25  | Minutes            |
-| 26  | Seconds            |
-
-
 
 #### Parameters
 
 * `value` (number) number to play. Value is interpreted as integer.
 
-* `unit` (number) unit identifier (see table todo)
+* `unit` (number) unit identifier ((https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/appendix/units.html))
 
 * `attributes` (unsigned number) possible values:
  * `0 or not present` plays integral part of the number (for a number 123 it plays 123)

@@ -17,14 +17,7 @@
 
 * `value` fed to the sensor
 
-* `unit` unit of the sensor.
- * `0 or not present` UNIT_RAW.
- * `!= 0` Valid values are 1 (UNIT_VOLTS), 2 (UNIT_AMPS), 3 (UNIT_MILLIAMPS),
- 4 (UNIT_KTS), 5 (UNIT_METERS_PER_SECOND), 6 (UNIT_FEET_PER_SECOND), 7 (UNIT_KMH), 8 (UNIT_MPH), 9 (UNIT_METERS),
- 10 (UNIT_FEET), 11 (UNIT_CELSIUS), 12 (UNIT_FAHRENHEIT), 13 (UNIT_PERCENT), 14 (UNIT_MAH), 15 (UNIT_WATTS),
- 16 (UNIT_MILLIWATTS), 17 (UNIT_DB), 18 (UNIT_RPMS), 19 (UNIT_G), 20 (UNIT_DEGREE), 21 (UNIT_RADIANS),
- 22 (UNIT_MILLILITERS), 23 (UNIT_FLOZ), 24 (UNIT_HOURS), 25 (UNIT_MINUTES), 26 (UNIT_SECONDS), 27 (UNIT_CELLS),
- 28 (UNIT_DATETIME), 29 (UNIT_GPS), 30 (UNIT_BITFIELD), 31 (UNIT_TEXT)
+* `unit` unit of the sensor.(https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/appendix/units.html)
 
 * `precision` the precision of the sensor
  * `0 or not present` no decimal precision.
