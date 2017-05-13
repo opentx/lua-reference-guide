@@ -1,7 +1,5 @@
 # Fonts
 
-## Taranis X7 & X9 series# Fonts
-
 ## Taranis X7 & X9 series
 
 ### English (Default)
