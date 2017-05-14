@@ -82,7 +82,7 @@
 
 |Font Set|Available Characters|
 |---|---|
-|XXLSIZE |--)|
+|XXLSIZE |--|
 |DBLSIZE |![](https://raw.githubusercontent.com/opentx/opentx/2.2/radio/src/fonts/std/font_pt_10x14.png)|
 |MIDSIZE |![](https://raw.githubusercontent.com/opentx/opentx/2.2/radio/src/fonts/std/font_pt_08x10.png)|
 |0 Default |![](https://raw.githubusercontent.com/opentx/opentx/2.2/radio/src/fonts/std/font_pt_05x07.png)|
