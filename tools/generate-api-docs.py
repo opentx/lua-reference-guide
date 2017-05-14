@@ -22,6 +22,8 @@ ENDMARKER = "[//]: <> (LUADOC-END:"
 SUMMARYFILE = "SUMMARY.md"
 READMEFILE = "README.md"
 DOCBASE = "https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/"
+SOURCEBASE = "https://raw.githubusercontent.com/opentx/opentx/2.2/radio/src/lua/"
+
 
 def logDebug(txt):
   if DEBUG:
@@ -276,8 +278,7 @@ args = parser.parse_args()
 DEBUG = args.debug
 
 if len(args.files) == 0:
-  urlBase = "https://raw.githubusercontent.com/opentx/opentx/next/radio/src/lua/"
-  args.files = [ urlBase + f for f in ("api_general.cpp", "api_lcd.cpp", "api_model.cpp")]
+  args.files = [ SOURCEBASE + f for f in ("api_general.cpp", "api_lcd.cpp", "api_model.cpp")]
 
 for fileName in args.files:
   logInfo("Opening %s" % fileName)
