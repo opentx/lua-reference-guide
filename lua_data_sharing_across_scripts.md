@@ -64,9 +64,11 @@ local output = {"ctup", "ctdn" }
 local function init()
   local version = getVersion()
   if version < "2.1" then
-    minUnit = 16 -- we are running OpenTX 2.0
+    minUnit = 16  -- unit for minutes in OpenTX 2.0
+  elseif version < "2.2" then
+    minUnit = 23  -- unit for minutes in OpenTX 2.1
   else
-    minUnit = 23
+    minUnit = 25  -- unit for minutes in OpenTX 2.2
   end
 end
 
