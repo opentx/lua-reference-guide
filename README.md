@@ -19,6 +19,6 @@ Part V addresses common issues in converting Lua scripts that were originally wr
 Part VI covers advanced topics with examples
 
 [//]: <> (LUADOC-BEGIN:timestamp)
-<div class="footer">last updated on 2017/04/04 16:14:55 UTC</div>
+<div class="footer">last updated on 2017/05/31 20:03:27 UTC</div>
 [//]: <> (LUADOC-END:timestamp)
 

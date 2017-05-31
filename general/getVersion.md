@@ -45,11 +45,11 @@ none
 
 * `multiple` (available since 2.1.7) returns 5 values:
  * (string) OpenTX version (ie "2.1.5")
- * (string) radio version: `taranisx9e`, `taranisplus` or `taranis`.
+ * (string) radio version: `x9e`, `x9d+` or `x9d`.
 If running in simulator the "-simu" is added
  * (number) major version (ie 2 if version 2.1.5)
  * (number) minor version (ie 1 if version 2.1.5)
- * (number) revison number (ie 5 if version 2.1.5)
+ * (number) revision number (ie 5 if version 2.1.5)
 
 
 

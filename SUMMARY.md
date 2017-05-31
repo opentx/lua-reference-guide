@@ -77,6 +77,7 @@
       * [model.insertInput(input, line, value)](model/insertInput.md)
       * [model.insertMix(channel, line, value)](model/insertMix.md)
       * [model.resetTimer(timer)](model/resetTimer.md)
+      * [model.setCurve(curve, params)](model/setCurve.md)
       * [model.setCustomFunction(function, value)](model/setCustomFunction.md)
       * [model.setGlobalVariable(index, flight_mode, value)](model/setGlobalVariable.md)
       * [model.setInfo(value)](model/setInfo.md)

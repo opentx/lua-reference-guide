@@ -6,6 +6,9 @@
 
 Get Curve parameters
 
+ Note that functions returns the tables starting with index 0 contrary to LUA's
+ usual index starting with 1
+
 @status current Introduced in 2.0.12
 
 
