@@ -42,3 +42,15 @@ Many of the lcd functions accept parameters named *flags* and *patterns*.  The n
 |LCD_W|width in pixels|
 |LCD_H|height in pixels|
 
+#### Screen Information
+
+| Radio | LCD_W | LCD_H | Colours |
+| --- | --- | --- | --- |
+| X7 | 128 | 64 | 1 bit |
+| X9D | 212 | 64 | 4 bit |
+| X9D+ | 212 | 64 | 4 bit |
+| X9E | 212 | 64 | 4 bit |
+| X10 | 480 | 272 | RGB565 |
+| X12S | 480 | 272 | RGB565 |
+
+
