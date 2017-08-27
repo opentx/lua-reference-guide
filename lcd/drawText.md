@@ -6,7 +6,7 @@
 
 Draw a text beginning at (x,y)
 
-@status current Introduced in 2.0.0
+@status current Introduced in 2.0.0, `SHADOWED` introduced in 2.2.1
 
 
 #### Parameters
@@ -25,6 +25,7 @@ See the [Appendix](../appendix/fonts.md) for available characters in each font s
  * `SMLSIZE` small font
  * `INVERS` inverted display
  * `BLINK` blinking text
+ * `SHADOWED` Horus only, apply a shadow effect
 
 
 

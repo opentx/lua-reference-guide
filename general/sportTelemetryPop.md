@@ -17,7 +17,9 @@ none
 
 #### Return value
 
-* `SPORT` paket as a quadruple:
+* `nil` queue does not contain any (or enough) bytes to form a whole packet
+
+* `multiple` returns 4 values:
  * sensor ID (number)
  * frame ID (number)
  * data ID (number)

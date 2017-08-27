@@ -19,8 +19,6 @@ Draw a combo box
 
 * `idx` (integer) index of entry to highlight
 
-* `page` (number) page number
-
 * `flags` (unsigned number) drawing flags, the flags can not be combined:
  * `BLINK` combo box is expanded
  * `INVERS` combo box collapsed, text inversed

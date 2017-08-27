@@ -4,6 +4,8 @@
 
 
 
+Pops a received Crossfire Telemetry packet from the queue.
+
 @status current Introduced in 2.2.0
 
 
@@ -13,11 +15,11 @@ none
 
 #### Return value
 
-* `SPORT` paket as a quadruple:
- * sensor ID (number)
- * frame ID (number)
- * data ID (number)
- * value (number)
+* `nil` queue does not contain any (or enough) bytes to form a whole packet
+
+* `multiple` returns 2 values:
+ * command (number)
+ * packet (table) data bytes
 
 
 

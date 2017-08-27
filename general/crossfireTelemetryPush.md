@@ -6,20 +6,16 @@
 
 This functions allows for sending telemetry data toward the TBS Crossfire link.
 
-When called without parameters, it will only return the status of the ouput buffer without sending anything.
+When called without parameters, it will only return the status of the output buffer without sending anything.
 
 @status current Introduced in 2.2.0
 
 
 #### Parameters
 
-* `sensorId`  physical sensor ID
+* `command` command
 
-* `frameId`   frame ID
-
-* `dataId`    data ID
-
-* `value`     value
+* `data` table of data bytes
 
 
 
