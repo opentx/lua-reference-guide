@@ -27,7 +27,7 @@ Widgets need to be registered through the telemetry setup menu.
 
 Once registered, widgets are started when the model is loaded.
 
-#####Script interface definition
+##### Script interface definition
 
 Every widget must include a return statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * widget **name** (*name* must be a string of 10 characters or less)
@@ -37,7 +37,7 @@ Every widget must include a return statement at the end, that defines its interf
 * script **background** function
 * script **refresh** function
 
-#####Example (draws a moving counter that counts only when not visible):
+##### Example (draws a moving counter that counts only when not visible):
 
 ```lua
 local defaultOptions = {
@@ -99,7 +99,7 @@ return { name="MovingCntr", options=defaultOptions, create=createWidget, update=
   , refresh=refreshWidget, background=backgroundProcessWidget }
 ```
 
-#####Notes:
+##### Notes:
 
 * *options* are only passed through to OpenTX to be used on widget creation. Don't change them during operation, this has no effect.
 * *create()* function is called once when widget is loaded and begins execution.
