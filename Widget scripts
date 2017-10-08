@@ -12,10 +12,7 @@ Place them on the SD card in the folder /WIDGETS/yourWidget. Name the 'yourWidge
 
 Lifetime of Widgets
 
-Widgets are executed when registered for a screen. 
-The 'refresh' function is called when the screen where the widget is registered to is active, the 'background' function is active otherwise.
-
-if you need the 'background' function to be executed even when the widget is on the active screen, it needs to be called explicitly from the 'refresh' function
+Widgets are executed when registered for a screen on the active model.
 
 Widget executes until:
 
