@@ -1,7 +1,5 @@
 
-# Widget scripts
-
-### Widgets (HORUS ONLY) Scripts
+# Widgets (HORUS ONLY) Scripts
 
 ##### General description
 
@@ -13,7 +11,7 @@ Each model can have up to five custom screens, with up to 8 widgets per screen, 
 
 Widgets are located on the SD card, each in their specific folder /WIDGETS/&lt;*name*&gt;/main.lua (*name* must be in 8 characters or less).
 
-##### Lifetime of telemetry script
+##### Lifetime of widgets
 
 Widgets need to be registered through the telemetry setup menu.
 
