@@ -10,7 +10,7 @@
    * [One-Time Scripts](one-time_scripts.md)
    * [Wizard Script](wizard.md)
    * [Function Scripts](function_scripts.md)
-   * [Widget Scripts](widget_scripts.md)
+   * [Widget Scripts](widgets.md)
    * [Theme Scripts](theme_scripts.md)
 * [Part II - OpenTX Lua API Programming Guide](part_ii_-_opentx_lua_api_programming_guide.md)
    * [Input Table Syntax](input_table_syntax.md)
