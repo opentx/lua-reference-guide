@@ -1,17 +1,17 @@
 
 # Widgets (HORUS ONLY) Scripts
 
-##### General description
+#### General description
 
 Widgets are small scripts that show some info in a 'zone' in one of the model specific user defined (telemetry) screens. You can define those screens within the telemetry menu on the HORUS. 
 
 Each model can have up to five custom screens, with up to 8 widgets per screen, depending on their size and layout. Each instance of a widget has his own custom settings.
 
-##### File Location
+#### File Location
 
 Widgets are located on the SD card, each in their specific folder /WIDGETS/&lt;*name*&gt;/main.lua (*name* must be in 8 characters or less).
 
-##### Lifetime of widgets
+#### Lifetime of widgets
 
 Widgets need to be registered through the telemetry setup menu.
 
@@ -25,7 +25,7 @@ Widgets need to be registered through the telemetry setup menu.
 
 Once registered, widgets are started when the model is loaded.
 
-##### Script interface definition
+#### Script interface definition
 
 Every widget must include a return statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 * widget **name** (*name* must be a string of 10 characters or less)
@@ -97,7 +97,7 @@ return { name="MovingCntr", options=defaultOptions, create=createWidget, update=
   , refresh=refreshWidget, background=backgroundProcessWidget }
 ```
 
-##### Notes:
+#### Notes:
 
 * *options* are only passed through to OpenTX to be used on widget creation. Don't change them during operation, this has no effect.
 * *create()* function is called once when widget is loaded and begins execution.
