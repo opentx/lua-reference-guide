@@ -7,6 +7,7 @@ Once registered, they will run automatically at model activation.
 
 File Location
 
+The widget script itself needs to be named 'main.lua'.
 Place them on the SD card in the folder /WIDGETS/yourWidget. Name the 'yourWidget' subfolder with a name that is convienient to you.
 
 Lifetime of Widgets
