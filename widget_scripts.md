@@ -42,13 +42,13 @@ Every widget must include a return statement at the end, that defines its interf
 ```lua
 local defaultOptions = {
   { "ControlX", SOURCE, 1 },
-  { "ScrollZ", BOOL, 0 }, -- BOOL is actually not a boolean, but toggles between 0 and 1
+  { "ScrollZ", BOOL, 1 }, -- BOOL is actually not a boolean, but toggles between 0 and 1
   { "StepZ", VALUE, 1, 0, 10},
   { "COLOR", COLOR, RED },
 }
 
 local function createWidget(zone, options)
-  lcd.setColor( CUSTOM_COLOR, options.Text_Color )
+  lcd.setColor( CUSTOM_COLOR, options.COLOR )
   --  the CUSTOM_COLOR is foreseen to have one color that is not radio template related, but it can be used by other widgets as well!
   local someVariable = 0
   local anotherVariable = {xWidget=0, yWidget = 0}
@@ -57,7 +57,7 @@ end
 
 local function updateWidget(widgetToUpdate, newOptions)
   widgetToUpdate.options = newOptions
-  lcd.setColor( CUSTOM_COLOR, widget.options.Text_Color )
+  lcd.setColor( CUSTOM_COLOR, widgetToUpdate.options.COLOR )
   --  the CUSTOM_COLOR is foreseen to have one color that is not radio template related, but it can be used by other widgets as well!
 end
 
