@@ -51,7 +51,7 @@ return { run=run_func, init=init_func }
 * local variables retain their values for as long as the model is loaded regardless of switch condition value
  
 
-#####Advanced example (save as /SCRIPTS/FUNCTIONS/cnt-down.lua)
+#####Advanced example (save as /SCRIPTS/FUNCTIONS/cntdwn.lua)
 
 The script below is an example of customized countdown announcements. Note that the init function determines which version of OpenTX is running and sets the unit parameter for playNumber() accordingly.
 
