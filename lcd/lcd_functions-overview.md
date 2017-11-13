@@ -21,7 +21,8 @@ Many of the lcd functions accept parameters named *flags* and *patterns*.  The n
 |INVERS|inverted display|||
 |BLINK|blinking text|||
 |XXLSIZE|jumbo font|2.0.6||
-|LEFT|left justify|2.0.6|Only for drawNumber|
+|LEFT|left justify|2.0.6||
+|RIGHT|right justify|||
 |PREC1|single decimal place|||
 |PREC2|two decimal places|||
 |GREY_DEFAULT|grey fill|||
