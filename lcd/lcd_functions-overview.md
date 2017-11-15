@@ -2,7 +2,7 @@
 
 ##### Description
 
-Lcd functions allow scripts to interact with the transmitter display. This access is limited to the 'run' functions of One-Time and Telemetry scripts. 
+Lcd functions allow scripts to interact with the transmitter display. This access is limited to the 'run' functions of One-Time and Telemetry scripts. Widget scripts on the Horus (X10 and X12S) can make use of the lcd functions as well. 
 
 ##### Notes:
 
@@ -21,7 +21,8 @@ Many of the lcd functions accept parameters named *flags* and *patterns*.  The n
 |INVERS|inverted display|||
 |BLINK|blinking text|||
 |XXLSIZE|jumbo font|2.0.6||
-|LEFT|left justify|2.0.6|Only for drawNumber|
+|LEFT|left justify|2.0.6| Default for most functions not related to bitmaps|
+|RIGHT|right justify|||
 |PREC1|single decimal place|||
 |PREC2|two decimal places|||
 |GREY_DEFAULT|grey fill|||
