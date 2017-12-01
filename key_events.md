@@ -40,8 +40,8 @@ The two fields are combined into one single number. Some of these combinations a
 |EVT_MINUS_BREAK| **-** key release |
 |EVT_PLUS_FIRST| **+** key press |
 |EVT_MINUS_FIRST| **-** key press |
-|EVT_PLUS_RPT| **+** key repeat |
-|EVT_MINUS_RPT|**-** key repeat|
+|EVT_PLUS_REPT| **+** key repeat |
+|EVT_MINUS_REPT|**-** key repeat|
 
 Radios with rotary encoder (X7 and Horus) have also:
 
