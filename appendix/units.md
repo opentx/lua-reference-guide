@@ -16,7 +16,7 @@
 | 11  | Degrees Celsius    | UNIT_CELSIUS           |
 | 12  | Degrees Fahrenheit | UNIT_FAHRENHEIT        |
 | 13  | Percent            | UNIT_PERCENT           |
-| 14  | Milliamp per Hour  | UNIT_MAH               |
+| 14  | Milliamp Hour      | UNIT_MAH               |
 | 15  | Watts              | UNIT_WATTS             |
 | 16  | Milliwatts         | UNIT_MILLIWATTS        |
 | 17  | dB                 | UNIT_DB                |
