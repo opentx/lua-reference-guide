@@ -20,6 +20,6 @@ none
 
 
 ##### Notice
-Only available on Taranis X9 series (212x64 displays)
+Only available on Taranis
 
 

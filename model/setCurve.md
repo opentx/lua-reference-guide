@@ -6,22 +6,22 @@
 
 Set Curve parameters
 
-The first and last x value must 0 and 100 and x values must be monotonically increasing
+The first and last x value must -100 and 100 and x values must be monotonically increasing
 
 @status current Introduced in 2.2.0
 
 Example setting a 4-point custom curve:
 ```lua
   params = {}
-  params["x"] =  {0, 34, 77, 100}
+  params["x"] =  {-100, -34, 77, 100}
   params["y"] = {-70, 20, -89, -100}
-  params["smooth"] = 1
+  params["smooth"] = true
   params["type"] = 1
   val =  model.setCurve(2, params)
  ```
 setting a 6-point standard smoothed curve
  ```lua
- val = model.setCurve(3, {smooth=1, y={-100, -50, 0, 50, 100, 80}})
+ val = model.setCurve(3, {smooth=true, y={-100, -50, 0, 50, 100, 80}})
  ```
 
 
@@ -31,7 +31,7 @@ setting a 6-point standard smoothed curve
 * `curve` (unsigned number) curve number (use 0 for Curve1)
 
 * `params` see model.getCurve return format for table format. setCurve uses standard
- lua array indexing and array start at index 1
+ lua array indexing and arrays start at index 1
 
 
 

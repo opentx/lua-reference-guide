@@ -18,8 +18,10 @@ none
  * `mon` (number) month
  * `day` (number) day of month
  * `hour` (number) hours
+ * `hour12` (number) hours in US format
  * `min` (number) minutes
  * `sec` (number) seconds
+ * `suffix` (text) am or pm
 
 
 
