@@ -22,7 +22,7 @@ Set RF module parameters
 none
 
 ##### Notice
-If a parameter is missing from the value, then 
+If a parameter is missing from the value, then
 that parameter remains unchanged.
 
 

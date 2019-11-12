@@ -5,7 +5,7 @@
 
 
 Load a Lua script file. This is similar to Lua's own [loadfile()](https://www.lua.org/manual/5.2/manual.html#pdf-loadfile)
-API method,  but it uses OpenTx's optional pre-compilation feature to save memory and time during load.
+API method, but it uses OpenTx's optional pre-compilation feature to save memory and time during load.
 
 Return values are same as from Lua API loadfile() method: If the script was loaded w/out errors
 then the loaded script (or "chunk") is returned as a function. Otherwise, returns nil plus the error message.

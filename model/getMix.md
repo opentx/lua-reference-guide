@@ -4,7 +4,7 @@
 
 
 
-Get configuration for specified Mix  
+Get configuration for specified Mix
 
 @status current Introduced in 2.0.0, parameters below `multiplex` added in 2.0.13
 

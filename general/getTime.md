@@ -6,7 +6,7 @@
 
 Return the time since the radio was started in multiple of 10ms
 
-The timer internally uses a 32-bit counter which is enough for 30 years so
+The timer internally uses a 32-bit counter which is enough for 497 days so
 overflows will not happen.
 
 @status current Introduced in 2.0.0

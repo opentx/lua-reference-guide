@@ -6,7 +6,7 @@
 
 Get RF module parameters
 
-`rfProtocol` values:
+`subType` values:
  * -1 OFF
  * 0 D16
  * 1 D8
@@ -26,7 +26,7 @@ Get RF module parameters
 * `nil` requested module does not exist
 
 * `table` module parameters:
- * `rfProtocol` (number) protocol index
+ * `subType` (number) protocol index
  * `modelId` (number) receiver number
  * `firstChannel` (number) start channel (0 is CH1)
  * `channelsCount` (number) number of channels sent to module

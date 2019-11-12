@@ -4,7 +4,7 @@
 
 
 
-Delete mixer line from specified Channel  
+Delete mixer line from specified Channel
 
 @status current Introduced in 2.0.0
 

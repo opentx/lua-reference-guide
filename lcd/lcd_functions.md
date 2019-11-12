@@ -1,2 +1,0 @@
-# Lcd Functions
-

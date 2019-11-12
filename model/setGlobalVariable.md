@@ -28,24 +28,3 @@ any floating point value is converted into integer value
 by truncating everything behind a floating point.
 
 
-
-
----
-
-### Examples
-
-### Example
-
-this is a sample example
-
-
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/model/setGlobalVariable-example.lua">model/setGlobalVariable-example</a>
-
-```lua
-function foo(bar)
-  local x = bar * 2
-end
-```
-
-![](setGlobalVariable-example.png)
-

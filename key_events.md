@@ -51,3 +51,24 @@ Radios with rotary encoder (X7 and Horus) have also:
 |EVT_ROT_LONG| rotary encoder long press |
 |EVT_ROT_LEFT| rotary encoder rotated left |
 |EVT_ROT_RIGHT| rotary encoder rotated right |
+
+## Virtual events
+
+Given the large number of radios supported by OpenTX, and the large difference in keys available on those, a set of VIRTUAL KEYS has been defined and are mapped to best fit available hardware
+
+|Virtual Key Event Name|Comments|
+|:--------:|:-------:|
+|EVT_VIRTUAL_NEXT_PAGE| for PAGE navigation |
+|EVT_VIRTUAL_PREVIOUS_PAGE| for PAGE navigation |
+|EVT_VIRTUAL_ENTER| |
+|EVT_VIRTUAL_ENTER_LONG| |
+|EVT_VIRTUAL_MENU| |
+|EVT_VIRTUAL_MENU_LONG| |
+|EVT_VIRTUAL_NEXT| for FIELDS navigation|
+|EVT_VIRTUAL_NEXT_REPT| for FIELDS navigation|
+|EVT_VIRTUAL_PREVIOUS| for FIELDS navigation|
+|EVT_VIRTUAL_PREV_REPT| for FIELDS navigation|
+|EVT_VIRTUAL_INC| for VALUES navigation|
+|EVT_VIRTUAL_INC_REPT| for VALUES navigation|
+|EVT_VIRTUAL_DEC| for VALUES navigation|
+|EVT_VIRTUAL_DEC_REPT| for VALUES navigation|

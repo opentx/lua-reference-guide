@@ -6,7 +6,7 @@
 
 Get Custom Function parameters
 
-@status current Introduced in 2.0.0, TODO rename function 
+@status current Introduced in 2.0.0, TODO rename function
 
 
 #### Parameters
@@ -24,7 +24,7 @@ Get Custom Function parameters
  * `func` (number) function index
  * `name` (string)  Name of track to play (only returned only returned if action is play track, sound or script)
  * `value` (number) value (only returned only returned if action is **not** play track, sound or script)
- * `mode` (number) mode (only returned only returned if action is **not** play track, sound or script) 
+ * `mode` (number) mode (only returned only returned if action is **not** play track, sound or script)
  * `param` (number) parameter (only returned only returned if action is **not** play track, sound or script)
  * `active` (number) 0 = disabled, 1 = enabled
 

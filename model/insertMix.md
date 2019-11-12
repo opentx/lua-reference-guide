@@ -4,7 +4,7 @@
 
 
 
-Insert a mixer line into Channel   
+Insert a mixer line into Channel
 
 @status current Introduced in 2.0.0, parameters below `multiplex` added in 2.0.13
 

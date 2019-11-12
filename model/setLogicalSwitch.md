@@ -4,7 +4,7 @@
 
 
 
-Set Logical Switch parameters 
+Set Logical Switch parameters
 
 @status current Introduced in 2.0.0
 

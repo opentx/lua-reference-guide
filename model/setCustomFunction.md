@@ -6,7 +6,7 @@
 
 Set Custom Function parameters
 
-@status current Introduced in 2.0.0, TODO rename function 
+@status current Introduced in 2.0.0, TODO rename function
 
 
 #### Parameters
@@ -22,7 +22,7 @@ Set Custom Function parameters
 none
 
 ##### Notice
-If a parameter is missing from the value, then 
+If a parameter is missing from the value, then
 that parameter remains unchanged.
 
 

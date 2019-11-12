@@ -22,26 +22,6 @@ Draw a bitmap at (x,y)
 none
 
 ##### Notice
-Only available on Taranis X9 series. Maximum image size if 106 x 64 pixels (width x height).
+Maximum image size is [display width / 2] x [display height] pixels.
 
-
-
-
----
-
-### Examples
-
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawPixmap-example.lua">lcd/drawPixmap-example</a>
-
-```lua
-local function run(event)
-  lcd.clear()
-  lcd.drawText(1,1,"drawPixmap() example", 0)
-  lcd.drawPixmap(96, 0, "/bmp/lua.bmp")
-end
-
-return{run=run}
-```
-
-![](drawPixmap-example.png)
 

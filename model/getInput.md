@@ -4,9 +4,9 @@
 
 
 
-Return input data for given input and line number 
+Return input data for given input and line number
 
-@status current Introduced in 2.0.0, `switch` added in TODO
+@status current Introduced in 2.0.0, curveType/curveValue/carryTrim added in 2.3
 
 
 #### Parameters
@@ -24,9 +24,12 @@ Return input data for given input and line number
 * `table` input data:
  * `name` (string) input line name
  * `source` (number) input source index
- * `weight` (number) input weight 
- * `offset` (number) input offset 
+ * `weight` (number) input weight
+ * `offset` (number) input offset
  * `switch` (number) input switch index
+ * `curveType` (number) curve type (function, expo, custom curve)
+ * `curveValue` (number) curve index
+ * `carryTrim` (boolean) input trims applied
 
 
 

@@ -4,7 +4,7 @@
 
 
 
-Return number of lines for given input 
+Return number of lines for given input
 
 @status current Introduced in 2.0.0
 

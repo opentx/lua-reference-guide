@@ -4,7 +4,7 @@
 
 
 
-Get the number of Mixer lines that the specified Channel has 
+Get the number of Mixer lines that the specified Channel has
 
 @status current Introduced in 2.0.0
 

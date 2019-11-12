@@ -28,8 +28,8 @@ Get servo parameters
  * `symetrical` (number) linear Subtrim 0 = Off, 1 = On
  * `revert` (number) irection 0 = ­­­---, 1 = INV
  * `curve`
-   * (number) Curve number (0 for Curve1) 
-   * or `nil` if no curve set 
+   * (number) Curve number (0 for Curve1)
+   * or `nil` if no curve set
 
 
 

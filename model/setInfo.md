@@ -4,7 +4,7 @@
 
 
 
-Set the current Model information 
+Set the current Model information
 
 @status current Introduced in 2.0.6, changed in TODO
 
@@ -20,7 +20,7 @@ Set the current Model information
 none
 
 ##### Notice
-If a parameter is missing from the value, then 
+If a parameter is missing from the value, then
 that parameter remains unchanged.
 
 

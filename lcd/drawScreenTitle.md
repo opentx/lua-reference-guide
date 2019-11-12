@@ -28,23 +28,3 @@ none
 Only available on Taranis
 
 
-
-
----
-
-### Examples
-
-<a class="dlbtn" href="https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawScreenTitle-example.lua">lcd/drawScreenTitle-example</a>
-
-```lua
-local function run(event)
-  lcd.clear()
-  lcd.drawText(20, 20,"drawScreenTitle", DBLSIZE + BLINK)
-  lcd.drawScreenTitle("This screen has one page", 1, 1)
-end
-
-return{run=run}
-```
-
-![](drawScreenTitle-example.png)
-
