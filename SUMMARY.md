@@ -1,6 +1,6 @@
 # Summary
 
-* [OpenTX 2.2 Lua Reference Guide](README.md)
+* [OpenTX 2.3 Lua Reference Guide](README.md)
    * [Introduction](introduction.md)
        * [Acknowledgments](acknowledgments.md)
        * [Getting Started](getting_started.md)
