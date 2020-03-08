@@ -1,6 +1,6 @@
 # OpenTX 2.3 Lua Reference Guide
 
-[![Join the chat on Discord](https://discord.gg/CZCwVx2)]
+[Join the chat on Discord](https://discord.gg/CZCwVx2)
 
 Go to https://opentx.gitbooks.io/opentx-2-3-lua-reference-guide/content/ for the latest published version of this guide.
 
