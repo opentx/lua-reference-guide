@@ -68,7 +68,7 @@
       * [model.deleteMixes()](model/deleteMixes.md)
       * [model.getCurve(curve)](model/getCurve.md)
       * [model.getCustomFunction(function)](model/getCustomFunction.md)
-      * [model.getGlobalVariable(index [, flight_mode])](model/getGlobalVariable.md)
+      * [model.getGlobalVariable(index, flight_mode)](model/getGlobalVariable.md)
       * [model.getInfo()](model/getInfo.md)
       * [model.getInput(input, line)](model/getInput.md)
       * [model.getInputsCount(input)](model/getInputsCount.md)
