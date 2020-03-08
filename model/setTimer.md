@@ -6,7 +6,7 @@
 
 Set model timer parameters
 
-@status current Introduced in 2.0.0
+@status current Introduced in 2.0.0, name added in 2.3.6
 
 
 #### Parameters

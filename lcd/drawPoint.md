@@ -15,6 +15,8 @@ Draw a single pixel at (x,y) position
 
 * `y` (positive number) y position
 
+* `flags` (optional) lcdflags
+
 
 
 #### Return value

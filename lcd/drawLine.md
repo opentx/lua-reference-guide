@@ -6,7 +6,7 @@
 
 Draw a straight line on LCD
 
-@status current Introduced in 2.0.0
+@status current Introduced in 2.0.0, flags introduced in 2.3.6
 
 
 #### Parameters
@@ -15,9 +15,9 @@ Draw a straight line on LCD
 
 * `x2,y2` (positive numbers) end coordinate
 
-* `pattern` TODO
+* `pattern` SOLID or DOTTED
 
-* `flags` TODO
+* `flags` lcdflags
 
 
 
