@@ -27,10 +27,11 @@
 | 22  | Milliliters        | UNIT_MILLILITERS       |
 | 23  | Fluid Ounces       | UNIT_FLOZ              |
 | 24  | Ml per minute      | UNIT_MILLILITERS_PER_MINUTE |
-| 35  | Minutes            | UNIT_MINUTES           |
-| 36  | Seconds            | UNIT_SECONDS           |
-| 37  | Virtual unit       | UNIT_CELLS             |
-| 38  | Virtual unit       | UNIT_DATETIME          |
-| 39  | Virtual unit       | UNIT_GPS               |
-| 40  | Virtual unit       | UNIT_BITFIELD          |
-| 41  | Virtual unit       | UNIT_TEXT              |
+| 35  | Hours              | UNIT_HOURS             |
+| 36  | Minutes            | UNIT_MINUTES           |
+| 37  | Seconds            | UNIT_SECONDS           |
+| 38  | Virtual unit       | UNIT_CELLS             |
+| 39  | Virtual unit       | UNIT_DATETIME          |
+| 40  | Virtual unit       | UNIT_GPS               |
+| 41  | Virtual unit       | UNIT_BITFIELD          |
+| 42  | Virtual unit       | UNIT_TEXT              |
