@@ -119,6 +119,7 @@
       * [lcd.getLastPos()](lcd/getLastPos.md)
       * [lcd.getLastRightPos()](lcd/getLastRightPos.md)
       * [lcd.refresh()](lcd/refresh.md)
+      * [lcd.resetBacklightTimeout()](lcd/resetBacklightTimeout.md)
       * [lcd.setColor(area, color)](lcd/setColor.md) [//]: <> (LUADOC-END:lcd)
    * [Bitmap Functions](Bitmap/Bitmap_functions.md) [//]: <> (LUADOC-BEGIN:Bitmap)
       * [Bitmap.getSize(name)](Bitmap/getSize.md)
