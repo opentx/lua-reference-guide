@@ -57,7 +57,8 @@
       * [playHaptic(duration, pause [, flags])](general/playHaptic.md)
       * [playNumber(value, unit [, attributes])](general/playNumber.md)
       * [playTone(frequency, duration, pause [, flags [, freqIncr]])](general/playTone.md)
-      * [popupConfirmation(title, event)](general/popupConfirmation.md)
+      * [popupConfirmation(title, event) deprecated, please replace by
+@function popupConfirmation(title, message, event)](general/popupConfirmation.md)
       * [popupInput(title, event, input, min, max)](general/popupInput.md)
       * [popupWarning(title, event)](general/popupWarning.md)
       * [resetGlobalTimer([type])](general/resetGlobalTimer.md)
