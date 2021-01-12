@@ -1,2 +1,0 @@
-# Bitmap Functions
-

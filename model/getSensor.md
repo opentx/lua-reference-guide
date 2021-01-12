@@ -17,16 +17,16 @@ Get Telemetry Sensor parameters
 
 #### Return value
 
-* `nil` requested logical switch does not exist
+* `nil` requested sensor does not exist
 
-* `table` logical switch data:
- * `func` (number) function index
- * `v1` (number) V1 value (index)
- * `v2` (number) V2 value (index or value)
- * `v3` (number) V3 value (index or value)
- * `and` (number) AND switch index
- * `delay` (number) delay (time in 1/10 s)
- * `duration` (number) duration (time in 1/10 s)
+* `table` with sensor data:
+ * `type` (number) 0 = custom, 1 = calculated 
+ * `name` (string) Name
+ * `unit` (number) See list of units in the appendix of the OpenTX Lua Reference Guide
+ * `prec` (number) Number of decimals
+ * `id`   (number) Only custom sensors
+ * `instance` (number) Only custom sensors
+ * `formula` (number) Only calculated sensors. 0 = Add etc. see list of formula choices in Companion popup
 
 
 
