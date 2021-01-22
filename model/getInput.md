@@ -6,7 +6,7 @@
 
 Return input data for given input and line number
 
-@status current Introduced in 2.0.0, curveType/curveValue/carryTrim added in 2.3
+@status current Introduced in 2.0.0, curveType/curveValue/carryTrim added in 2.3, inputName added 2.3.10, flighmode reworked in 2.3.11
 
 
 #### Parameters
@@ -23,6 +23,7 @@ Return input data for given input and line number
 
 * `table` input data:
  * `name` (string) input line name
+ * `inputName` (string) input input name
  * `source` (number) input source index
  * `weight` (number) input weight
  * `offset` (number) input offset
@@ -30,6 +31,7 @@ Return input data for given input and line number
  * `curveType` (number) curve type (function, expo, custom curve)
  * `curveValue` (number) curve index
  * `carryTrim` (boolean) input trims applied
+ * 'flightModes' (number) bit-mask of active flight modes
 
 
 

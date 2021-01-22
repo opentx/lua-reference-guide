@@ -26,6 +26,6 @@ Returns a 5/6/5 rgb color code, that can be used with lcd.setColor
 
 
 ##### Notice
-Only available on Horus
+Only available on Colorlcd radios
 
 
