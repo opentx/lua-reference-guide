@@ -1,0 +1,21 @@
+# model.getInput\(input, line\)
+
+Return input data for given input and line number
+
+@status current Introduced in 2.0.0, `switch` added in TODO
+
+## Parameters
+
+* `input` \(unsigned number\) input number \(use 0 for Input1\)
+* `line` \(unsigned number\) input line \(use 0 for first line\)
+
+## Return value
+
+* `nil` requested input or line does not exist
+* `table` input data:
+  * `name` \(string\) input line name
+  * `source` \(number\) input source index
+  * `weight` \(number\) input weight 
+  * `offset` \(number\) input offset 
+  * `switch` \(number\) input switch index
+

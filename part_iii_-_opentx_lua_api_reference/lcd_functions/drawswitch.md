@@ -1,0 +1,36 @@
+# lcd.drawSwitch\(x, y, switch, flags\)
+
+Draw a text representation of switch at \(x,y\)
+
+@status current Introduced in 2.0.0
+
+### Parameters
+
+* `x,y` \(positive numbers\) starting coordinate
+* `switch` \(number\) number of switch to display, negative number displays negated switch
+* `flags` \(unsigned number\) drawing flags, only SMLSIZE, BLINK and INVERS.
+
+### Return value
+
+none
+
+## Examples
+
+[lcd/drawSwitch-example](https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.2/lcd/drawSwitch-example.lua)
+
+```lua
+local function run(event)
+  local source
+  lcd.clear()
+  lcd.drawText(1, 1,"drawSwitch() example", 0)
+  for source = 1, 5 do
+   lcd.drawSwitch(1, source * 10, source, 0)
+   lcd.drawText(20, source * 10, " is switch source number " .. source)
+  end
+end
+
+return{run=run}
+```
+
+![](../../.gitbook/assets/drawSwitch-example.png)
+

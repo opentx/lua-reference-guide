@@ -2,7 +2,7 @@
 
 [Join the chat on Discord](https://discord.gg/CZCwVx2)
 
-Go to https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/ for the latest published version of this guide.
+Go to [https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/](https://opentx.gitbooks.io/opentx-2-2-lua-reference-guide/content/) for the latest published version of this guide.
 
 This guide covers the development of user-written scripts for R/C transmitters running the OpenTX 2.2 operating system with Lua support. Readers should be familiar with OpenTX, the OpenTX Companion, and know how to transfer files the SD card in the transmitter.
 
@@ -18,7 +18,5 @@ Part V addresses common issues in converting Lua scripts that were originally wr
 
 Part VI covers advanced topics with examples
 
-[//]: <> (LUADOC-BEGIN:timestamp)
-<div class="footer">last updated on 2020/05/04 13:22:13 UTC</div>
-[//]: <> (LUADOC-END:timestamp)
+last updated on 2020/05/04 13:22:13 UTC
 
