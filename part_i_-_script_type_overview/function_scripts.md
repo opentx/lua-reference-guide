@@ -57,7 +57,6 @@ return { run=run_func, init=init_func }
 The script below is an example of customized countdown announcements. Note that the init function determines which version of OpenTX is running and sets the unit parameter for playNumber\(\) accordingly.
 
 ```lua
-local lstannounce
 local target
 
 local running = false
