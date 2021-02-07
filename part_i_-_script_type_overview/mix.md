@@ -49,9 +49,9 @@ CH1  [I4]Ail Weight(+100%)
 Every script must include a _return_ statement at the end, that defines its interface to the rest of OpenTX code. This statement defines:
 
 * script _input_ table \(optional, see [Input Table Syntax](../part_ii_-_opentx_lua_api_programming_guide/input_table_syntax.md)\)
-* script _output_ table \(optional, see [Output Table Syntax](https://github.com/opentx/opentx-2-3-lua-reference-guide/tree/0d355d19f1961b689994cf78b84005864d33f9b5/output_table_syntax.md)\)
-* script _init_ function \(optional, see [Init Function Syntax](https://github.com/opentx/opentx-2-3-lua-reference-guide/tree/0d355d19f1961b689994cf78b84005864d33f9b5/init_function_syntax.md)\)
-* script _run_ function \(see [Run Function Syntax](https://github.com/opentx/opentx-2-3-lua-reference-guide/tree/0d355d19f1961b689994cf78b84005864d33f9b5/run_function_syntax.md)\)
+* script _output_ table \(optional, see [Output Table Syntax](../part_ii_-_opentx_lua_api_programming_guide/output_table_syntax.md)\)
+* script _init_ function \(optional, see [Init Function Syntax](../part_ii_-_opentx_lua_api_programming_guide/init_function_syntax.md)\)
+* script _run_ function \(see [Run Function Syntax](../part_ii_-_opentx_lua_api_programming_guide/run_function_syntax.md)\)
 
 ### Example \(interface only\):
 

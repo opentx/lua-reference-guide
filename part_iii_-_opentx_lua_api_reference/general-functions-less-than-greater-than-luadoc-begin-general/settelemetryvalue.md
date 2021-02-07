@@ -8,7 +8,7 @@
 * `subID` subID of the sensor, usually 0, valid range is from 0 to 7
 * `instance` instance of the sensor \(SensorID\), valid range is from 0 to 0xFF
 * `value` fed to the sensor
-* `unit` unit of the sensor [Full list](https://github.com/opentx/opentx-2-3-lua-reference-guide/tree/0d355d19f1961b689994cf78b84005864d33f9b5/appendix/units.html)
+* `unit` unit of the sensor [Full list](../../part_vii_-_appendix/units.html)
 * `precision` the precision of the sensor
   * `0 or not present` no decimal precision.
   * `!= 0` value is divided by 10^precision, e.g. value=1000, prec=2 =&gt; 10.00.
