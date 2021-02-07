@@ -6,9 +6,9 @@ Another reason is that OpenTX maintains a build server that serves firmware comp
 
 The OpenTX team is grateful to those who have donated to the project. You have helped making OpenTX and OpenTX Companion great.
 
-The [Github Donor List](https://github.com/opentx/opentx/blob/master/DONATIONS.txt) is updated at each OpenTX release.
+The [Github Donor List](https://github.com/opentx/opentx/blob/master/CREDITS.txt) is updated at each OpenTX release.
 
 If you would like to contribute to OpenTX, donations are welcome and appreciated:
 
-[![](https://github.com/opentx/lua-reference-guide/tree/89b65e383782af902c0528c648021268417248da/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DJ9MASSKVW8WN)
+[![](https://github.com/opentx/lua-reference-guide/raw/opentx_2.3/.gitbook/assets/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DJ9MASSKVW8WN)
 
