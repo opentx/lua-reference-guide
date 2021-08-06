@@ -21,8 +21,8 @@ STARTMARKER = "[//]: <> (LUADOC-BEGIN:"
 ENDMARKER = "[//]: <> (LUADOC-END:"
 SUMMARYFILE = "SUMMARY.md"
 READMEFILE = "README.md"
-DOCBASE = "https://raw.githubusercontent.com/opentx/lua-reference-guide/opentx_2.3/"
-SOURCEBASE = "https://raw.githubusercontent.com/opentx/opentx/2.3/radio/src/lua/"
+DOCBASE = "https://raw.githubusercontent.com/pfeerick/lua-reference-guide/edgetx_2.4/"
+SOURCEBASE = "https://raw.githubusercontent.com/Edgetx/edgetx/2.4/radio/src/lua/"
 
 
 def logDebug(txt):
