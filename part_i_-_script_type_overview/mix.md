@@ -1,6 +1,6 @@
 # Mix Scripts
 
-_**WARNING -**_  **Do not use Lua mix scripts for controlling any aspect of your model that could cause a crash if script stops executing.**
+_**WARNING -**_ **Do not use Lua mix scripts for controlling any aspect of your model that could cause a crash if script stops executing.**
 
 ## Description
 

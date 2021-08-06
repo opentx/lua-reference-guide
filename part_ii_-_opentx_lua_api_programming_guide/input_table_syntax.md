@@ -11,7 +11,7 @@ The input table defines what values are available as input\(s\) to [mix scripts]
   ```
 
   SOURCE inputs provide the current value of a selected OpenTX variable. The source must set by the user when the mix script is configured. Source can be any value OpenTX knows about \(inputs, channels, telemetry values, switches, custom functions,...\).  
-   _Note:_ typical range is -1024 thru +1024. Simply divide the input value by 10.24 to interpret as a percentage from -100% to +100%.
+  _Note:_ typical range is -1024 thru +1024. Simply divide the input value by 10.24 to interpret as a percentage from -100% to +100%.
 
 * **VALUE syntax**
 

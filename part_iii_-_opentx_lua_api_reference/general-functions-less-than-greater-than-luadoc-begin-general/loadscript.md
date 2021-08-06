@@ -27,15 +27,15 @@ Return values are same as from Lua API loadfile\(\) method: If the script was lo
   * `bt` \(default on radio\) either binary or text, whichever is newer \(binary preferred when timestamps are equal\).
   * Add `x` to avoid automatic compilation of source file to .luac version.
 
-      Eg: "tx", "bx", or "btx".
+    Eg: "tx", "bx", or "btx".
 
   * Add `c` to force compilation of source file to .luac version \(even if existing version is newer than source file\).
 
-      Eg: "tc" or "btc" \(forces "t", overrides "x"\).
+    Eg: "tc" or "btc" \(forces "t", overrides "x"\).
 
   * Add `d` to keep extra debug info in the compiled binary.
 
-      Eg: "td", "btd", or "tcd" \(no effect with just "b" or with "x"\).
+    Eg: "td", "btd", or "tcd" \(no effect with just "b" or with "x"\).
 * `env` \(integer\) See documentation for Lua function loadfile\(\).
 
 ### Return value

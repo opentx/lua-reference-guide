@@ -12,7 +12,7 @@ Resets the radio global timer to 0.
 
   if set to 'ttimer', radio throttle timer is reset too
 
-  if set to  'tptimer', radio throttle percent timer is reset too
+  if set to 'tptimer', radio throttle percent timer is reset too
 
 ## Return value
 

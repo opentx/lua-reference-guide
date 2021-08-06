@@ -21,7 +21,7 @@ In OpenTX 2.1.x the telemetry sources no longer have a predefined name. To get a
 
 ## Parameters
 
-* `source`  can be an identifier \(number\) \(which was obtained by the getFieldInfo\(\)\)
+* `source` can be an identifier \(number\) \(which was obtained by the getFieldInfo\(\)\)
 
   or a name \(string\) of the source.
 

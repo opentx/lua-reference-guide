@@ -4,7 +4,7 @@
 
 **lcd.Lock\(\)** is deprecated, will be obsolete in 2.2. Lua scripts must now explicitly call lcd.Clear\(\) and re-draw the whole display if necessary.
 
- TODO: research killEvents\(\) and use of keys in telemetry scripts
+TODO: research killEvents\(\) and use of keys in telemetry scripts
 
 ## Obsolete Telemetry Field Names
 

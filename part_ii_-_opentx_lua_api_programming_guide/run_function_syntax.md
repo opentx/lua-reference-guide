@@ -23,8 +23,9 @@ end
 * **Return values:**
   * none - if output table is empty \(i.e. script has no output\)
 
-    values  
-     - or -
+    values
+
+    * or -
 
   * comma separated list of output values, their order and meaning is defined by the output table. \(see [Output Table Syntax](output_table_syntax.md)\)
 
