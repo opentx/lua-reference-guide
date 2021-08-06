@@ -20,7 +20,7 @@ Get Telemetry Sensor parameters
 * `nil` requested sensor does not exist
 
 * `table` with sensor data:
- * `type` (number) 0 = custom, 1 = calculated 
+ * `type` (number) 0 = custom, 1 = calculated
  * `name` (string) Name
  * `unit` (number) See list of units in the appendix of the OpenTX Lua Reference Guide
  * `prec` (number) Number of decimals
