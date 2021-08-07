@@ -1,4 +1,4 @@
 # Part VI - Advanced Topics
 
-The advanced topics section covers file i/o, data sharing, and debugging techniques
+The advanced topics section covers file I/O, data sharing, and debugging techniques
 

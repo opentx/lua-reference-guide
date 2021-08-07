@@ -1,2 +1,2 @@
-# Bitmap Functions \[//\]: &lt;&gt; \(LUADOC-BEGIN:Bitmap\)
+# Bitmap Functions
 
