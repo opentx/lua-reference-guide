@@ -2,7 +2,7 @@
 
 [Join the chat on Discord](https://discord.gg/CZCwVx2)
 
-Go to [https://peter-feerick.gitbook.io/edgetx-lua-reference-guide/](https://peter-feerick.gitbook.io/edgetx-lua-reference-guide/) [ ](https://peter-feerick.gitbook.io/edgetx-lua-reference-guide/)for the latest published version of this guide.
+The latest version of this guide will always be available [here](https://luadoc.edgetx.org). At the top of the left sidebar there is a version option if you are running an older version of EdgeTX or OpenTX and need the docs for that specific version. 
 
 This guide covers the development of user-written scripts for R/C transmitters running the EdgeTX 2.4 operating system with Lua support. Readers should be familiar with EdgeTX/OpenTX, the OpenTX Companion, and know how to transfer files the SD card in the transmitter.
 
