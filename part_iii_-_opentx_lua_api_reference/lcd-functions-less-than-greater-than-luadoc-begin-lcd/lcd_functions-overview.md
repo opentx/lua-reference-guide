@@ -39,7 +39,7 @@ On radios with color display, a color may be added to the above screen drawing f
 
 ### Indexed colors
 
-These are the theme colors plus CUSTOM\_COLOR, and they can be changed with the function lcd.setRGB\(color\_index, color\). **Please note: if an indexed color is changed, then it changes everywhere that it is used. For the theme colors, this is not only in other widgets, but everywhere throughout the radio's user interface!**
+These are the theme colors plus CUSTOM\_COLOR, and they can be changed with the function lcd.setColor\(color\_index, color\). **Please note: if an indexed color is changed, then it changes everywhere that it is used. For the theme colors, this is not only in other widgets, but everywhere throughout the radio's user interface!**
 
 * COLOR\_THEME\_PRIMARY1
 * COLOR\_THEME\_PRIMARY2
