@@ -278,7 +278,7 @@ args = parser.parse_args()
 DEBUG = args.debug
 
 if len(args.files) == 0:
-  args.files = [ SOURCEBASE + f for f in ("api_general.cpp", "api_lcd.cpp", "api_model.cpp")]
+  args.files = [ SOURCEBASE + f for f in ("api_general.cpp", "api_colorlcd.cpp", "api_model.cpp")]
 
 for fileName in args.files:
   logInfo("Opening %s" % fileName)
@@ -299,7 +299,7 @@ for m in MODULES.iterkeys():
     logDebug("Function: %s" % repr(f))
     doc = generateFunctionDoc(f)
     # print(doc)
-    docName = "%s/%s.md" % (f[0], f[1])
+    docName = "part_iii_-_opentx_lua_api_reference/%s-functions-less-than-greater-than-luadoc-begin-%s/%s.md" % (f[0], f[0], f[1].lower())
     mkdir_p(os.path.dirname(docName))
     with open(docName, "w") as out:
       out.write(doc)
