@@ -29,7 +29,7 @@ Get RF module parameters
  * 1 D8
  * 2 LR12
 
-@status current Introduced in TODO
+@status current Introduced in 2.2.0
 
 
 #### Parameters
@@ -49,9 +49,9 @@ Get RF module parameters
  * `channelsCount` (number) number of channels sent to module
  * `Type` (number) module type
  * if the module type is Multi additional information are available
- * `protocol` (number) protocol number
- * `subProtocol` (number) sub-protocol number
- * `channelsOrder` (number) first 4 channels expected order
+ * `protocol` (number) protocol number (Multi only)
+ * `subProtocol` (number) sub-protocol number (Multi only)
+ * `channelsOrder` (number) first 4 channels expected order (Multi only)
 
 
 

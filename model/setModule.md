@@ -6,7 +6,7 @@
 
 Set RF module parameters
 
-@status current Introduced in TODO
+@status current Introduced in 2.2.0, modified in 2.3.12 (proto/subproto)
 
 
 #### Parameters

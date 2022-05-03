@@ -12,7 +12,7 @@ Return input data for given input and line number
 #### Parameters
 
 * `index` (unsigned number) flight mode number (use 0 for FM0)
- 
+
 
 
 #### Return value

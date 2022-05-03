@@ -13,7 +13,8 @@ Raises a pop-up on screen that allows uses input
 
 * `title` (string) text to display
 
-* `event` (number) the event variable that is passed in from the run function (key pressed)
+* `event` (number) the event variable that is passed in from the
+Run function (key pressed)
 
 * `input` (number) value that can be adjusted by the +/­- keys
 
