@@ -13,7 +13,7 @@ none
 
 ## Return value
 
-* \`number\` in list: ROTENC_LOWSPEED, ROTENC_MIDSPEED, ROTENC_HIGHSPEED
+* `number` in list: ROTENC_LOWSPEED, ROTENC_MIDSPEED, ROTENC_HIGHSPEED
         return 0 on radio without rotary encoder
 
 

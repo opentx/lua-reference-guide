@@ -13,9 +13,9 @@ none
 
 ## Return value
 
-* \`nil\` queue does not contain any (or enough) bytes to form a whole packet
+* `nil` queue does not contain any (or enough) bytes to form a whole packet
 
-* \`multiple\` returns 2 values:
+* `multiple` returns 2 values:
  * command (number)
  * packet (table) data bytes
 

@@ -50,9 +50,9 @@ then the loaded script (or "chunk") is returned as a function. Otherwise, return
 
 ## Return value
 
-* \`function\` The loaded script, or `nil` if there was an error (e.g. file not found or syntax error).
+* `function` The loaded script, or `nil` if there was an error (e.g. file not found or syntax error).
 
-* \`string\` Error message(s), if any. Blank if no error occurred.
+* `string` Error message(s), if any. Blank if no error occurred.
 
 
 

@@ -15,9 +15,9 @@ Get Custom Function parameters
 
 ## Return value
 
-* \`nil\` requested custom function does not exist
+* `nil` requested custom function does not exist
 
-* \`table\` custom function data:
+* `table` custom function data:
  * `switch` (number) switch index
  * `func` (number) function index
  * `name` (string)  Name of track to play (only returned only returned if action is play track, sound or script)

@@ -15,9 +15,9 @@ Get model timer parameters
 
 ## Return value
 
-* \`nil\` requested timer does not exist
+* `nil` requested timer does not exist
 
-* \`table\` timer parameters:
+* `table` timer parameters:
  * `mode` (number) timer trigger source: off, abs, stk,  stk%, sw/!sw, !m_sw/!m_sw
  * `start` (number) start value [seconds], 0 for up timer, 0> down timer
  * `value` (number) current value [seconds]

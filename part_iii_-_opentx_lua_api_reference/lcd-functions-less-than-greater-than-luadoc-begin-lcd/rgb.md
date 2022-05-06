@@ -19,7 +19,7 @@ Returns a 5/6/5 rgb color code, that can be used with lcd.setColor
 
 ## Return value
 
-* \`number\` (integer) rgb color expressed in 5/6/5 format
+* `number` (integer) rgb color expressed in 5/6/5 format
 
 
 

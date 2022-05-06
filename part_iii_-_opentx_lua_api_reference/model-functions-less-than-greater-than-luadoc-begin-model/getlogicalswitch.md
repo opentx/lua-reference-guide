@@ -15,9 +15,9 @@ Get Logical Switch parameters
 
 ## Return value
 
-* \`nil\` requested logical switch does not exist
+* `nil` requested logical switch does not exist
 
-* \`table\` logical switch data:
+* `table` logical switch data:
  * `func` (number) function index
  * `v1` (number) V1 value (index)
  * `v2` (number) V2 value (index or value)

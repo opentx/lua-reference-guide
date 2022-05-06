@@ -13,11 +13,11 @@ none
 
 ## Return value
 
-* \`rssi\` RSSI value (0 if no link)
+* `rssi` RSSI value (0 if no link)
 
-* \`alarm_low\` Configured low RSSI alarm level
+* `alarm_low` Configured low RSSI alarm level
 
-* \`alarm_crit\` Configured critical RSSI alarm level
+* `alarm_crit` Configured critical RSSI alarm level
 
 
 

@@ -15,7 +15,7 @@ Return width, height of a bitmap object
 
 ## Return value
 
-* \`multiple\` returns 2 values:
+* `multiple` returns 2 values:
  * (number) width in pixels
  * (number) height in pixels
 

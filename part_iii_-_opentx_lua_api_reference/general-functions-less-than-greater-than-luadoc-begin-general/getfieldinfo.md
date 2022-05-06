@@ -24,13 +24,13 @@ The list of valid sources is available:
 
 ## Return value
 
-* \`table\` information about requested field, table elements:
+* `table` information about requested field, table elements:
  * `id`   (number) field identifier
  * `name` (string) field name
  * `desc` (string) field description
  * 'unit' (number) unit identifier [Full list](../appendix/units.html)
 
-* \`nil\` the requested field was not found
+* `nil` the requested field was not found
 
 
 

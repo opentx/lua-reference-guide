@@ -17,9 +17,9 @@ Get configuration for specified Mix
 
 ## Return value
 
-* \`nil\` requested channel or line does not exist
+* `nil` requested channel or line does not exist
 
-* \`table\` mix data:
+* `table` mix data:
  * `name` (string) mix line name
  * `source` (number) source index
  * `weight` (number) weight (1024 == 100%) value or GVAR1..9 = 4096..4011, -GVAR1..9 = 4095..4087

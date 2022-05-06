@@ -38,9 +38,9 @@ Get RF module parameters
 
 ## Return value
 
-* \`nil\` requested module does not exist
+* `nil` requested module does not exist
 
-* \`table\` module parameters:
+* `table` module parameters:
  * `subType` (number) protocol index
  * `modelId` (number) receiver number
  * `firstChannel` (number) start channel (0 is CH1)

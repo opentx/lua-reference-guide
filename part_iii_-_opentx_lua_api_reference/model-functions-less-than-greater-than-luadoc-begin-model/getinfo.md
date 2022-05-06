@@ -13,7 +13,7 @@ none
 
 ## Return value
 
-* \`table\` model information:
+* `table` model information:
  * `name` (string) model name
  * `bitmap` (string) bitmap name (not present on X7)
 

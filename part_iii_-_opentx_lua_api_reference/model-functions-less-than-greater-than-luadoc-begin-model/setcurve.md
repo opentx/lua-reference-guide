@@ -35,7 +35,7 @@ setting a 6-point standard smoothed curve
 
 ## Return value
 
-* \`curve\` status data:
+* `curve` status data:
   * 0 - Everything okay
   * 1 - Wrong number of points
   * 2 - Invalid Curve number

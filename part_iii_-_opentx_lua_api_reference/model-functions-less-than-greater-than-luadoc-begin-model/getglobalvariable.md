@@ -22,9 +22,9 @@ Example:
 
 ## Return value
 
-* \`nil\`   requested global variable does not exist
+* `nil`   requested global variable does not exist
 
-* \`number\` current value of global variable
+* `number` current value of global variable
 
 
 

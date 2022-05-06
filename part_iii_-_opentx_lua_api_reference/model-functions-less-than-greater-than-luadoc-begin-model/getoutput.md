@@ -15,9 +15,9 @@ Get servo parameters
 
 ## Return value
 
-* \`nil\` requested output does not exist
+* `nil` requested output does not exist
 
-* \`table\` output parameters:
+* `table` output parameters:
  * `name` (string) name
  * `min` (number) Minimum % * 10
  * `max` (number) Maximum % * 10

@@ -13,7 +13,7 @@ none
 
 ## Return value
 
-* \`number\` (integer) x position
+* `number` (integer) x position
 
 
 

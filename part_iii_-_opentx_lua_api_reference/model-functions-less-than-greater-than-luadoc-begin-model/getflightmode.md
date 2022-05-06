@@ -15,9 +15,9 @@ Return input data for given input and line number
 
 ## Return value
 
-* \`nil\` requested input or line does not exist
+* `nil` requested input or line does not exist
 
-* \`table\` input data:
+* `table` input data:
  * `name` (string) input line name
  * `switch` (number) input switch index
  * `fadeIn` (number) fade in value (in 0.1s)

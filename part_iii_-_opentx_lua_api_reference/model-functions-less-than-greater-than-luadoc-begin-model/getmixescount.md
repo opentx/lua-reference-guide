@@ -15,7 +15,7 @@ Get the number of Mixer lines that the specified Channel has
 
 ## Return value
 
-* \`number\` number of mixes for requested channel
+* `number` number of mixes for requested channel
 
 
 
