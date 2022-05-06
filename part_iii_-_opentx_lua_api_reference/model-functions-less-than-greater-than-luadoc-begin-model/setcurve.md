@@ -36,15 +36,15 @@ setting a 6-point standard smoothed curve
 ## Return value
 
 * \`curve\` status data:
- * 0 - Everything okay
- * 1 - Wrong number of points
- * 2 - Invalid Curve number
- * 3 - Cuve does not fit anymore
- * 4 - point of out of index
- * 5 - x value not monotonically increasing
- * 6 - y value not in range [-100;100]
- * 7 - extra values for y are set
- * 8 - extra values for x are set
+  * 0 - Everything okay
+  * 1 - Wrong number of points
+  * 2 - Invalid Curve number
+  * 3 - Cuve does not fit anymore
+  * 4 - point of out of index
+  * 5 - x value not monotonically increasing
+  * 6 - y value not in range [-100;100]
+  * 7 - extra values for y are set
+  * 8 - extra values for x are set
 
 
 
