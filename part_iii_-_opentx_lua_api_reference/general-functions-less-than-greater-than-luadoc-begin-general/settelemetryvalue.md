@@ -29,7 +29,7 @@
 
 ## Return value
 
-* `true,` if the sensor was just added. In this case the value is ignored (subsequent call will set the value)
+* \`true,\` if the sensor was just added. In this case the value is ignored (subsequent call will set the value)
 
 
 

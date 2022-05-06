@@ -15,5 +15,5 @@ Reset Telemetry Sensor parameters
 
 ## Return value
 
-* `nil` 
+* \`nil\` 
 

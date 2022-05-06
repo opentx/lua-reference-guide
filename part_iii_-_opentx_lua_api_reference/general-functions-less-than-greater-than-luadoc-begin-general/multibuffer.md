@@ -16,7 +16,7 @@ This function reads/writes the Multi protocol buffer to interact with a protocol
 
 ## Return value
 
-* `buffer` value (number)
+* \`buffer\` value (number)
 
 
 

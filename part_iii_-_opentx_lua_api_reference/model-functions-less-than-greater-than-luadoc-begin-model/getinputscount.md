@@ -15,7 +15,7 @@ Return number of lines for given input
 
 ## Return value
 
-* `number` number of configured lines for given input
+* \`number\` number of configured lines for given input
 
 
 

@@ -15,9 +15,9 @@ Get Telemetry Sensor parameters
 
 ## Return value
 
-* `nil` requested sensor does not exist
+* \`nil\` requested sensor does not exist
 
-* `table` with sensor data:
+* \`table\` with sensor data:
  * `type` (number) 0 = custom, 1 = calculated
  * `name` (string) Name
  * `unit` (number) See list of units in the appendix of the OpenTX Lua Reference Guide

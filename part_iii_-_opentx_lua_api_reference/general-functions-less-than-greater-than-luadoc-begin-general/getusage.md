@@ -13,7 +13,7 @@ none
 
 ## Return value
 
-* `usage` (number) a value from 0 to 100 (percent)
+* \`usage\` (number) a value from 0 to 100 (percent)
 
 
 

@@ -202,7 +202,7 @@ def generateFunctionDoc(f):
     doc += "none"
   else:
     for p in f[5]:
-      doc += "* `%s` %s" % p
+      doc += "* \\`%s\\` %s" % p
   doc += "\n\n"
 
   # notices

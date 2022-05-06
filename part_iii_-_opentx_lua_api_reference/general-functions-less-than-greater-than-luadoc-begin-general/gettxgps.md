@@ -13,7 +13,7 @@ none
 
 ## Return value
 
-* `table` representing the current radio position
+* \`table\` representing the current radio position
  * `lat` (number) internal GPS latitude, positive is North
  * `lon` (number) internal GPS longitude, positive is East
  * 'numsat' (number) current number of sats locked in by the GPS sensor

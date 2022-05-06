@@ -15,9 +15,9 @@ none
 
 ## Return value
 
-* `nil` queue does not contain any (or enough) bytes to form a whole packet
+* \`nil\` queue does not contain any (or enough) bytes to form a whole packet
 
-* `multiple` returns 4 values:
+* \`multiple\` returns 4 values:
  * sensor ID (number)
  * frame ID (number)
  * data ID (number)

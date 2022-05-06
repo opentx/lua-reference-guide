@@ -19,9 +19,9 @@ When called without parameters, it will only return the status of the output buf
 
 ## Return value
 
-* `boolean`  data queued in output buffer or not.
+* \`boolean\`  data queued in output buffer or not.
 
-* `nil`      incorrect telemetry protocol.
+* \`nil\`      incorrect telemetry protocol.
 
 
 

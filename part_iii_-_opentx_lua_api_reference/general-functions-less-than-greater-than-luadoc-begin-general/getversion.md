@@ -41,9 +41,9 @@ none
 
 ## Return value
 
-* `string` OpenTX version (ie "2.1.5")
+* \`string\` OpenTX version (ie "2.1.5")
 
-* `multiple` (available since 2.1.7) returns 6 values:
+* \`multiple\` (available since 2.1.7) returns 6 values:
  * (string) OpenTX version (ie "2.1.5")
  * (string) radio type: `x12s`, `x10`, `x9e`, `x9d+`, `x9d` or `x7`.
 If running in simulator the "-simu" is added

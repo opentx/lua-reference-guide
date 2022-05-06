@@ -18,9 +18,9 @@ Get Curve parameters
 
 ## Return value
 
-* `nil` requested curve does not exist
+* \`nil\` requested curve does not exist
 
-* `table` curve data:
+* \`table\` curve data:
  * `name` (string) name
  * `type` (number) type
  * `smooth` (boolean) smooth

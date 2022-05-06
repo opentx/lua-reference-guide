@@ -17,9 +17,9 @@ Return input data for given input and line number
 
 ## Return value
 
-* `nil` requested input or line does not exist
+* \`nil\` requested input or line does not exist
 
-* `table` input data:
+* \`table\` input data:
  * `name` (string) input line name
  * `inputName` (string) input input name
  * `source` (number) input source index

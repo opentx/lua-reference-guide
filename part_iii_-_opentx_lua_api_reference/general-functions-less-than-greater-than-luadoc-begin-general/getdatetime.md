@@ -11,7 +11,7 @@ none
 
 ## Return value
 
-* `table` current date and time, table elements:
+* \`table\` current date and time, table elements:
  * `year` (number) year
  * `mon` (number) month
  * `day` (number) day of month

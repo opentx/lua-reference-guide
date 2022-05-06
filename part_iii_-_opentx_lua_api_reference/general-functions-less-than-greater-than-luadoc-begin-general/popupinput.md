@@ -24,11 +24,11 @@ Run function (key pressed)
 
 ## Return value
 
-* `number` result of the input adjustment
+* \`number\` result of the input adjustment
 
-* `"OK"` user pushed ENT key
+* \`"OK"\` user pushed ENT key
 
-* `"CANCEL"` user pushed EXIT key
+* \`"CANCEL"\` user pushed EXIT key
 
 
 

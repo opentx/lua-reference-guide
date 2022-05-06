@@ -22,7 +22,7 @@ Bitmap loading can fail if:
 
 ## Return value
 
-* `bitmap` (object) a bitmap object that can be used with other bitmap functions
+* \`bitmap\` (object) a bitmap object that can be used with other bitmap functions
 
 
 

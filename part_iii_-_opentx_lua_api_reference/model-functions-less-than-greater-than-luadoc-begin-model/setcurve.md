@@ -35,7 +35,7 @@ setting a 6-point standard smoothed curve
 
 ## Return value
 
-* `` 0 - Everything okay
+* \`\` 0 - Everything okay
          1 - Wrong number of points
          2 - Invalid Curve number
          3 - Cuve does not fit anymore

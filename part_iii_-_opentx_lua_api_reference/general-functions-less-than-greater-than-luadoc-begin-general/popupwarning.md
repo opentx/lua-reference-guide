@@ -18,7 +18,7 @@ Run function (key pressed)
 
 ## Return value
 
-* `"CANCEL"` user pushed EXIT key
+* \`"CANCEL"\` user pushed EXIT key
 
 
 

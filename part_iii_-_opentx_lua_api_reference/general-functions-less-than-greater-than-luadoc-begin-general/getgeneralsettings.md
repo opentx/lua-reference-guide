@@ -15,7 +15,7 @@ none
 
 ## Return value
 
-* `table` with elements:
+* \`table\` with elements:
  * `battWarn` (number) radio battery range - warning value
  * `battMin` (number) radio battery range - minimum value
  * `battMax` (number) radio battery range - maximum value

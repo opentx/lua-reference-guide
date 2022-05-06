@@ -16,7 +16,7 @@ is not specified (or contains invalid value), then the current flight mode data 
 
 ## Return value
 
-* `multiple` returns 2 values:
+* \`multiple\` returns 2 values:
  * (number) (current) flight mode number (0 - 8)
  * (string) (current) flight mode name
 

@@ -15,9 +15,9 @@ Get channel assigned to stick. See Default Channel Order in General Settings
 
 ## Return value
 
-* `number` channel assigned to this stick (from 0 to 3)
+* \`number\` channel assigned to this stick (from 0 to 3)
 
-* `nil` stick not found
+* \`nil\` stick not found
 
 
 

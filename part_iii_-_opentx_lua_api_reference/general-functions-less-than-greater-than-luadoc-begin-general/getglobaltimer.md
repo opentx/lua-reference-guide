@@ -14,7 +14,7 @@ none
 
 ## Return value
 
-* `table` with elements:
+* \`table\` with elements:
 * `gtimer` (number) radio global timer in seconds
 * `session` (number) radio session in seconds
 * `ttimer` (number) radio throttle timer in seconds

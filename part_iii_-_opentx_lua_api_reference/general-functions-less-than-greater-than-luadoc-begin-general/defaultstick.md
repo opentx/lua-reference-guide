@@ -15,7 +15,7 @@ Get stick that is assigned to a channel. See Default Channel Order in General Se
 
 ## Return value
 
-* `number` Stick assigned to this channel (from 0 to 3)
+* \`number\` Stick assigned to this channel (from 0 to 3)
 
 
 

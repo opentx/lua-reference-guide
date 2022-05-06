@@ -14,7 +14,7 @@ none
 
 ## Return value
 
-* `number` Number of seconds elapsed since 1. Jan 1970
+* \`number\` Number of seconds elapsed since 1. Jan 1970
 
 
 

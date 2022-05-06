@@ -17,7 +17,7 @@ none
 
 ## Return value
 
-* `str` string. Empty if no new characters were available.
+* \`str\` string. Empty if no new characters were available.
 
 
 
