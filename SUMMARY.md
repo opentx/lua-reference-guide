@@ -36,6 +36,7 @@
     * [crossfireTelemetryPush\(\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/crossfiretelemetrypush.md)
     * [defaultChannel\(stick\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/defaultchannel.md)
     * [defaultStick\(channel\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/defaultstick.md)
+    * [flushAudio\(\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/flushaudio.md)
     * [getDateTime\(\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/getdatetime.md)
     * [getFieldInfo\(name\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/getfieldinfo.md)
     * [getFlightMode\(mode\)](part_iii_-_opentx_lua_api_reference/general-functions-less-than-greater-than-luadoc-begin-general/getflightmode.md)
