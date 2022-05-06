@@ -1,8 +1,11 @@
-# model.defaultInputs\(\)
+# model.defaultInputs()
+
+
 
 Set all inputs to defaults
 
 @status current Introduced in 2.0.0
+
 
 ## Parameters
 

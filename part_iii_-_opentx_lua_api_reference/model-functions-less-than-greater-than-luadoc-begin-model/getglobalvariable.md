@@ -1,4 +1,6 @@
-# model.getGlobalVariable\(index, flight\_mode\)
+# model.getGlobalVariable(index, flight_mode)
+
+
 
 Return current global variable value
 
@@ -9,17 +11,24 @@ Example:
   val = model.getGlobalVariable(2, 0)
 ```
 
+
 ## Parameters
 
-* `index` zero based global variable index, use 0 for GV1, 8 for GV9
-* `flight_mode` Flight mode number \(0 = FM0, 8 = FM8\)
+* `index`  zero based global variable index, use 0 for GV1, 8 for GV9
+
+* `flight_mode`  Flight mode number (0 = FM0, 8 = FM8)
+
+
 
 ## Return value
 
-* `nil` requested global variable does not exist
+* `nil`   requested global variable does not exist
+
 * `number` current value of global variable
 
-### Notice
 
+
+### Notice
 a simple warning or notice
+
 

@@ -1,8 +1,11 @@
-# lcd.refresh\(\)
+# lcd.refresh()
+
+
 
 Refresh the LCD screen
 
 @status current Introduced in 2.2.0
+
 
 ## Parameters
 
@@ -13,6 +16,6 @@ none
 none
 
 ### Notice
-
 This function only works in stand-alone and telemetry scripts.
+
 
